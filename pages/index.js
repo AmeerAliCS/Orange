@@ -1,4 +1,5 @@
 import Hero from "../components/home/Hero";
+import ProgrammingService from "../components/home/ProgrammingService";
 import Testimonial from "../components/home/Testimonial";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
         <div>
           <Hero />
           <Testimonial />
+          <ProgrammingService />
         </div>
   );
 }
