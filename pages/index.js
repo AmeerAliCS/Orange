@@ -5,7 +5,7 @@ import Testimonial from "../components/home/Testimonial";
 export default function Home() {
   return (
     <div>
-      {/* <Hero /> */}
+      <Hero />
       <Testimonial />
       <ProgrammingService />
     </div>
