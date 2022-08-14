@@ -4,10 +4,10 @@ import Testimonial from "../components/home/Testimonial";
 
 export default function Home() {
   return (
-        <div>
-          <Hero />
-          <Testimonial />
-          <ProgrammingService />
-        </div>
+    <div>
+      {/* <Hero /> */}
+      <Testimonial />
+      <ProgrammingService />
+    </div>
   );
 }

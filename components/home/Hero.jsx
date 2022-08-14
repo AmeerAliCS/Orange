@@ -8,7 +8,7 @@ export default function Hero() {
           <Box
             component="img"
             src="Futuristi.gif"
-            sx={{ height: 600, width: 750, pt: 10 }}
+            sx={{ height: 600, width: 750 }}
           />
         </Grid>
         <Grid item xs={12} md={6}>
@@ -16,10 +16,9 @@ export default function Hero() {
             item
             container
             spacing={0}
-            sx={{ height: { md: 600, xs: 500 }, width: 550, pt: 5 }}
+            sx={{ height: { md: 1, xs: 1 }, width: 1, pt: 5 }}
             direction="column"
             alignItems="center"
-            // justifyContent="center"
           >
             <Typography
               sx={{
