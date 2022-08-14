@@ -16,7 +16,7 @@ export default function Hero() {
             item
             container
             spacing={0}
-            sx={{ height: { md: 600, xs: 500 }, width: 750, pt: 5 }}
+            sx={{ height: { md: 600, xs: 500 }, width: 550, pt: 5 }}
             direction="column"
             alignItems="center"
             // justifyContent="center"
