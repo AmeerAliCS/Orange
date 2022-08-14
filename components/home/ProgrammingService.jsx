@@ -3,7 +3,6 @@ import { styled } from '@mui/system';
 import Card from "../Card";
 
 const Item = styled(Paper)({
-  backgroundColor: 'aliceblue',
   padding: 18,
 });
 
@@ -20,7 +19,7 @@ export default function ProgrammingService() {
 
           <Grid item xs={12} sm={4}>
             <Item>
-              <Card />
+              <Card imgUrl='desktop_icon.svg'/>
               <Typography variant="h5" sx={{marginTop: '5%'}}>برمجة تطبيقات الدسكتوب</Typography>
               </Item>
           </Grid>
@@ -28,22 +27,14 @@ export default function ProgrammingService() {
           <Grid item xs={12} sm={4}>
             <Item>
               <Card />
-              <Typography variant="h5" sx={{marginTop: '5%'}}>برمجة تطبيقات الدسكتوب</Typography>
+              <Typography variant="h5" sx={{marginTop: '5%'}}>برمجة تطبيقات الموبايل</Typography>
               </Item>
           </Grid>
 
           <Grid item xs={12} sm={4}>
             <Item>
               <Card />
-              <Typography variant="h5" sx={{marginTop: '5%'}}>برمجة تطبيقات الدسكتوب</Typography>
-              </Item>
-          </Grid>
-
-
-          <Grid item xs={12} sm={4}>
-            <Item>
-              <Card />
-              <Typography variant="h5" sx={{marginTop: '5%'}}>برمجة تطبيقات الدسكتوب</Typography>
+              <Typography variant="h5" sx={{marginTop: '5%'}}>تصميم مواقع الكترونية</Typography>
               </Item>
           </Grid>
 
@@ -51,7 +42,7 @@ export default function ProgrammingService() {
           <Grid item xs={12} sm={4}>
             <Item>
               <Card />
-              <Typography variant="h5" sx={{marginTop: '5%'}}>برمجة تطبيقات الدسكتوب</Typography>
+              <Typography variant="h5" sx={{marginTop: '5%'}}>UI/UX تصميم واجهات</Typography>
               </Item>
           </Grid>
 
@@ -59,7 +50,15 @@ export default function ProgrammingService() {
           <Grid item xs={12} sm={4}>
             <Item>
               <Card />
-              <Typography variant="h5" sx={{marginTop: '5%'}}>برمجة تطبيقات الدسكتوب</Typography>
+              <Typography variant="h5" sx={{marginTop: '5%'}}>برمجة مشاريع التخرج</Typography>
+              </Item>
+          </Grid>
+
+
+          <Grid item xs={12} sm={4}>
+            <Item>
+              <Card />
+              <Typography variant="h5" sx={{marginTop: '5%'}}>برمجة مشاريع للشركات</Typography>
               </Item>
           </Grid>
 
