@@ -5,8 +5,12 @@ import Testimonial from "../components/home/Testimonial";
 export default function Home() {
   return (
     <Grid container>
-      <Hero />
-      <Testimonial />
+      <Grid item>
+        <Hero />
+      </Grid>
+      <Grid item xs={20}>
+        <Testimonial />
+      </Grid>
     </Grid>
   );
 }
