@@ -1,7 +1,11 @@
+import Hero from "../components/home/Hero";
+import Testimonial from "../components/home/Testimonial";
+
 export default function Home() {
   return (
-    <>
-    <h1>Home Page</h1>
-    </>
-  )
+    <div>
+      <Hero />
+      <Testimonial />
+    </div>
+  );
 }
