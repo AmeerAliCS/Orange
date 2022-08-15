@@ -141,9 +141,9 @@ export default function Footer() {
 
                     <br/>
                      <Row ssx={{justifyContent: 'space-evenly'}}>
-                       <Link href="https://google.com"><Image width="40px" height="60px" alt="instagram-icon" src="/images/instagram.svg"/></Link>
-                       <Link href="https://google.com"><Image width="40px" height="60px" alt="instagram-icon" src="/images/instagram.svg"/></Link>
-                       <Link href="https://google.com"><Image width="40px" height="60px" alt="instagram-icon" src="/images/instagram.svg"/></Link>
+                       <Link href="https://google.com"><a><Image width="40px" height="60px" alt="instagram-icon" src="/images/instagram.svg"/></a></Link>
+                       <Link href="https://google.com"><a><Image width="40px" height="60px" alt="instagram-icon" src="/images/instagram.svg"/></a></Link>
+                       <Link href="https://google.com"><a><Image width="40px" height="60px" alt="instagram-icon" src="/images/instagram.svg"/></a></Link>
                     </Row>
 
                 </StyledBox>
