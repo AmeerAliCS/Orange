@@ -1,4 +1,5 @@
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function Layout(props) {
   return (
@@ -7,7 +8,8 @@ function Layout(props) {
       <Navbar />
       {/* <h1>Hello World !!!!!</h1> */}
       {props.children}
-      {/* <footer>Footer</footer> */}
+
+        <Footer />
     </>
   );
 }

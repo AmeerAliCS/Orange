@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import Layout from '../components/Layout';
+import CustomerCard from "../components/CustomerCard";
 
 
 function MyApp({ Component, pageProps }) {
@@ -8,6 +9,7 @@ function MyApp({ Component, pageProps }) {
         <Layout>
           <Component {...pageProps} />
         </Layout>
+        {/*    <CustomerCard/>*/}
         </>
     );
 }
