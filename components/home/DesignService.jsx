@@ -16,7 +16,7 @@ export default function DesignService() {
   return (
     <>
       <Container>
-        <Stack mt={2} sx={{ textAlign: "center" }}>
+        <Stack mt={1} sx={{ textAlign: "center" }}>
           <Typography variant="h4" component="h1">
             خدمات التصميم
           </Typography>
