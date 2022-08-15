@@ -25,7 +25,7 @@ export default function ProgrammingService() {
           >
             <Grid item xs={12} sm={4}>
               <Item>
-                <Card />
+                <Card imgUrl="webdevsvg.svg" />
                 <Typography variant="h5" sx={{ marginTop: "5%" }}>
                   برمجة تطبيقات الدسكتوب
                 </Typography>
@@ -34,7 +34,7 @@ export default function ProgrammingService() {
 
             <Grid item xs={12} sm={4}>
               <Item>
-                <Card />
+                <Card imgUrl="webdevsvg.svg" />
                 <Typography variant="h5" sx={{ marginTop: "5%" }}>
                   برمجة تطبيقات الدسكتوب
                 </Typography>
@@ -43,7 +43,7 @@ export default function ProgrammingService() {
 
             <Grid item xs={12} sm={4}>
               <Item>
-                <Card />
+                <Card imgUrl="webdevsvg.svg" />
                 <Typography variant="h5" sx={{ marginTop: "5%" }}>
                   برمجة تطبيقات الدسكتوب
                 </Typography>
@@ -52,7 +52,7 @@ export default function ProgrammingService() {
 
             <Grid item xs={12} sm={4}>
               <Item>
-                <Card />
+                <Card imgUrl="webdevsvg.svg" />
                 <Typography variant="h5" sx={{ marginTop: "5%" }}>
                   برمجة تطبيقات الدسكتوب
                 </Typography>
@@ -61,7 +61,7 @@ export default function ProgrammingService() {
 
             <Grid item xs={12} sm={4}>
               <Item>
-                <Card />
+                <Card imgUrl="webdevsvg.svg" />
                 <Typography variant="h5" sx={{ marginTop: "5%" }}>
                   برمجة تطبيقات الدسكتوب
                 </Typography>
@@ -70,7 +70,7 @@ export default function ProgrammingService() {
 
             <Grid item xs={12} sm={4}>
               <Item>
-                <Card />
+                <Card imgUrl="webdevsvg.svg" />
                 <Typography variant="h5" sx={{ marginTop: "5%" }}>
                   برمجة تطبيقات الدسكتوب
                 </Typography>

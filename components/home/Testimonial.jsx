@@ -20,7 +20,7 @@ export default function Testimonial() {
       style={styles.paperContainer}
       sx={{
         display: "block",
-        mt: "5vh",
+        mt: "15vh",
         width: 1,
         height: { md: "20vh", xs: "15vh" },
       }}
