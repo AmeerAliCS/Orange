@@ -30,7 +30,7 @@ export default function Testimonial() {
         justifyContent="space-around"
         alignItems="center"
         spacing={2}
-        sx={{ pt: 7 }}
+        sx={{ pt: 3, textAlign: 'center' }}
       >
         <Box sx={{ display: "flex" }}>
           <Box>
