@@ -8,11 +8,11 @@ export default function Features() {
       <Container sx={{textAlign: 'center'}}>
         <Stack p={10} direction='row' justifyContent='space-around'>
         <Box>
-        <Image src='/features_icon/percent_icon.svg' width='100' height='100' />
+        <Image src='/features_icon/percent_icon.svg' width='140' height='100' />
         <Typography variant="h4">اسعار تنافسية</Typography>  
         </Box>
         <Box>
-        <Image src='/features_icon/security_icon.svg' width='100' height='100' />
+        <Image src='/features_icon/security_icon.svg' width='150' height='100' />
         <Typography variant="h4">الموثوقية</Typography>  
         </Box>
         <Box>
