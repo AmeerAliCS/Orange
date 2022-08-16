@@ -81,37 +81,56 @@ export default function Footer() {
             }}>
             <Stack
                 direction="row"
-                justifyContent="space-around"
-                alignItems="center"
+                justifyContent="space-evenly"
+                // alignItems="center"
                 spacing={0}>
+                
+                <Box pt={8}>
+
                 <StyledBox>
                     <MyTitle>سياسة الخصوصية</MyTitle>
-                    <br/>
-                    الاحكام والشروط
-                    <br/><br/>
-                    {/*<MyTitle>للعمل معنا</MyTitle>*/}
-                    {/*<br/>*/}
-                    {/*hr@orange.com*/}
+                    <Typography>
+                        الاحكام والشروط
+                    </Typography>
+                    
+                    <MyTitle>للعمل معنا</MyTitle>
+                    <Typography>
+                    hr@orange.com
+                    </Typography>
+                    
                 </StyledBox>
+                </Box>
 
+                <Box pt={8}>
                 <StyledBox>
                     <MyTitle>مركز المساعدة</MyTitle>
-                    <br/>
-                    الدعم الفني<br/>
-                    الإبلاغ عن مشكلة<br/>
+                    <Typography>
+                    الدعم الفني
+                    </Typography>
+                    <Typography>
+                    الإبلاغ عن مشكلة
+                    </Typography>
+           
                 </StyledBox>
+                </Box>
 
+
+                <Box pt={8}>
 
                 <StyledBox>
                     <MyTitle>حول اورنج</MyTitle>
-                    <br/>
-                    الاسئلة الشائعة<br/>
-                    مشاريعنا<br/>
+                    <Typography>
+                    الاسئلة الشائعة
+                    </Typography>
+                    <Typography>
+                    مشاريعنا
+                    </Typography>
                 </StyledBox>
+                </Box>
 
-                <StyledBox ssx={{
-                    marginTop: "30px"
-                }}>
+                <Box pt={8}>
+
+                <StyledBox >
                     <StyledImg height="46px"  sx={{
                         width: {sm: "150px", xs: "130px", md: "186px"},
                     }} alt="orange logo" src="/orange.svg"/>
@@ -120,14 +139,16 @@ export default function Footer() {
                     شنو يعني اورنج؟
                     <br/>
 
-                    {/*<br/>*/}
-                    {/*<Row ssx={{justifyContent: 'center'}}>*/}
-                    {/*    <Link href="https://google.com"><StyledImg width="58px" height="60px" alt="mail-icon" src="/images/mail-icon.png"/></Link>*/}
-                    {/*    <StyledImg width="58px" height="60px" alt="instagram-icon" src="/images/instagram-icon.png"/>*/}
-                    {/*    <StyledImg width="58px" height="60px" alt="facebook-icon" src="/images/facebook-icon.png"/>*/}
-                    {/*</Row>*/}
+                    <br/>
+                     <Row ssx={{justifyContent: 'space-evenly'}}>
+                       <Link href="https://google.com"><a><Image width="40px" height="60px" alt="instagram-icon" src="/images/instagram.svg"/></a></Link>
+                       <Link href="https://google.com"><a><Image width="40px" height="60px" alt="instagram-icon" src="/images/instagram.svg"/></a></Link>
+                       <Link href="https://google.com"><a><Image width="40px" height="60px" alt="instagram-icon" src="/images/instagram.svg"/></a></Link>
+                    </Row>
 
                 </StyledBox>
+                </Box>
+
             </Stack>
             <StyledBox ssx={{
                 fontSize: {xs: "1em", md: "1.5em"}
