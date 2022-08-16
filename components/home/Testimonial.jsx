@@ -1,18 +1,13 @@
 import { Box, Button, Grid, Paper, Stack, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
+import TestimonialData from "../../public/orangeData/testimonial";
 
 const styles = {
   paperContainer: {
     backgroundImage: `url(${"Testimonial.svg"})`,
   },
 };
-const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: "center",
-  color: theme.palette.text.secondary,
-}));
+
 export default function Testimonial() {
   return (
     <Paper
@@ -20,105 +15,61 @@ export default function Testimonial() {
       style={styles.paperContainer}
       sx={{
         display: "block",
-        mt: "15vh",
+        mt: "5vh",
         width: 1,
-        height: { md: "20vh", xs: "15vh" },
+        height: { md: "20vh", xs: "18vh" },
       }}
     >
       <Stack
         direction="row"
+        display="flex"
         justifyContent="space-around"
         alignItems="center"
-        spacing={2}
-        sx={{ pt: 3, textAlign: 'center' }}
+        justifySelf="center"
+        sx={{ pt: { xs: 1, md: 4 } }}
+        spacing={6}
       >
-        <Box sx={{ display: "flex" }}>
-          <Box>
-            <Typography
+        {TestimonialData.map((data) => (
+          <Stack
+            key={data.id}
+            direction={{ xs: "column-reverse", md: "row" }}
+            justifyContent="center"
+            alignItems="center"
+            spacing={1}
+          >
+            <Box component="div">
+              <Typography
+                sx={{
+                  color: "white",
+                  pr: 1,
+                  fontSize: { md: 25, xs: 15 },
+                  textAlign: { xs: "center", md: "right" },
+                }}
+              >
+                {data.num}
+              </Typography>
+              <Typography
+                sx={{
+                  color: "white",
+                  pr: 1,
+                  fontSize: { md: 25, xs: 15 },
+                  textAlign: { xs: "center", md: "right" },
+                }}
+              >
+                {data.title}
+              </Typography>
+            </Box>
+            <Box
+              component="img"
+              src={data.imageUrl}
               sx={{
-                color: "white",
-                pr: 1,
-                fontSize: { md: 25, xs: 15 },
+                display: "flex",
+                height: { md: 60, xs: 45 },
+                width: { md: 60, xs: 45 },
               }}
-              align="right"
-            >
-              +8
-            </Typography>
-            <Typography
-              sx={{
-                color: "white",
-                pr: 1,
-                fontSize: { md: 25, xs: 15 },
-              }}
-              align="right"
-            >
-              سنوات خبرة
-            </Typography>
-          </Box>
-          <Box
-            component="img"
-            src="svgex.svg"
-            sx={{ height: { md: 60, xs: 35 }, width: { md: 60, xs: 35 } }}
-          />
-        </Box>
-        <Box sx={{ display: "flex" }}>
-          <Box>
-            <Typography
-              sx={{
-                color: "white",
-                pr: 1,
-                fontSize: { md: 25, xs: 15 },
-              }}
-              align="right"
-            >
-              +80
-            </Typography>
-            <Typography
-              sx={{
-                color: "white",
-                pr: 1,
-                fontSize: { md: 25, xs: 15 },
-              }}
-              align="right"
-            >
-              زبون من دول مختلفه
-            </Typography>
-          </Box>
-          <Box
-            component="img"
-            src="person.svg"
-            sx={{ height: { md: 60, xs: 35 }, width: { md: 60, xs: 35 } }}
-          />
-        </Box>
-        <Box sx={{ display: "flex" }}>
-          <Box>
-            <Typography
-              sx={{
-                color: "white",
-                pr: 1,
-                fontSize: { md: 25, xs: 15 },
-              }}
-              align="right"
-            >
-              +150
-            </Typography>
-            <Typography
-              sx={{
-                color: "white",
-                pr: 1,
-                fontSize: { md: 25, xs: 15 },
-              }}
-              align="right"
-            >
-              مشروع
-            </Typography>
-          </Box>
-          <Box
-            component="img"
-            src="svgcode.svg"
-            sx={{ height: { md: 60, xs: 35 }, width: { md: 60, xs: 35 } }}
-          />
-        </Box>
+            />
+          </Stack>
+        ))}
       </Stack>
     </Paper>
   );

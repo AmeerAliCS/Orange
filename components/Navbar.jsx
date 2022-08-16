@@ -111,9 +111,9 @@ function DrawerAppBar(props) {
           <Box
             component="img"
             sx={{
-              height: 60,
+              height: { md: 90, xs: 40 },
               width: { md: 145, xs: 1 },
-              maxHeight: { xs: 70, md: 60 },
+              maxHeight: { xs: 50, md: 60 },
               maxWidth: { xs: 1, md: 145 },
               display: { xs: "flex" },
               alignItems: { xs: "center" },

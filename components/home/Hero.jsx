@@ -1,25 +1,25 @@
 import { Box, Button, Grid, Typography } from "@mui/material";
-import { Container, Stack } from "@mui/system";
 
 export default function Hero() {
   return (
     <Grid
       container
-      spacing={2}
+      spacing={1}
       sx={{
         height: { md: 1 },
         width: { md: 1 },
-        pt: 10,
+        pt: { xs: 8, md: 15 },
+        pl: { md: 8 },
       }}
     >
       <Grid item xs={12} md={6}>
         <Box
           component="img"
           sx={{
-            height: { md: 600, xs: 1 },
-            width: { md: 750, xs: 1 },
+            height: 1,
+            width: 1,
           }}
-          src="Futuristi.gif"
+          src="/images/heroImage.gif"
         />
       </Grid>
 
@@ -28,16 +28,16 @@ export default function Hero() {
           item
           container
           spacing={0}
-          sx={{ height: { md: 1, xs: 1 }, width: 1, pt: 5 }}
+          sx={{ height: { md: 1, xs: 1 }, width: 1 }}
           direction="column"
           alignItems="center"
         >
           <Typography
             sx={{
-              color: "black",
-              pt: "12vw",
-              pl: "4vw",
+              color: "#3c3a54",
+              // pl: "2vw",
               pr: "5vw",
+              pt: { md: 15 },
             }}
             variant="h4"
             component="h6"
@@ -49,11 +49,11 @@ export default function Hero() {
           <Grid item>
             <Button
               style={{
-                borderRadius: 30,
+                borderRadius: 20,
                 backgroundColor: "#FF7700",
                 padding: "10px 20px",
-                fontSize: "18px",
-                width: "250px",
+                fontSize: "25px",
+                width: "150px",
                 marginTop: "5vh",
               }}
               variant="contained"
@@ -64,56 +64,5 @@ export default function Hero() {
         </Grid>
       </Grid>
     </Grid>
-    // <Box>
-    //   <Grid container spacing={2} sx={{ pt: 10 }}>
-    // <Grid item xs={12} md={6}>
-    //   <Box
-    //     component="img"
-    //     src="Futuristi.gif"
-    //     sx={{ height: 600, width: 750 }}
-    //   />
-    // </Grid>
-    // <Grid item xs={12} md={6}>
-    //   <Grid
-    //     item
-    //     container
-    //     spacing={0}
-    //     sx={{ height: { md: 1, xs: 1 }, width: 1, pt: 5 }}
-    //     direction="column"
-    //     alignItems="center"
-    //   >
-    //     <Typography
-    //       sx={{
-    //         color: "black",
-    //         pt: "15vw",
-    //         pl: "4vw",
-    //         pr: "10vw",
-    //       }}
-    //       variant="h4"
-    //       component="h6"
-    //       align="right"
-    //     >
-    //       اصنع موقعك الالكتروني او تطبيقك او مشروع تخرجك او تصميمك بأعلى
-    //       جودة واحدث التقنيات وبأنسب الاسعار
-    //     </Typography>
-    //     <Grid item>
-    //       <Button
-    //         style={{
-    //           borderRadius: 30,
-    //           backgroundColor: "#FF7700",
-    //           padding: "10px 20px",
-    //           fontSize: "18px",
-    //           width: "250px",
-    //           marginTop: "5vh",
-    //         }}
-    //         variant="contained"
-    //       >
-    //         تواصل معنا
-    //       </Button>
-    //     </Grid>
-    //   </Grid>
-    //     </Grid>
-    //   </Grid>
-    // </Box>
   );
 }
