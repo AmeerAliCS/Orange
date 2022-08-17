@@ -1,6 +1,17 @@
 import { Box, Button, Grid, Slide, Typography } from "@mui/material";
 import { motion } from "framer-motion";
 
+const buttonVariants = {
+  initial: { opacity: 0 },
+  animate: {
+    opacity: 1,
+    transition: {
+      duration: 0.8,
+      delay: 0.8,
+      ease: [0, 0.71, 0.2, 1.01],
+    },
+  },
+};
 export default function Hero() {
   return (
     <Grid
@@ -59,7 +70,13 @@ export default function Hero() {
             </Typography>
           </motion.div>
           <Grid item>
-            <motion.div>
+            <motion.div
+              variants={buttonVariants}
+              initial="initial"
+              animate="animate"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <Button
                 style={{
                   borderRadius: 20,
