@@ -35,7 +35,7 @@ export default function DesignService() {
                  src={data.imageUrl}
                  width={700}
                  height={455}/>
-                <Typography variant="h5" sx={{ marginTop: "3%", fontWeight: 'bold', color: '#3F3D56'}}>
+                <Typography variant="h5" sx={{ marginTop: "3%", fontWeight: 'bold', color: '#3F3D56', fontSize:{xs:14.5, sm:22}}}>
                   {data.title}
                 </Typography>
               </Item>

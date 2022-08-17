@@ -37,6 +37,7 @@ export default function ProgrammingService() {
                       marginTop: "3%",
                       fontWeight: "bold",
                       color: "#3F3D56",
+                      fontSize:{xs:14.5, sm:22}
                     }}
                   >
                     {data.title}
