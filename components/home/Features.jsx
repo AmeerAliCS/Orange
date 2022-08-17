@@ -6,7 +6,7 @@ export default function Features() {
   return (
     <>
       <Container sx={{ textAlign: "center" }}>
-        <Stack p={10} direction="row" justifyContent="space-around">
+        <Stack p={10} direction={{ xs: 'column', sm: 'row' }} justifyContent="space-around">
           <Box>
             <Image
               src="/features_icon/percent_icon.svg"
