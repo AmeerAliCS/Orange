@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { Paper, Grid, Typography, Stack, Container } from "@mui/material";
+import { Paper, Grid, Typography, Stack,Box ,Container } from "@mui/material";
 import { styled } from "@mui/system";
 import Card from "../Card";
 import Image from 'next/image'
@@ -15,9 +15,9 @@ const Item = styled(Paper)({
 export default function DesignService() {
   return (
     <>
-      <Container>
-        <Stack mt={1} sx={{ textAlign: "center" }}>
-          <Typography variant="h4" component="h1">
+      <Box pb={4} sx={{ textAlign: "center", backgroundColor: "#FBFBFB" }}>
+        <Stack sx={{ textAlign: "center" }} ml={8} mr={8}>
+          <Typography sx={{color: "#3F3D56"}} mt={1} variant="h4" component="h1">
             خدمات التصميم
           </Typography>
 
@@ -35,14 +35,14 @@ export default function DesignService() {
                  src={data.imageUrl}
                  width={700}
                  height={455}/>
-                <Typography variant="h5" sx={{ marginTop: "3%", fontWeight: 'bold', color: '#3F3D56', fontSize:{xs:14.5, sm:22}}}>
+                <Typography variant="h5" sx={{ marginTop: "3%", fontWeight: 'bold', color: '#3F3D56', fontSize:{xs:12, sm:22}}}>
                   {data.title}
                 </Typography>
               </Item>
             </Grid>)}
           </Grid>
         </Stack>
-      </Container>
+      </Box>
     </>
   );
 }

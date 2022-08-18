@@ -14,9 +14,9 @@ const Item = styled(Paper)({
 export default function ProgrammingService() {
   return (
     <>
-      <Container sx={{ textAlign: "center" }}>
-        <Stack mt={6} mb={3}>
-          <Typography variant="h4" component="h1">
+      <Box sx={{ textAlign: "center", backgroundColor: "#FBFBFB" }}>
+        <Stack mb={3} ml={8} mr={8}>
+          <Typography sx={{color: "#3F3D56"}} mt={6} variant="h4" component="h1">
             الخدمات البرمجية
           </Typography>
 
@@ -26,6 +26,7 @@ export default function ProgrammingService() {
             direction="row"
             columnSpacing={3}
             rowSpacing={3}
+            // width="70rem"
           >
             {ProgrammingData.map((data) => (
               <Grid key={data.id} item xs={6} sm={4}>
@@ -37,7 +38,7 @@ export default function ProgrammingService() {
                       marginTop: "3%",
                       fontWeight: "bold",
                       color: "#3F3D56",
-                      fontSize:{xs:14.5, sm:22}
+                      fontSize:{xs:12, sm:22}
                     }}
                   >
                     {data.title}
@@ -49,7 +50,7 @@ export default function ProgrammingService() {
         </Stack>
 
         <Image src="/dotted.svg" width="100" height="100" />
-      </Container>
+      </Box>
     </>
   );
 }

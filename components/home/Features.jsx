@@ -13,7 +13,7 @@ export default function Features() {
               width="140"
               height="100"
             />
-            <Typography variant="h4">اسعار تنافسية</Typography>
+            <Typography sx={{color: "#3F3D56"}} variant="h4">اسعار تنافسية</Typography>
           </Box>
           <Box>
             <Image
@@ -21,7 +21,7 @@ export default function Features() {
               width="150"
               height="100"
             />
-            <Typography variant="h4">الموثوقية</Typography>
+            <Typography sx={{color: "#3F3D56"}} variant="h4">الموثوقية</Typography>
           </Box>
           <Box>
             <Image
@@ -29,7 +29,7 @@ export default function Features() {
               width="100"
               height="100"
             />
-            <Typography variant="h4">السرعة</Typography>
+            <Typography sx={{color: "#3F3D56"}} variant="h4">السرعة</Typography>
           </Box>
         </Stack>
       </Container>
