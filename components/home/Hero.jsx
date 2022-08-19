@@ -22,6 +22,8 @@ export default function Hero() {
         height: { md: 1 },
         width: { md: 1 },
         pt: { xs: 8, md: 15 },
+        // pl: { md: 8, xs: 2 },
+        // pr: { md: 8, xs: 2 },
         pl: { md: 8 },
       }}
     >

@@ -15,8 +15,17 @@ export default function ProgrammingService() {
   return (
     <>
       <Box sx={{ textAlign: "center", backgroundColor: "#FBFBFB" }}>
-        <Stack mb={3} ml={8} mr={8}>
-          <Typography sx={{color: "#3F3D56"}} mt={6} variant="h4" component="h1">
+        <Stack
+          mb={{ md: 3, xs: 4 }}
+          ml={{ md: 15, xs: 4 }}
+          mr={{ md: 15, xs: 4 }}
+        >
+          <Typography
+            sx={{ color: "#3F3D56" }}
+            mt={6}
+            variant="h4"
+            component="h1"
+          >
             الخدمات البرمجية
           </Typography>
 
@@ -38,7 +47,7 @@ export default function ProgrammingService() {
                       marginTop: "3%",
                       fontWeight: "bold",
                       color: "#3F3D56",
-                      fontSize:{xs:12, sm:22}
+                      fontSize: { xs: 12, sm: 22 },
                     }}
                   >
                     {data.title}
