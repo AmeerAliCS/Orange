@@ -9,7 +9,7 @@ function Layout(props) {
       {/* <h1>Hello World !!!!!</h1> */}
       {props.children}
 
-        <Footer />
+         <Footer />
     </>
   );
 }
