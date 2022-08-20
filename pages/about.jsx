@@ -3,9 +3,9 @@ import { Box, Button, Grid, Paper, Stack, Typography } from "@mui/material";
 export default function About() {
   return (
   <Box>
-      <Stack sx={{ pt: {md:15,xs:"12%"},mr:{md:10} ,ml:{md:10}}} direction={{md:"row-reverse",xs:"column"}} justifyItems="center" >
+      <Stack sx={{ pt: {md:5,xs:"12%"},mr:{md:10} ,ml:{md:10}}} direction={{md:"row-reverse",xs:"column"}} justifyItems="center" >
       <Box width={{md:"50%",xs:1}}>
-        <Typography variant="h2" color="#FF7700" textAlign="center" sx={{pt:{md:10,xs:2},
+        <Typography variant="h2" color="#FF7700" textAlign="center" sx={{pt:{md:5,xs:2},
          }}>
           من نحن
         </Typography>
