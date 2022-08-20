@@ -34,14 +34,14 @@ export default function Faqs () {
           {open ? <MinimizeIcon /> : <AddIcon />}
         </ListItemIcon>
         {/* <ListItemText primary="ماهي منصة اورنج ؟"  /> */}
-        <Typography variant='h6' sx={{direction: 'rtl'}}>ماهي منصة اورنج</Typography>
+        <Typography variant='h6' sx={{direction: 'rtl',textAlign:"right",width:1,color:"black"}}>ماهي منصة اورنج</Typography>
         {open ? <ExpandLess /> : <ExpandMore />}
       </ListItemButton>
       <Collapse in={open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
-          <ListItemButton sx={{ pl: 4 }}>
+          <ListItemButton sx={{ pl: 4}}>
             تيست تيست
-            <ListItemText primary="منصة orange للحلول التقنية والبرمجية نقدم خدمات وانظمة اداريه في مختلف المجالات نتميز بكوننا نقدم خدمة عمل المشاريع الخاصه (نظام اداري خاص ، تطبيق موبايل اندرويد و IOS ,عمل موقع ويب خاص ...) باسرع وقت واقل تكلفه متواجدين 7/24 كل ما عليك هو اعطاء المعلومات اللازمة ونحن نتكفل في الباقي" />
+            <ListItemText sx={{color:"black" ,direction: 'rtl',textAlign:"right",width:1}} primary="منصة orange للحلول التقنية والبرمجية نقدم خدمات وانظمة اداريه في مختلف المجالات نتميز بكوننا نقدم خدمة عمل المشاريع الخاصه (نظام اداري خاص ، تطبيق موبايل اندرويد و IOS ,عمل موقع ويب خاص ...) باسرع وقت واقل تكلفه متواجدين 7/24 كل ما عليك هو اعطاء المعلومات اللازمة ونحن نتكفل في الباقي" />
           </ListItemButton>
         </List>
       </Collapse>
