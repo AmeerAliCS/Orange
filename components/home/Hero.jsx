@@ -12,7 +12,7 @@ const buttonVariants = {
     },
   },
 };
-export default function Hero() {
+export default function Hero(probs) {
   return (
     <Grid
       container
@@ -34,7 +34,7 @@ export default function Hero() {
             height: 1,
             width: 1,
           }}
-          src="/images/heroImage.gif"
+          src={probs.imgUrl}
         />
       </Grid>
 
@@ -67,9 +67,7 @@ export default function Hero() {
               component="h6"
               align="right"
             >
-              اصنع موقعك الالكتروني او تطبيقك او مشروع تخرجك او تصميمك بأعلى
-              جودة واحدث التقنيات وبأنسب الاسعار
-            </Typography>
+{probs.text}            </Typography>
           </motion.div>
           <Grid item>
             <motion.div

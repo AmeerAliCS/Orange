@@ -31,7 +31,11 @@ export default function Home() {
 
     return (
         <div>
-            <Hero/>
+            <Hero
+             imgUrl="/images/heroImage.gif"
+             text="اصنع موقعك الالكتروني او تطبيقك او مشروع تخرجك او تصميمك بأعلى
+              جودة واحدث التقنيات وبأنسب الاسعار" 
+             />
             <Testimonial/>
             <ProgrammingService/>
             <DesignService/>
