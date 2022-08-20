@@ -20,7 +20,7 @@ export default function About() {
       
       />
     </Stack>
-    <Stack sx={{ pt: {md:10,xs:10},mr:{md:10} ,ml:{md:10}}} direction={{md:"row",xs:"column"}} justifyItems="center" >
+    <Stack sx={{ mr:{md:10} ,ml:{md:10}}} direction={{md:"row",xs:"column"}} justifyItems="center" >
       <Box width={{md:"50%",xs:1}}>
        
         <Typography variant="body1" color="#000" sx={{p:5,direction: 'rtl',
