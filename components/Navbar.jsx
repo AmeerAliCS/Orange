@@ -59,6 +59,7 @@ function DrawerAppBar(props) {
   return (
     <Box sx={{ display: "flex" }}>
       <AppBar
+        position="fixed"
         component="nav"
         sx={{
           justifyContent: "space-between",
@@ -123,6 +124,7 @@ function DrawerAppBar(props) {
           />
         </Toolbar>
       </AppBar>
+      <Toolbar />
       <Box component="nav">
         <Drawer
           container={container}

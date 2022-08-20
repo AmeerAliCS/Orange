@@ -17,8 +17,8 @@ export default function ProgrammingService() {
       <Box sx={{ textAlign: "center", backgroundColor: "#FBFBFB" }}>
         <Stack
           mb={{ md: 3, xs: 4 }}
-          ml={{ md: 15, xs: 4 }}
-          mr={{ md: 15, xs: 4 }}
+          ml={{ md: 15, xs: 2 }}
+          mr={{ md: 15, xs: 2 }}
         >
           <Typography
             sx={{ color: "#3F3D56" }}
@@ -47,7 +47,7 @@ export default function ProgrammingService() {
                       marginTop: "3%",
                       fontWeight: "bold",
                       color: "#3F3D56",
-                      fontSize: { xs: 12, sm: 22 },
+                      fontSize: { xs: 13, sm: 22 },
                     }}
                   >
                     {data.title}

@@ -21,7 +21,7 @@ export default function Hero(probs) {
         display: "flex",
         height: { md: 1 },
         width: { md: 1 },
-        pt: { xs: 8, md: 15 },
+        pt: { xs: 8, md: 7 },
         // pl: { md: 8, xs: 2 },
         // pr: { md: 8, xs: 2 },
         pl: { md: 8 },
@@ -61,7 +61,7 @@ export default function Hero(probs) {
                 color: "#3c3a54",
                 // pl: "2vw",
                 pr: "5vw",
-                pt: { md: 15 },
+                pt: { md: 10 },
               }}
               variant="h4"
               component="h6"
