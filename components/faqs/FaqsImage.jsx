@@ -1,7 +1,17 @@
+import { Container, Stack } from "@mui/material";
+import Image from "next/image";
 export default function Faqs () {
     return (
         <>
-        <h1>Faqs</h1>
+        <Container>
+        <Stack direction="column">
+         <Image
+          height="200rem"
+          width="200rem"
+          alt="Faqs Image"
+          src="/faqs_icon/faqs.svg" />
+        </Stack>
+        </Container>
         </>
     );
 }

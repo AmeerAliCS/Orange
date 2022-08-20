@@ -1,10 +1,14 @@
+import Head from 'next/head'
+import FaqsImage from '../components/faqs/FaqsImage'
+import FaqsQuestions from '../components/faqs/FaqsQuestions'
 export default function Faqs() {
     return (
       <>
-      <h1>Faqs Page</h1>
-      <h1>Faqs Page</h1>
-      <h1>Faqs Page</h1>
-      <h1>Faqs Page</h1>
+      <Head>
+        <title>Faqs</title>
+      </Head>
+      <FaqsImage />
+      <FaqsQuestions />
       </>
     )
   }
