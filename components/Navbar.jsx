@@ -13,6 +13,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
+import Link from "next/link";
 
 const drawerWidth = 240;
 const navItems = ["من نحن", "مشاريعنا", "خدماتنا"];
@@ -94,8 +95,8 @@ function DrawerAppBar(props) {
             }}
           >
             {navItems.map((item) => (
+              <Link key={item} href="/about">
               <Button
-                key={item}
                 sx={{
                   color: "black",
                   fontSize: 17,
@@ -107,6 +108,7 @@ function DrawerAppBar(props) {
               >
                 {item}
               </Button>
+              </Link>
             ))}
           </Box>
           <Box
