@@ -1,5 +1,4 @@
 import { Box, Button, Grid, Paper, Stack, Typography } from "@mui/material";
-import { styled } from "@mui/material/styles";
 import TestimonialData from "../../public/orangeData/testimonial";
 
 const styles = {
