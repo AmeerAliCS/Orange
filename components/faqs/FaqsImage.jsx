@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Faqs () {
     return (
         <>
-        <Container>
+        <Container sx={{marginTop: '2rem'}}>
         <Stack direction="column">
          <Image
           height="200rem"
