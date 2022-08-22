@@ -16,7 +16,7 @@ import Button from "@mui/material/Button";
 import Link from "next/link";
 
 const drawerWidth = 240;
-const navItems = ["من نحن", "مشاريعنا", "خدماتنا"];
+const navItems = [{id:0,title:"من نحن",url:"/about"}, {id:1,title:"مشاريعنا",url:"/about"},{id:2,title: "خدماتنا",url:"/about"}];
 function DrawerAppBar(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -41,9 +41,9 @@ function DrawerAppBar(props) {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
+          <ListItem key={item.id} disablePadding>
             <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item} />
+              <ListItemText primary={item.title} />
             </ListItemButton>
           </ListItem>
         ))}
@@ -95,7 +95,7 @@ function DrawerAppBar(props) {
             }}
           >
             {navItems.map((item) => (
-              <Link key={item} href="/about">
+              <Link key={item.id} href={item.url}>
               <Button
                 sx={{
                   color: "black",
@@ -106,7 +106,7 @@ function DrawerAppBar(props) {
                   md: "block",
                 }}
               >
-                {item}
+                {item.title}
               </Button>
               </Link>
             ))}
