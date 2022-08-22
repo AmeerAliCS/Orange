@@ -8,6 +8,7 @@ import FaqsData from '../../pages/faqs_data'
 export default function Faqs () {
   
   const [state, setState] = React.useState(FaqsData);
+  const color = "#3F3D56";
   const clickButton = (index) => {
     // 1. Make a  copy of the array
     let temp_state = [...state];
@@ -28,22 +29,22 @@ export default function Faqs () {
 
     return (
         <>
-        <Typography variant='h5' sx={{color: '#3F3D56', textAlign: 'center', marginTop: {xs: '2.5rem', md: '4rem'}, marginBottom: {xs: '2rem', md: '2rem'}}}>الاسئلة الشائعة</Typography>
+        <Typography variant='h5' sx={{color: {color}, fontWeight: 'Bold', textAlign: 'center', marginTop: {xs: '2.5rem', md: '4rem'}, marginBottom: {xs: '2rem', md: '2rem'}}}>الاسئلة الشائعة</Typography>
         {state.map((data,index) => (
           <List key={data.id}
-      sx={{marginLeft: {xs: '1.5rem', md: '5rem'}, marginRight: {xs: '1.5rem', md: '5rem'}, marginBottom: '1rem' , borderColor: '#3E424B', borderStyle: 'solid', borderWidth: 'thin', borderRadius: '0.5rem', textAlign: 'center', maxWidth: '100%', bgcolor: 'background.paper' }}
+      sx={{marginLeft: {xs: '1.5rem', md: '6rem'}, marginRight: {xs: '1.5rem', md: '6rem'}, marginBottom: '1rem' , borderColor: {color}, borderStyle: 'solid', borderWidth: 'thin', borderRadius: '0.5rem', textAlign: 'center', maxWidth: '100%', bgcolor: 'background.paper' }}
       component="nav"
       aria-labelledby="nested-list-subheader"
     >
       <ListItemButton onClick={()=>{clickButton(index)}}>
         <ListItemIcon>
-          {data.state ? <MinimizeIcon /> : <AddIcon />}
+          {data.state ? <MinimizeIcon style={{color: color}}/> : <AddIcon style={{color: color}}/>}
         </ListItemIcon>
-        <Typography variant='h6' sx={{direction: 'rtl',textAlign:"right",width:1,color:"black"}}>{data.question}</Typography>
+        <Typography variant='h6' sx={{direction: 'rtl',textAlign:"right",width:1,color: {color}, fontWeight: {md: 'Bold'}}}>{data.question}</Typography>
       </ListItemButton>
       <Collapse in={data.state} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
-            <ListItemText sx={{paddingRight: '1rem',paddingLeft: '1rem', color:"black" ,direction: 'rtl',textAlign:"right",width:1}} primary={data.answer} />
+            <ListItemText sx={{paddingRight: '1rem',paddingLeft: '1rem', color: {color}, fontSize: '29' ,direction: 'rtl',textAlign:"right",width:1}} primary={data.answer} />
         </List>
       </Collapse>
     </List>
