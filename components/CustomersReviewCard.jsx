@@ -8,31 +8,26 @@ import Image from "next/image";
 import CardActions from '@mui/material/CardActions';
 import {styled} from "@mui/material/styles";
 
-const StyledBox = styled(Box)(({xxs, ssx, theme}) => {
+const StyledBox = styled(Box)(({theme}) => {
     return ({
         width: 270,
         height: 330,
         borderRadius: 15,
         fontSize: 20,
-        [theme.breakpoints.down('md')]: {
-            fontSize: 13,
-            width: 170,
-            height: 230,
-            [theme.breakpoints.only('xs')]: {
-                width: 120,
-                height: 230,
-            }
-        }
+        [theme.breakpoints.only('xs')]: {
+            width: 235,
+            height: 300,
+        },
     });
 
 });
 
-export default function CustomerCard({text, vector, userImage, color}) {
+export default function CustomersReviewCard({text, vector, userImage, color}) {
     return (
         <StyledBox>
             <Card variant="outlined">
                 <CardContent>
-                    <Typography sx={{fontSize: {sx: 30, sm: 40}, lineHeight: 1, color: color}}>
+                    <Typography sx={{fontSize: 40, lineHeight: 1, color: color}}>
                         “
                     </Typography>
 
@@ -54,12 +49,12 @@ export default function CustomerCard({text, vector, userImage, color}) {
 
                     <Avatar src={userImage}
                             sx={{
-                                width: {sm: 60, md: 90},
-                                height: {sm: 60, md: 90},
+                                width: 90,
+                                height: 90,
                                 zIndex: 1,
                                 position: "absolute",
                                 border: "2px solid white",
-                                mb: {xs: 4, sm: 7},
+                                mb: 7,
                             }}>H</Avatar>
 
                     <Box component="img" alt="vector" src={vector}
@@ -71,7 +66,7 @@ export default function CustomerCard({text, vector, userImage, color}) {
 }
 
 
-// export default function CustomerCard(props) {
+// export default function CustomersReviewCard(props) {
 //     return (
 //         <Box sx={{width: 240, height: 300, bgcolor: "red"}}>
 //             ~

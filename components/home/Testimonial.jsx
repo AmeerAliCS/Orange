@@ -1,5 +1,5 @@
 import { Box, Button, Grid, Paper, Stack, Typography } from "@mui/material";
-import TestimonialData from "../../public/orangeData/testimonial";
+import {testimonialData} from "../../public/orangeData/orangeData";
 
 const styles = {
   paperContainer: {
@@ -28,7 +28,7 @@ export default function Testimonial() {
         sx={{ pt: { xs: 1, md: 4 } }}
         spacing={6}
       >
-        {TestimonialData.map((data) => (
+        {testimonialData.map((data) => (
           <Stack
             key={data.id}
             direction={{ xs: "column-reverse", md: "row" }}

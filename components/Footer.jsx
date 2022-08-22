@@ -69,18 +69,18 @@ const StyledAvatar = styled(Avatar)(({ssx, theme}) => {
 });
 
 
-const SocialMedia = ({sx}) => {
+const SocialMedia = ({sx, fontSize}) => {
     return (<Stack direction="row" spacing={0} justifyContent="space-around" sx={{
         ...sx
     }}>
         <Link href="https://google.com">
-            <a><StyledAvatar sx={{backgroundColor: "white"}}><Mail htmlColor="#FC9338"/></StyledAvatar></a>
+            <a><StyledAvatar sx={{backgroundColor: "white"}}><Mail fontSize={fontSize} htmlColor="#FC9338"/></StyledAvatar></a>
         </Link>
         <Link href="https://google.com">
-            <a><StyledAvatar sx={{backgroundColor: "white"}}><Instagram htmlColor="#FC9338"/></StyledAvatar></a>
+            <a><StyledAvatar sx={{backgroundColor: "white"}}><Instagram fontSize={fontSize} htmlColor="#FC9338"/></StyledAvatar></a>
         </Link>
         <Link href="https://google.com">
-            <a><StyledAvatar sx={{backgroundColor: "white"}}><FacebookOutlined
+            <a><StyledAvatar sx={{backgroundColor: "white"}}><FacebookOutlined fontSize={fontSize}
                 htmlColor="#FC9338"/></StyledAvatar></a>
         </Link>
     </Stack>);
@@ -115,15 +115,6 @@ export default function Footer() {
                 mt: "5em",
                 mb: "0px",
             }}>
-
-            <Typography sx={{
-                textAlign: "center",
-                pt: 1,
-                fontSize: {xs: "1em", md: "1.5em"},
-                display: {xs: "block", sm: "none"}
-            }}>
-                © Copyright 2022 Orange Platform
-            </Typography>
 
             <Stack
                 direction="row"
@@ -166,16 +157,6 @@ export default function Footer() {
             </Stack>
 
 
-            <Typography sx={{
-                textAlign: "center",
-                pt: 1,
-                fontSize: {xs: "1em", md: "1.5em"},
-                display: {xs: "none", sm: "block"}
-            }}>
-                © Copyright 2022 Orange Platform
-            </Typography>
-
-
             <Box
                 sx={{
                     display: {xs: "flex", sm: "none"},
@@ -191,7 +172,16 @@ export default function Footer() {
 
             <SocialMedia sx={{
                 display: {xs: "flex", sm: "none"}
-            }}/>
+            }} fontSize="1erm"/>
+
+            <Typography sx={{
+                textAlign: "center",
+                color: "white",
+                pt: 1,
+                fontSize: {xs: "1em", md: "1.5em"},
+            }}>
+                © Copyright 2022 Orange Platform
+            </Typography>
 
         </Box>
     )
