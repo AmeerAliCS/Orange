@@ -50,7 +50,7 @@ export default function Faqs () {
     </List>
         ))}
 
-        <Typography variant='h5' sx={{color: {color}, textAlign: 'center', marginTop: {xs: '2.5rem', md: '4rem'}, marginBottom: {xs: '2rem', md: '2rem'}}}>هل لديك اسئلة اخرى ؟ راسلنا من هنا</Typography>
+        <Typography variant='h6' sx={{color: {color}, textAlign: 'center', marginTop: '4rem', marginBottom: {xs: '2rem', md: '2rem'}}}>هل لديك اسئلة اخرى ؟ راسلنا من هنا</Typography>
 
       
         </>
