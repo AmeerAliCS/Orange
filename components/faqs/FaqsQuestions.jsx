@@ -6,18 +6,17 @@ import FaqsData from '../../pages/faqs_data'
 
 
 export default function Faqs () {
-    const initialState = FaqsData;
   
-  const [state, setState] = React.useState(initialState);
+  const [state, setState] = React.useState(FaqsData);
   const clickButton = (index) => {
-    // 1. Make a shallow copy of the array
+    // 1. Make a  copy of the array
     let temp_state = [...state];
     
-    // 2. Make a shallow copy of the element you want to mutate
+    // 2. Make a  copy of the element you want to change it
     let temp_element = { ...temp_state[index] };
     
     // 3. Update the property you're interested in
-    temp_element.st = temp_element.st==true?false:true;
+    temp_element.state = temp_element.state==true?false:true;
     
     // 4. Put it back into our array. N.B. we *are* mutating the array here, but that's why we made a copy first
     temp_state[index] = temp_element;
@@ -38,11 +37,11 @@ export default function Faqs () {
     >
       <ListItemButton onClick={()=>{clickButton(index)}}>
         <ListItemIcon>
-          {data.st ? <MinimizeIcon /> : <AddIcon />}
+          {data.state ? <MinimizeIcon /> : <AddIcon />}
         </ListItemIcon>
         <Typography variant='h6' sx={{direction: 'rtl',textAlign:"right",width:1,color:"black"}}>{data.question}</Typography>
       </ListItemButton>
-      <Collapse in={data.st} timeout="auto" unmountOnExit>
+      <Collapse in={data.state} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
             <ListItemText sx={{color:"black" ,direction: 'rtl',textAlign:"right",width:1}} primary={data.answer} />
         </List>
