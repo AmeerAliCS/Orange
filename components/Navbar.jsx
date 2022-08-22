@@ -71,15 +71,7 @@ function DrawerAppBar(props) {
         }}
       >
         <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: "none" } }}
-          >
-            <MenuIcon />
-          </IconButton>
+         
           <Typography
             variant="h6"
             component="div"
@@ -125,12 +117,22 @@ function DrawerAppBar(props) {
             alt="Logo"
             src="orange.svg"
           />
+           <IconButton
+            color="inherit"
+            aria-label="open drawer"
+            edge="start"
+            onClick={handleDrawerToggle}
+            sx={{ display: { sm: "none" } }}
+          >
+            <MenuIcon />
+          </IconButton>
         </Toolbar>
       </AppBar>
       <Toolbar />
       <Box component="nav">
         <Drawer
           container={container}
+          anchor="right"
           variant="temporary"
           open={mobileOpen}
           onClose={handleDrawerToggle}
