@@ -6,7 +6,6 @@ import FaqsData from '../../pages/faqs_data'
 
 
 export default function Faqs () {
-    const [open, setOpen] = React.useState(false);
     const initialState = [
       {
         id: 0,st:true,
@@ -54,10 +53,7 @@ export default function Faqs () {
     setState( temp_state );
     // console.log(id)
   }
-  const handleClick = () => {
-    
-    setOpen(!open);
-  };
+
     return (
         <>
         <Typography variant='h5' sx={{textAlign: 'center', marginTop: '4rem', marginBottom: '2rem'}}>الاسئلة الشائعة</Typography>
