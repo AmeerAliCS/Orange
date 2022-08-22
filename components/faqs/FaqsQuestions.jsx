@@ -44,11 +44,14 @@ export default function Faqs () {
       </ListItemButton>
       <Collapse in={data.state} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
-            <ListItemText sx={{paddingRight: '1rem',paddingLeft: '1rem', color: {color}, fontSize: '29' ,direction: 'rtl',textAlign:"right",width:1}} primary={data.answer} />
+            <ListItemText sx={{paddingRight: '1rem',paddingLeft: '1rem', paddingTop: '0.2rem', color: {color}, fontSize: '29' ,direction: 'rtl',textAlign:"right",width:1}} primary={data.answer} />
         </List>
       </Collapse>
     </List>
         ))}
+
+        <Typography variant='h5' sx={{color: {color}, textAlign: 'center', marginTop: {xs: '2.5rem', md: '4rem'}, marginBottom: {xs: '2rem', md: '2rem'}}}>هل لديك اسئلة اخرى ؟ راسلنا من هنا</Typography>
+
       
         </>
     );
