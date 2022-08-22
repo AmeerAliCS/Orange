@@ -43,7 +43,8 @@ function DrawerAppBar(props) {
         {navItems.map((item) => (
           <ListItem key={item.id} disablePadding>
             <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item.title} />
+            <Link href={item.url}>
+    <ListItemText primary={item.title} /></Link>
             </ListItemButton>
           </ListItem>
         ))}
@@ -82,16 +83,17 @@ function DrawerAppBar(props) {
           <Typography
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
+            sx={{ flexGrow: 1, display: { xs: "none", sm: "block" },ml:12 ,fontSize:"1rem"}}
           >
             تواصل معنا
           </Typography>
           <Box
             sx={{
-              mr: "30%",
+              mr: "25%",
 
               display: { xs: "none", sm: "block" },
               color: "black",
+              
             }}
           >
             {navItems.map((item) => (
@@ -99,11 +101,10 @@ function DrawerAppBar(props) {
               <Button
                 sx={{
                   color: "black",
-                  fontSize: 17,
                   mr: 2,
                   ml: 2,
                   xs: "none",
-                  md: "block",
+                  md: "block",fontSize:"1rem"
                 }}
               >
                 {item.title}
@@ -119,7 +120,7 @@ function DrawerAppBar(props) {
               maxHeight: { xs: 50, md: 60 },
               maxWidth: { xs: 1, md: 145 },
               display: { xs: "flex" },
-              alignItems: { xs: "center" },
+              alignItems: { xs: "center" },mr:"5%"
             }}
             alt="Logo"
             src="orange.svg"
