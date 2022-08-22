@@ -8,26 +8,17 @@ const styles = {
 };
 export default function Error() {
     return (
-        <Box height="750px" width={1}>
+        <Box height={{md:"600px", xs:"300px"}} width={1}>
             <Box
                 component="img"
                 src="/images/4041.svg"
                 sx={{
                     display: "-webkit-flex",
                     margin: "auto",
-                    width: 750,
+                    width: {md:750,xs:1},
                 }}
             />
-            <Typography variant="h3"
-                sx={{
-                    color: "#ff7700",
-                    pt: 15,
-
-                    textAlign: "center"
-                }}
-            >
-                !!! يبدو أن هناك شيء خاطئ
-            </Typography>
+       
         </Box >
     );
 }
