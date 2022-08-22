@@ -16,7 +16,7 @@ import Button from "@mui/material/Button";
 import Link from "next/link";
 
 const drawerWidth = 240;
-const navItems = [{id:0,title:"من نحن",url:"/about"}, {id:1,title:"مشاريعنا",url:"/about"},{id:2,title: "خدماتنا",url:"/about"}];
+const navItems = [{id:0,title:"من نحن",url:"/about"}, {id:1,title:"مشاريعنا",url:"/about"},{id:2,title: "خدماتنا",url:"/#service"}];
 function DrawerAppBar(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
