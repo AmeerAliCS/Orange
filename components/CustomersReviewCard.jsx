@@ -1,12 +1,8 @@
-import React from 'react';
-import {Avatar, Box, CardContent, Stack, Typography} from "@mui/material";
+import {Avatar, Box, CardContent, Typography} from "@mui/material";
 import Card from "@mui/material/Card";
-import CardMedia from "@mui/material/CardMedia";
-import Image from "next/image";
-
-
 import CardActions from '@mui/material/CardActions';
 import {styled} from "@mui/material/styles";
+
 
 const StyledBox = styled(Box)(({theme}) => {
     return ({
@@ -16,7 +12,7 @@ const StyledBox = styled(Box)(({theme}) => {
         fontSize: 20,
         [theme.breakpoints.only('xs')]: {
             width: 235,
-            height: 300,
+            height: 260,
         },
     });
 
