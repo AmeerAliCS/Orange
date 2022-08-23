@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Paper, Grid, Typography, Stack, Box, Container } from "@mui/material";
 import { styled } from "@mui/system";
-import Card from "../Card";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import DesignData from "../../pages/design_service_data";
 
@@ -38,20 +38,32 @@ export default function DesignService() {
           >
             {DesignData.map((data) => (
               <Grid key={data.id} item xs={6} sm={4}>
-                <Item>
-                  <Image src={data.imageUrl} width={700} height={455} />
-                  <Typography
-                    variant="h5"
-                    sx={{
-                      marginTop: "3%",
-                      fontWeight: "bold",
-                      color: "#3F3D56",
-                      fontSize: { xs: 13, sm: 22 },
-                    }}
-                  >
-                    {data.title}
-                  </Typography>
-                </Item>
+                <motion.div
+                  initial={{ opacity: 0, scale: 0 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{
+                    duration: 0.8,
+                    delay: 0.2,
+                    ease: [0, 0.71, 0.2, 1.01],
+                  }}
+                  viewport={{ once: true }}
+                >
+                  {" "}
+                  <Item>
+                    <Image src={data.imageUrl} width={700} height={455} />
+                    <Typography
+                      variant="h5"
+                      sx={{
+                        marginTop: "3%",
+                        fontWeight: "bold",
+                        color: "#3F3D56",
+                        fontSize: { xs: 13, sm: 22 },
+                      }}
+                    >
+                      {data.title}
+                    </Typography>
+                  </Item>
+                </motion.div>
               </Grid>
             ))}
           </Grid>

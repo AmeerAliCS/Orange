@@ -16,7 +16,11 @@ import Button from "@mui/material/Button";
 import Link from "next/link";
 
 const drawerWidth = 240;
-const navItems = [{id:0,title:"من نحن",url:"/about"}, {id:1,title:"مشاريعنا",url:"/about"},{id:2,title: "خدماتنا",url:"/#service"}];
+const navItems = [
+  { id: 0, title: "من نحن", url: "/about" },
+  { id: 1, title: "مشاريعنا", url: "/about" },
+  { id: 2, title: "خدماتنا", url: "/#service" },
+];
 function DrawerAppBar(props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -43,8 +47,9 @@ function DrawerAppBar(props) {
         {navItems.map((item) => (
           <ListItem key={item.id} disablePadding>
             <ListItemButton sx={{ textAlign: "center" }}>
-            <Link href={item.url}>
-    <ListItemText primary={item.title} /></Link>
+              <Link href={item.url}>
+                <ListItemText primary={item.title} />
+              </Link>
             </ListItemButton>
           </ListItem>
         ))}
@@ -71,11 +76,15 @@ function DrawerAppBar(props) {
         }}
       >
         <Toolbar>
-         
           <Typography
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1, display: { xs: "none", sm: "block" },ml:12 ,fontSize:"1rem"}}
+            sx={{
+              flexGrow: 1,
+              display: { xs: "none", sm: "block" },
+              ml: 12,
+              fontSize: "1rem",
+            }}
           >
             تواصل معنا
           </Typography>
@@ -85,22 +94,22 @@ function DrawerAppBar(props) {
 
               display: { xs: "none", sm: "block" },
               color: "black",
-              
             }}
           >
             {navItems.map((item) => (
               <Link key={item.id} href={item.url}>
-              <Button
-                sx={{
-                  color: "black",
-                  mr: 2,
-                  ml: 2,
-                  xs: "none",
-                  md: "block",fontSize:"1rem"
-                }}
-              >
-                {item.title}
-              </Button>
+                <Button
+                  sx={{
+                    color: "black",
+                    mr: 2,
+                    ml: 2,
+                    xs: "none",
+                    md: "block",
+                    fontSize: "1rem",
+                  }}
+                >
+                  {item.title}
+                </Button>
               </Link>
             ))}
           </Box>
@@ -112,12 +121,13 @@ function DrawerAppBar(props) {
               maxHeight: { xs: 50, md: 60 },
               maxWidth: { xs: 1, md: 145 },
               display: { xs: "flex" },
-              alignItems: { xs: "center" },mr:"5%"
+              alignItems: { xs: "center" },
+              mr: "5%",
             }}
             alt="Logo"
             src="orange.svg"
           />
-           <IconButton
+          <IconButton
             color="inherit"
             aria-label="open drawer"
             edge="start"

@@ -4,6 +4,7 @@ import { styled } from "@mui/system";
 import Card from "../Card";
 import Image from "next/image";
 import ProgrammingData from "../../pages/programming_service_data";
+import { motion } from "framer-motion";
 
 const Item = styled(Paper)({
   paddingTop: 25,
@@ -14,7 +15,10 @@ const Item = styled(Paper)({
 export default function ProgrammingService() {
   return (
     <>
-      <Box id="service" sx={{ textAlign: "center", backgroundColor: "#FBFBFB" }}>
+      <Box
+        id="service"
+        sx={{ textAlign: "center", backgroundColor: "#FBFBFB" }}
+      >
         <Stack
           mb={{ md: 3, xs: 4 }}
           ml={{ md: 15, xs: 2 }}
@@ -39,20 +43,33 @@ export default function ProgrammingService() {
           >
             {ProgrammingData.map((data) => (
               <Grid key={data.id} item xs={6} sm={4}>
-                <Item>
-                  <Image src={data.imageUrl} width={700} height={455} />
-                  <Typography
-                    variant="h5"
-                    sx={{
-                      marginTop: "3%",
-                      fontWeight: "bold",
-                      color: "#3F3D56",
-                      fontSize: { xs: 13, sm: 22 },
-                    }}
-                  >
-                    {data.title}
-                  </Typography>
-                </Item>
+                <motion.div
+                  initial={{ opacity: 0, scale: 0 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{
+                    staggerChildren: 0.5,
+                    duration: 0.8,
+                    delay: 0.2,
+                    ease: [0, 0.71, 0.2, 1.01],
+                  }}
+                  viewport={{ once: true }}
+                >
+                  {" "}
+                  <Item>
+                    <Image src={data.imageUrl} width={700} height={455} />
+                    <Typography
+                      variant="h5"
+                      sx={{
+                        marginTop: "3%",
+                        fontWeight: "bold",
+                        color: "#3F3D56",
+                        fontSize: { xs: 13, sm: 22 },
+                      }}
+                    >
+                      {data.title}
+                    </Typography>
+                  </Item>
+                </motion.div>
               </Grid>
             ))}
           </Grid>

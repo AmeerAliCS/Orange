@@ -1,5 +1,5 @@
 import { Box, Button, Grid, Paper, Stack, Typography } from "@mui/material";
-import {testimonialData} from "../../public/orangeData/orangeData";
+import { testimonialData } from "../../public/orangeData/orangeData";
 
 const styles = {
   paperContainer: {
