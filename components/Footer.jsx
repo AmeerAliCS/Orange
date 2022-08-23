@@ -1,8 +1,8 @@
-import {Avatar, Box, Container, Grid, Paper, Stack, Typography} from "@mui/material";
+import {Avatar, Box, Stack, Typography} from "@mui/material";
 import {styled} from "@mui/material/styles";
 import Image from "next/image";
 import Link from "next/link";
-import {Facebook, FacebookOutlined, Instagram, Mail} from "@mui/icons-material";
+import {FacebookOutlined, Instagram, Mail} from "@mui/icons-material";
 
 
 const MyTitle = styled("span")(({theme}) => {
@@ -177,7 +177,7 @@ export default function Footer() {
             <Typography sx={{
                 textAlign: "center",
                 color: "white",
-                pt: 1,
+                py: 1,
                 fontSize: {xs: "1em", md: "1.5em"},
             }}>
                 © Copyright 2022 Orange Platform
