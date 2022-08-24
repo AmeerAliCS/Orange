@@ -31,17 +31,19 @@ function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Box
-        component="img"
-        sx={{
-          height: 60,
-          width: 145,
-          maxHeight: { xs: 70, md: 60 },
-          maxWidth: { xs: 150, md: 145 },
-        }}
-        alt="Logo"
-        src="orange.svg"
-      />
+      <Link href="/">
+        <Box
+          component="img"
+          sx={{
+            height: 60,
+            width: 145,
+            maxHeight: { xs: 70, md: 60 },
+            maxWidth: { xs: 150, md: 145 },
+          }}
+          alt="Logo"
+          src="orange.svg"
+        />
+      </Link>
       <Divider />
       <List>
         {navItems.map((item) => (
@@ -54,9 +56,11 @@ function DrawerAppBar(props) {
           </ListItem>
         ))}
       </List>
-      <Typography variant="h6" sx={{ my: 2 }}>
-        تواصل معنا
-      </Typography>
+      <Link href="/contact">
+        <Typography variant="h6" sx={{ my: 2 }}>
+          تواصل معنا
+        </Typography>
+      </Link>
     </Box>
   );
 
@@ -76,18 +80,20 @@ function DrawerAppBar(props) {
         }}
       >
         <Toolbar>
-          <Typography
-            variant="h6"
-            component="div"
-            sx={{
-              flexGrow: 1,
-              display: { xs: "none", sm: "block" },
-              ml: 12,
-              fontSize: "1rem",
-            }}
-          >
-            تواصل معنا
-          </Typography>
+          <Link href="/contact">
+            <Typography
+              variant="h6"
+              component="div"
+              sx={{
+                flexGrow: 1,
+                display: { xs: "none", sm: "block" },
+                ml: 12,
+                fontSize: "1rem",
+              }}
+            >
+              تواصل معنا
+            </Typography>
+          </Link>
           <Box
             sx={{
               mr: "25%",
@@ -113,20 +119,22 @@ function DrawerAppBar(props) {
               </Link>
             ))}
           </Box>
-          <Box
-            component="img"
-            sx={{
-              height: { md: 90, xs: 40 },
-              width: { md: 145, xs: 1 },
-              maxHeight: { xs: 50, md: 60 },
-              maxWidth: { xs: 1, md: 145 },
-              display: { xs: "flex" },
-              alignItems: { xs: "center" },
-              mr: "5%",
-            }}
-            alt="Logo"
-            src="orange.svg"
-          />
+          <Link href="/">
+            <Box
+              component="img"
+              sx={{
+                height: { md: 90, xs: 40 },
+                width: { md: 145, xs: 1 },
+                maxHeight: { xs: 50, md: 60 },
+                maxWidth: { xs: 1, md: 145 },
+                display: { xs: "flex" },
+                alignItems: { xs: "center" },
+                mr: "5%",
+              }}
+              alt="Logo"
+              src="orange.svg"
+            />
+          </Link>
           <IconButton
             color="inherit"
             aria-label="open drawer"

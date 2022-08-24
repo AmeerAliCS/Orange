@@ -67,14 +67,14 @@ export default function Hero(probs) {
               component="h6"
               align="right"
             >
-{probs.text}            </Typography>
+              {probs.text}{" "}
+            </Typography>
           </motion.div>
           <Grid item>
             <motion.div
               variants={buttonVariants}
               initial="initial"
               animate="animate"
-              whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
               <Button
