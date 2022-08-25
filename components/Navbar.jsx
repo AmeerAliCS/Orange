@@ -17,6 +17,8 @@ import Link from "next/link";
 import { Stack } from "@mui/system";
 
 const drawerWidth = 240;
+const logoPath = "images/orange.svg";
+
 const navItems = [
   { id: 0, title: "من نحن", url: "/about" },
   { id: 1, title: "مشاريعنا", url: "/projects" },
@@ -42,7 +44,7 @@ function DrawerAppBar(props) {
             maxWidth: { xs: 150, md: 145 },
           }}
           alt="Logo"
-          src="orange.svg"
+          src={logoPath}
         />
       </Link>
       <Divider />
@@ -146,7 +148,7 @@ function DrawerAppBar(props) {
                   mr: "5%",
                 }}
                 alt="Logo"
-                src="orange.svg"
+                src={logoPath}
               />
             </Link>
           </Stack>{" "}
