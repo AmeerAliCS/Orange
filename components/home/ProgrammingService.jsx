@@ -49,12 +49,11 @@ export default function ProgrammingService() {
                   transition={{
                     staggerChildren: 0.5,
                     duration: 0.8,
-                    delay: 0.2,
+                    delay: 0.2 * data.id,
                     ease: [0, 0.71, 0.2, 1.01],
                   }}
                   viewport={{ once: true }}
                 >
-                  {" "}
                   <Item>
                     <Image src={data.imageUrl} width={700} height={455} />
                     <Typography

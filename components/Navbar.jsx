@@ -14,11 +14,12 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Link from "next/link";
+import { Stack } from "@mui/system";
 
 const drawerWidth = 240;
 const navItems = [
   { id: 0, title: "من نحن", url: "/about" },
-  { id: 1, title: "مشاريعنا", url: "/about" },
+  { id: 1, title: "مشاريعنا", url: "/projects" },
   { id: 2, title: "خدماتنا", url: "/#service" },
 ];
 function DrawerAppBar(props) {
@@ -80,61 +81,75 @@ function DrawerAppBar(props) {
         }}
       >
         <Toolbar>
-          <Link href="/contact">
-            <Typography
-              variant="h6"
-              component="div"
-              sx={{
-                flexGrow: 1,
-                display: { xs: "none", sm: "block" },
-                ml: 12,
-                fontSize: "1rem",
-              }}
-            >
-              تواصل معنا
-            </Typography>
-          </Link>
-          <Box
+          <Stack
+            direction="row"
+            justifyContent="space-between"
+            alignItems="center"
+            spacing={2}
             sx={{
-              mr: "25%",
-
-              display: { xs: "none", sm: "block" },
-              color: "black",
+              mr: 10,
+              ml: 10,
             }}
+            width={1}
           >
-            {navItems.map((item) => (
-              <Link key={item.id} href={item.url}>
-                <Button
+            <Link href="/contact">
+              <Button sx={{ color: "black" }}>
+                <Typography
+                  variant="h6"
+                  component="div"
                   sx={{
-                    color: "black",
-                    mr: 2,
-                    ml: 2,
-                    xs: "none",
-                    md: "block",
+                    flexGrow: 1,
+                    display: { xs: "none", sm: "block" },
+
                     fontSize: "1rem",
                   }}
                 >
-                  {item.title}
-                </Button>
-              </Link>
-            ))}
-          </Box>
-          <Link href="/">
+                  تواصل معنا
+                </Typography>
+              </Button>
+            </Link>
             <Box
-              component="img"
               sx={{
-                height: { md: 90, xs: 40 },
-                width: { md: 145, xs: 1 },
-                maxHeight: { xs: 50, md: 60 },
-                maxWidth: { xs: 1, md: 145 },
-                display: { xs: "flex" },
-                alignItems: { xs: "center" },
-                mr: "5%",
+                // mr: "25%",
+
+                display: { xs: "none", sm: "block" },
+                color: "black",
               }}
-              alt="Logo"
-              src="orange.svg"
-            />
-          </Link>
+            >
+              {navItems.map((item) => (
+                <Link key={item.id} href={item.url}>
+                  <Button
+                    sx={{
+                      color: "black",
+                      mr: 2,
+                      ml: 2,
+                      xs: "none",
+                      md: "block",
+                      fontSize: "1rem",
+                    }}
+                  >
+                    {item.title}
+                  </Button>
+                </Link>
+              ))}
+            </Box>
+            <Link href="/">
+              <Box
+                component="img"
+                sx={{
+                  height: { md: 90, xs: 40 },
+                  width: { md: 145, xs: 1 },
+                  maxHeight: { xs: 50, md: 60 },
+                  maxWidth: { xs: 1, md: 145 },
+                  display: { xs: "flex" },
+                  alignItems: { xs: "center" },
+                  mr: "5%",
+                }}
+                alt="Logo"
+                src="orange.svg"
+              />
+            </Link>
+          </Stack>{" "}
           <IconButton
             color="inherit"
             aria-label="open drawer"

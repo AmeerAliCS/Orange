@@ -1,5 +1,6 @@
-import { Box, Button, Grid, Paper, Stack, Typography } from "@mui/material";
+import { Box, Paper, Stack, Typography } from "@mui/material";
 import { testimonialData } from "../../public/orangeData/orangeData";
+import { motion } from "framer-motion";
 
 const styles = {
   paperContainer: {
@@ -29,45 +30,57 @@ export default function Testimonial() {
         spacing={6}
       >
         {testimonialData.map((data) => (
-          <Stack
-            key={data.id}
-            direction={{ xs: "column-reverse", md: "row" }}
-            justifyContent="center"
-            alignItems="center"
-            spacing={1}
+          <motion.div
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{
+              staggerChildren: 0.5,
+              duration: 0.8,
+              delay: 0.2 * data.id,
+              ease: [0, 0.71, 0.2, 1.01],
+            }}
+            viewport={{ once: true }}
           >
-            <Box component="div">
-              <Typography
+            <Stack
+              key={data.id}
+              direction={{ xs: "column-reverse", md: "row" }}
+              justifyContent="center"
+              alignItems="center"
+              spacing={1}
+            >
+              <Box component="div">
+                <Typography
+                  sx={{
+                    color: "white",
+                    pr: 1,
+                    fontSize: { md: 25, xs: 15 },
+                    textAlign: { xs: "center", md: "right" },
+                  }}
+                >
+                  {data.num}
+                </Typography>
+                <Typography
+                  sx={{
+                    color: "white",
+                    pr: 1,
+                    fontSize: { md: 25, xs: 15 },
+                    textAlign: { xs: "center", md: "right" },
+                  }}
+                >
+                  {data.title}
+                </Typography>
+              </Box>
+              <Box
+                component="img"
+                src={data.imageUrl}
                 sx={{
-                  color: "white",
-                  pr: 1,
-                  fontSize: { md: 25, xs: 15 },
-                  textAlign: { xs: "center", md: "right" },
+                  display: "flex",
+                  height: { md: 60, xs: 45 },
+                  width: { md: 60, xs: 45 },
                 }}
-              >
-                {data.num}
-              </Typography>
-              <Typography
-                sx={{
-                  color: "white",
-                  pr: 1,
-                  fontSize: { md: 25, xs: 15 },
-                  textAlign: { xs: "center", md: "right" },
-                }}
-              >
-                {data.title}
-              </Typography>
-            </Box>
-            <Box
-              component="img"
-              src={data.imageUrl}
-              sx={{
-                display: "flex",
-                height: { md: 60, xs: 45 },
-                width: { md: 60, xs: 45 },
-              }}
-            />
-          </Stack>
+              />
+            </Stack>
+          </motion.div>
         ))}
       </Stack>
     </Paper>
