@@ -30,7 +30,8 @@ export default function Testimonial() {
         spacing={6}
       >
         {testimonialData.map((data) => (
-          <motion.div key={data.id}
+          <motion.div
+            key={data.id}
             initial={{ opacity: 0, scale: 0 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{
@@ -42,7 +43,6 @@ export default function Testimonial() {
             viewport={{ once: true }}
           >
             <Stack
-              
               direction={{ xs: "column-reverse", md: "row" }}
               justifyContent="center"
               alignItems="center"

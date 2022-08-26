@@ -136,20 +136,21 @@ function DrawerAppBar(props) {
               ))}
             </Box>
             <Link href="/">
-              <Box
-                component="img"
-                sx={{
-                  height: { md: 90, xs: 40 },
-                  width: { md: 145, xs: 1 },
-                  maxHeight: { xs: 50, md: 60 },
-                  maxWidth: { xs: 1, md: 145 },
-                  display: { xs: "flex" },
-                  alignItems: { xs: "center" },
-                  mr: "5%",
-                }}
-                alt="Logo"
-                src={logoPath}
-              />
+              <Button>
+                <Box
+                  component="img"
+                  sx={{
+                    height: { md: 90, xs: 40 },
+                    width: { md: 145, xs: 1 },
+                    maxHeight: { xs: 50, md: 60 },
+                    maxWidth: { xs: 1, md: 145 },
+                    display: { xs: "flex" },
+                    alignItems: { xs: "center" },
+                  }}
+                  alt="Logo"
+                  src={logoPath}
+                />
+              </Button>
             </Link>
           </Stack>{" "}
           <IconButton
