@@ -21,7 +21,7 @@ export default function Hero(probs) {
         display: "flex",
         height: { md: 1 },
         width: { md: 1 },
-        pt: { xs: 8, md: 7 },
+        pt: { xs: 2, md: 7 },
         // pl: { md: 8, xs: 2 },
         // pr: { md: 8, xs: 2 },
         pl: { md: 8 },
@@ -61,13 +61,18 @@ export default function Hero(probs) {
                 color: "#3c3a54",
                 // pl: "2vw",
                 pr: "5vw",
-                pt: { md: 10 },
+                pt: {xs: 1, md: 8 },
+                pr: {xs: 2},
+                pl: {xs: 2},
+                fontSize: { xs: 24, sm: 30 },
+                textAlign: "justify",
+                direction: 'rtl'
               }}
               variant="h4"
               component="h6"
               align="right"
             >
-              {probs.text}{" "}
+              {probs.text}
             </Typography>
           </motion.div>
           <Grid item>
