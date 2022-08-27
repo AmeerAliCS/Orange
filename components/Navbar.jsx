@@ -136,7 +136,14 @@ function DrawerAppBar(props) {
               ))}
             </Box>
             <Link href="/">
-              <Button>
+              <Button
+                sx={{
+                  color: "transparent",
+                  "&:hover": {
+                    background: "none",
+                  },
+                }}
+              >
                 <Box
                   component="img"
                   sx={{
