@@ -1,5 +1,5 @@
 import { Box, Grid, Stack, Typography } from '@mui/material';
-import OurDesignData from '../../pages/our_design_data'
+import {ourDesignData} from '../../public/orangeData/orangeData'
 import CustomGrid from "../CustomGrid"
 
 export default function OurDesign() {
@@ -14,7 +14,7 @@ export default function OurDesign() {
               <Grid mt={2} container direction="row" columnSpacing={3} rowSpacing={3} >
                  {/* width="70rem" */}
              
-                {OurDesignData.map((data) => (
+                {ourDesignData.map((data) => (
                   <CustomGrid key={data.id} imageUrl={data.imageUrl} title={data.title} />
                 ))}
               </Grid>

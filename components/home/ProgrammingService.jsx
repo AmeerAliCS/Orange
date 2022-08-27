@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Grid, Typography, Stack, Box } from "@mui/material";
 import Image from "next/image";
-import ProgrammingData from "../../pages/programming_service_data";
+import {programmingServiceData} from "../../public/orangeData/orangeData";
 import CustomGrid from "../CustomGrid";
 
 export default function ProgrammingService() {
@@ -17,7 +17,7 @@ export default function ProgrammingService() {
           <Grid mt={2} container direction="row" columnSpacing={3} rowSpacing={3} >
             {/* width="70rem" */}
 
-            {ProgrammingData.map((data) => (
+            {programmingServiceData.map((data) => (
               <CustomGrid key={data.id} imageUrl={data.imageUrl} title={data.title} />
             ))}
           </Grid>
