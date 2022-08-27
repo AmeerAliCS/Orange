@@ -8,11 +8,11 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
-        <title>Orange</title>
+        <title>منصة اورنج</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="shortcut icon" href="icon.svg " />
+        <link rel="shortcut icon" href="icon.svg" />
       </Head>
       <Hero
         imgUrl="/images/heroImage.gif"
@@ -24,6 +24,6 @@ export default function Home() {
       <DesignService />
       <Features />
       <CustomersReview />
-    </div>
+    </>
   );
 }

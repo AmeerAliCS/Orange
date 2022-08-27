@@ -12,7 +12,7 @@ const buttonVariants = {
     },
   },
 };
-export default function Hero(probs) {
+export default function Hero(props) {
   return (
     <Grid
       container
@@ -34,7 +34,7 @@ export default function Hero(probs) {
             height: 1,
             width: 1,
           }}
-          src={probs.imgUrl}
+          src={props.imgUrl}
         />
       </Grid>
 
@@ -72,7 +72,7 @@ export default function Hero(probs) {
               component="h6"
               align="right"
             >
-              {probs.text}
+              {props.text}
             </Typography>
           </motion.div>
           <Grid item>

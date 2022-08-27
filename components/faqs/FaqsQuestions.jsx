@@ -2,12 +2,12 @@ import React from 'react';
 import {Typography, List, ListItemButton, ListItemIcon, ListItemText, Collapse} from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
 import MinimizeIcon from '@mui/icons-material/Minimize';
-import FaqsData from '../../pages/faqs_data'
+import {faqsData} from '../../public/orangeData/orangeData'
 
 
 export default function Faqs () {
   
-  const [state, setState] = React.useState(FaqsData);
+  const [state, setState] = React.useState(faqsData);
   const color = "#3F3D56";
   const clickButton = (index) => {
     // 1. Make a  copy of the array
