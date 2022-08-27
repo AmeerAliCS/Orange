@@ -1,8 +1,16 @@
 import { Box, Stack, Typography } from "@mui/material";
 import { motion } from "framer-motion";
+import Head from "next/head";
 
 export default function About() {
   return (
+    <>
+      <Head>
+        <title>من نحن</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="shortcut icon" href="icon.svg" />
+      </Head>
+
     <Box>
       <Stack
         sx={{ pt: { md: 5, xs: "12%" }, mr: { md: 10 }, ml: { md: 10 } }}
@@ -69,5 +77,6 @@ export default function About() {
         />
       </Stack>
     </Box>
+    </>
   );
 }
