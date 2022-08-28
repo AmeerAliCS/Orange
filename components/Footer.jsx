@@ -3,6 +3,7 @@ import {styled} from "@mui/material/styles";
 import Image from "next/image";
 import Link from "next/link";
 import {FacebookOutlined, Instagram, Mail} from "@mui/icons-material";
+import {ORANGE_EMAIL} from "../public/orangeData/orangeData";
 
 
 const MyTitle = styled("span")(({theme}) => {
@@ -13,13 +14,13 @@ const MyTitle = styled("span")(({theme}) => {
         fontSize: "28px",
         [theme.breakpoints.only('sm')]: {
             fontSize: '18px',
-            lineHeight: ".7em",
+            lineHeight: ".9em",
             fontWeight: 800,
 
         },
         [theme.breakpoints.only('xs')]: {
             fontSize: '12px',
-            lineHeight: ".6em",
+            lineHeight: ".7em",
             fontWeight: 900,
 
         },
@@ -74,14 +75,16 @@ const SocialMedia = ({sx, fontSize}) => {
         ...sx
     }}>
         <Link href="https://google.com">
-            <a><StyledAvatar sx={{backgroundColor: "white"}}><Mail fontSize={fontSize} htmlColor="#FC9338"/></StyledAvatar></a>
+            <a><StyledAvatar sx={{backgroundColor: "white"}}><Mail fontSize={fontSize}
+                                                                   htmlColor="#FC9338"/></StyledAvatar></a>
         </Link>
         <Link href="https://google.com">
-            <a><StyledAvatar sx={{backgroundColor: "white"}}><Instagram fontSize={fontSize} htmlColor="#FC9338"/></StyledAvatar></a>
+            <a><StyledAvatar sx={{backgroundColor: "white"}}><Instagram fontSize={fontSize}
+                                                                        htmlColor="#FC9338"/></StyledAvatar></a>
         </Link>
         <Link href="https://google.com">
             <a><StyledAvatar sx={{backgroundColor: "white"}}><FacebookOutlined fontSize={fontSize}
-                htmlColor="#FC9338"/></StyledAvatar></a>
+                                                                               htmlColor="#FC9338"/></StyledAvatar></a>
         </Link>
     </Stack>);
 }
@@ -129,22 +132,27 @@ export default function Footer() {
                     <br/><br/>
                     <MyTitle>للعمل معنا</MyTitle>
                     <br/>
-                    hr@orange.com
+                    <Link href={"mailto:".concat(ORANGE_EMAIL)} >hr@orange.com</Link>
+
                 </StyledBox>
 
                 <StyledBox>
                     <MyTitle>المساعدة</MyTitle>
                     <br/>
-                    الدعم الفني<br/>
-                    الإبلاغ عن مشكلة<br/>
+                    <Link href={"mailto:".concat(ORANGE_EMAIL)}>الدعم الفني</Link>
+                    <br/>
+                    <Link href={"mailto:".concat(ORANGE_EMAIL)}>الإبلاغ عن مشكلة</Link>
+                    <br/>
                 </StyledBox>
 
 
                 <StyledBox>
                     <MyTitle>حول اورنج</MyTitle>
                     <br/>
-                    الاسئلة الشائعة<br/>
-                    مشاريعنا<br/>
+                    <Link href="/faqs">الاسئلة الشائعة</Link>
+                    <br/>
+                    <Link href="/projects">مشاريعنا</Link>
+                    <br/>
                 </StyledBox>
 
                 <Box
@@ -171,14 +179,16 @@ export default function Footer() {
             </Box>
 
             <SocialMedia sx={{
-                display: {xs: "flex", sm: "none"}
+                display: {xs: "flex", sm: "none"},
+                justifyContent: "center",
+                gap: 5
             }} fontSize="1erm"/>
 
             <Typography sx={{
                 textAlign: "center",
                 color: "white",
                 py: 1,
-                fontSize: {xs: "1em", md: "1.5em"},
+                fontSize: {xs: "1em", md: "1.3em"},
             }}>
                 © Copyright 2022 Orange Platform
             </Typography>

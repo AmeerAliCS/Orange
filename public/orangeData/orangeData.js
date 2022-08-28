@@ -1,3 +1,5 @@
+export const ORANGE_EMAIL = "info@orange.com";
+
 export const programmingServiceData = [
     {
         id: 0,
