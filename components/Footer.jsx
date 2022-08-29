@@ -42,12 +42,12 @@ const StyledBox = styled(Box)(({xxs, ssx, theme}) => {
         [theme.breakpoints.only('sm')]: {
             fontSize: '14px',
             letterSpacing: "0.08rem",
-            lineHeight: "1.5em",
+            lineHeight: "1.9em",
         },
         [theme.breakpoints.only('xs')]: {
             fontSize: '10px',
             letterSpacing: "0.08rem",
-            lineHeight: "1.5em",
+            lineHeight: "1.9em",
             ...xxs
         }
     })
@@ -132,7 +132,7 @@ export default function Footer() {
                     <br/><br/>
                     <MyTitle>للعمل معنا</MyTitle>
                     <br/>
-                    <Link href={"mailto:".concat(ORANGE_EMAIL)} >hr@orange.com</Link>
+                    <Link href={"mailto:".concat(ORANGE_EMAIL)}>hr@orange.com</Link>
 
                 </StyledBox>
 
