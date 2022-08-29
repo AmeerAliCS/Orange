@@ -70,6 +70,7 @@ const StyledAvatar = styled(Avatar)(({ssx, theme}) => {
 });
 
 
+
 const SocialMedia = ({sx, fontSize}) => {
     return (<Stack direction="row" spacing={0} justifyContent="space-around" sx={{
         ...sx
