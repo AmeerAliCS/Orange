@@ -7,25 +7,24 @@ export default function Contact() {
     return (
         <>
             <Head>
-                <title>Contact</title>
+                <title>تواصل معنا</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
                 <link rel="shortcut icon" href="icon.svg "/>
             </Head>
 
-            <>
-                <Hero
-                    imgUrl="/images/contact-us.svg"
-                    text="تمتاز المشاريع المبرمجة من قبل منصة اورنج بأنها برمجيات عالية الجودة والسرعة وتمت برمجتها بأحدث التقنيات والمعايير العالمية
+
+              <Hero
+                  imgUrl="/images/contact-us.svg"
+                  text="تمتاز المشاريع المبرمجة من قبل منصة اورنج بأنها برمجيات عالية الجودة والسرعة وتمت برمجتها بأحدث التقنيات والمعايير العالمية
            وكذلك تمتاز التصاميم المقدمة من منصتنا بأنها تصاميم عصرية تواكب التطور "
-                    disabledButton={true}
-                />
-            </>
+                  disabledButton={true}
+              />
 
 
             <Box sx={{
                 fontSize: {xs: 22, sm: 30},
                 direction: "rtl",
-                mt: {xs: 5, md: 0}
+                mt: 6
             }}>
 
                 <Typography textAlign="center" fontSize="inherit">
