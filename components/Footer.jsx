@@ -127,10 +127,6 @@ export default function Footer() {
                 spacing={0}
                 paddingTop={{xs: 2, sm: 7}}>
                 <StyledBox>
-                    <MyTitle>الخصوصية</MyTitle>
-                    <br/>
-                    الاحكام والشروط
-                    <br/><br/>
                     <MyTitle>للعمل معنا</MyTitle>
                     <br/>
                     <Link href={"mailto:".concat(ORANGE_EMAIL)}>hr@orange.com</Link>
