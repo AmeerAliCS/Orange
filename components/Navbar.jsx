@@ -17,7 +17,7 @@ import Link from "next/link";
 import { Stack } from "@mui/system";
 
 const drawerWidth = 240;
-const logoPath = "images/orange.svg";
+const logoPath = "orange.svg";
 
 const navItems = [
   { id: 0, title: "من نحن", url: "/about" },
@@ -147,9 +147,9 @@ function DrawerAppBar(props) {
                 <Box
                   component="img"
                   sx={{
-                    height: { md: 90, xs: 40 },
+                    height: { md: 90, xs: 1 },
                     width: { md: 145, xs: 1 },
-                    maxHeight: { xs: 50, md: 60 },
+                    maxHeight: { xs: 1, md: 60 },
                     maxWidth: { xs: 1, md: 145 },
                     display: { xs: "flex" },
                     alignItems: { xs: "center" },
