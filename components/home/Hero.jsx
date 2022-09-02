@@ -62,8 +62,8 @@ export default function Hero(props) {
                                 // pl: "2vw",
                                 // pr: "5vw",
                                 pt: {xs: 1, md: 8},
-                                pr: {xs: 2},
-                                pl: {xs: 2},
+                                pr: {xs: 2, md: 8},
+                                pl: {xs: 2, md: 4},
                                 fontSize: {xs: 24, sm: 30},
                                 textAlign: "justify",
                                 direction: 'rtl'

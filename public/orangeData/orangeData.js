@@ -165,13 +165,13 @@ export const testimonialData = [
     },
     {
         id: 1,
-        num: "+80",
+        num: "+50",
         title: "زبون من دول مختلفه",
         imageUrl: "/images/person.svg",
     },
     {
         id: 2,
-        num: "+150",
+        num: "+120",
         title: "مشروع",
         imageUrl: "/images/svgcode.svg",
     },
@@ -179,19 +179,19 @@ export const testimonialData = [
 
 export const customersReviewData = [
     {
-        text: "خدمة ممتازة جدا انصح بكم وبشدة شغل سريع وجميل والسعر مناسب كلش اتمنالكم التوفيق والتميز الدائم",
+        text: "خدمة ممتازة جداً انصح بها وبشدة شغل سريع وجميل والسعر مناسب كلش اتمنالكم التوفيق والتميز الدائم",
         vector: "/images/blue-vector.svg",
         userImage: "/images/ali.png",
         color: "blue",
     },
     {
-        text: "خدمة ممتازة جدا انصح بكم وبشدة شغل سريع وجميل والسعر مناسب كلش اتمنالكم التوفيق والتميز الدائم",
+        text: "افضل خدمة رأيتها من ناحية السرعة والسعر اتمنى لكم التوفيق والتطور الدائم وانصح الجميع بهذه المنصة",
         vector: "/images/orange-vector.svg",
         userImage: "/images/ali.png",
         color: "orange",
     },
     {
-        text: "خدمة ممتازة جدا انصح بكم وبشدة شغل سريع وجميل والسعر مناسب كلش اتمنالكم التوفيق والتميز الدائم",
+        text: "حولت فكرتي لمشروع حقيقي بسهولة جداً وية اورنج جنت متوقع لازم انتظر اشهر حتى اصنع مشروعي شكراً",
         vector: "/images/dark-vector.svg",
         userImage: "/images/ali.png",
         color: "#424A60",

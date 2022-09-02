@@ -5,6 +5,7 @@ import Link from "next/link";
 import {FacebookOutlined, Instagram, Mail} from "@mui/icons-material";
 import {ORANGE_EMAIL} from "../public/orangeData/orangeData";
 
+const year = new Date().getFullYear();
 
 const MyTitle = styled("span")(({theme}) => {
     return {
@@ -76,15 +77,15 @@ const SocialMedia = ({sx, fontSize}) => {
         ...sx
     }}>
         <Link href="https://google.com">
-            <a><StyledAvatar sx={{backgroundColor: "white"}}><Mail fontSize={fontSize}
+            <a target="_blank"><StyledAvatar sx={{backgroundColor: "white"}}><Mail fontSize={fontSize}
                                                                    htmlColor="#FC9338"/></StyledAvatar></a>
         </Link>
         <Link href="https://google.com">
-            <a><StyledAvatar sx={{backgroundColor: "white"}}><Instagram fontSize={fontSize}
+            <a target="_blank"><StyledAvatar sx={{backgroundColor: "white"}}><Instagram fontSize={fontSize}
                                                                         htmlColor="#FC9338"/></StyledAvatar></a>
         </Link>
         <Link href="https://google.com">
-            <a><StyledAvatar sx={{backgroundColor: "white"}}><FacebookOutlined fontSize={fontSize}
+            <a target="_blank"><StyledAvatar sx={{backgroundColor: "white"}}><FacebookOutlined fontSize={fontSize}
                                                                                htmlColor="#FC9338"/></StyledAvatar></a>
         </Link>
     </Stack>);
@@ -98,7 +99,7 @@ const LogoAboute = ({socialStyle}) => {
                 width: {sm: "150px", xs: "130px", md: "186px"},
             }} alt="orange logo" src="/orange.svg"/>
             <br/>
-            شركة اورنج العالمية<br/>
+            منصة اورنج لخدمات البرمجة والتصميم<br/>
 
             <br/>
 
@@ -115,7 +116,7 @@ export default function Footer() {
             component="div"
             sx={{
                 bgcolor: "#3E424B",
-                height: {sm: "280px", md: "357px"},
+                height: {sm: "280px", md: "330px"},
                 mt: "5em",
                 mb: "0px",
             }}>
@@ -187,7 +188,7 @@ export default function Footer() {
                 py: 1,
                 fontSize: {xs: "1em", md: "1.3em"},
             }}>
-                © Copyright 2022 Orange Platform
+                © Copyright {year} Orange Platform
             </Typography>
 
         </Box>
