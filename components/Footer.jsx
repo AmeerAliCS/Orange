@@ -112,7 +112,7 @@ const LogoAboute = ({ socialStyle }) => {
           width: { sm: "150px", xs: "130px", md: "186px" },
         }}
         alt="orange logo"
-        src="/orange.svg"
+        src="/Logo.svg"
       />
       <br />
       منصة اورنج لخدمات البرمجة والتصميم
