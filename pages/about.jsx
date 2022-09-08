@@ -2,6 +2,7 @@ import { Box, Stack, Typography } from "@mui/material";
 import Head from "next/head";
 import Image from "next/image";
 import Aboutus1 from "../public/images/aboutUs1.svg";
+import Aboutus2 from "../public/images/aboutUs2.svg";
 
 export default function About() {
   return (
@@ -59,11 +60,10 @@ export default function About() {
 لدينا برامج ومشاريع تخرج جاهزة للبيع وتتوفر لدينا خدمة البرمجة الخاصة حسب الطلب (نقوم بتحويل اي فكرة في عقلك الى مشروع حقيقي على شكل موقع الكتروني او تطبيق موبايل او برنامج سطح مكتب)
 كما تتوفر لدينا خدمة التصاميم بجميع انواعها الطباعية وغير الطباعية كالبوسترات وتصميم الشعارات وتصميم الكروت الشخصية وبطاقات الدعوة وتصاميم الفلكسات والفليرات وتصميم المجلات والبروشرات وتصاميم ال UI/UX            </Typography>
           </Box>
-          <Box
-            component="img"
-            src="/images/aboutUs2.svg"
-            width={{ md: "50%", xs: 1 }}
-          />
+          <Image
+            height="500rem"
+            alt="Faqs Image"
+            src={Aboutus2} />
         </Stack>
       </Box>
     </>

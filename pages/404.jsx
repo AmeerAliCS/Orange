@@ -1,24 +1,14 @@
-
 import { Box } from "@mui/material";
+import Image from "next/image";
+import ErrorImg from "../public/images/errorImg.svg";
 
-const styles = {
-    paperContainer: {
-        backgroundImage: `url(${"/images/IMAGE.svg"})`,
-    },
-};
 export default function Error() {
     return (
-        <Box height={{md:"600px", xs:"300px"}} width={1}>
-            <Box
-                component="img"
-                src="/images/errorImg.svg"
-                sx={{
-                    display: "-webkit-flex",
-                    margin: "auto",
-                    width: {md:750,xs:1},
-                }}
+        <Box height={{md:"600px", xs:"300px"}} width={1} sx={{textAlign: 'center'}}>
+            <Image
+            alt="Faqs Image"
+            src={ErrorImg} 
             />
-       
         </Box >
     );
 }
