@@ -41,7 +41,6 @@ export default function Hero(props) {
 
           <Image
           alt="Faqs Image"
-          priority
           src={props.imgUrl} />
 
       </Grid>
