@@ -11,6 +11,7 @@ export default function Faqs () {
           height="200rem"
           width="200rem"
           alt="Faqs Image"
+          priority
           src={faqImage} />
         </Stack>
         </Container>

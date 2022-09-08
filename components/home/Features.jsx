@@ -26,6 +26,7 @@ export default function Features() {
             <Box>
               <Image
                 src="/features_icon/percent_icon.svg"
+                priority
                 width="140"
                 height="100"
               />
@@ -48,6 +49,7 @@ export default function Features() {
             <Box>
               <Image
                 src="/features_icon/security_icon.svg"
+                priority
                 width="150"
                 height="100"
               />
@@ -71,6 +73,7 @@ export default function Features() {
             <Box>
               <Image
                 src="/features_icon/speed_icon.svg"
+                priority
                 width="100"
                 height="100"
               />

@@ -22,7 +22,7 @@ export default function OurProgramming() {
               </Grid>
             </Stack>
     
-            <Image src="/dotted.svg" width="100" height="100" />
+            <Image src="/dotted.svg" width="100" height="100" priority />
           </Box>
         </>
       );

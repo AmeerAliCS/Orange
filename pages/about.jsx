@@ -38,6 +38,7 @@ export default function About() {
 منصة orange لخدمات البرمجة والتصميم ومشاريع التخرج نقدم لكم برامج بأحدث التقنيات البرمجية وتصاميم عصرية بأنسب الاسعار وافضل جودة وسرعة في التسليم مع خدمة العملاء المتوفرة على مدار الساعة (24/7)      </Typography>
           </Box>
             <Image
+            priority
             height="500rem"
             alt="Faqs Image"
             src={Aboutus1} />
@@ -61,6 +62,7 @@ export default function About() {
 كما تتوفر لدينا خدمة التصاميم بجميع انواعها الطباعية وغير الطباعية كالبوسترات وتصميم الشعارات وتصميم الكروت الشخصية وبطاقات الدعوة وتصاميم الفلكسات والفليرات وتصميم المجلات والبروشرات وتصاميم ال UI/UX            </Typography>
           </Box>
           <Image
+          priority
             height="500rem"
             alt="Faqs Image"
             src={Aboutus2} />
