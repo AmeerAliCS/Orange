@@ -1,5 +1,6 @@
 import { Container, Stack } from "@mui/material";
 import Image from "next/image";
+import faqImage from "../../public/faqs_icon/faqs.svg";
 export default function Faqs () {
     return (
         <>
@@ -9,7 +10,7 @@ export default function Faqs () {
           height="200rem"
           width="200rem"
           alt="Faqs Image"
-          src="/faqs_icon/faqs.svg" />
+          src={faqImage} />
         </Stack>
         </Container>
         </>
