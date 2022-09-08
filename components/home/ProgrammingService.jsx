@@ -3,6 +3,7 @@ import { Grid, Typography, Stack, Box } from "@mui/material";
 import Image from "next/image";
 import {programmingServiceData} from "../../public/orangeData/orangeData";
 import CustomGrid from "../CustomGrid";
+import Dotted from "../../public/dotted.svg";
 
 export default function ProgrammingService() {
   return (
@@ -23,7 +24,7 @@ export default function ProgrammingService() {
           </Grid>
         </Stack>
 
-        <Image src="/dotted.svg" width="100" height="100" />
+        <Image src={Dotted} width="100" height="100" />
       </Box>
     </>
   );

@@ -1,5 +1,7 @@
 import { Box, Stack, Typography } from "@mui/material";
 import Head from "next/head";
+import Image from "next/image";
+import Aboutus1 from "../public/images/aboutUs1.svg";
 
 export default function About() {
   return (
@@ -34,11 +36,11 @@ export default function About() {
             >
 منصة orange لخدمات البرمجة والتصميم ومشاريع التخرج نقدم لكم برامج بأحدث التقنيات البرمجية وتصاميم عصرية بأنسب الاسعار وافضل جودة وسرعة في التسليم مع خدمة العملاء المتوفرة على مدار الساعة (24/7)      </Typography>
           </Box>
-          <Box
-            component="img"
-            src="/images/aboutUs1.svg"
-            width={{ md: "50%", xs: 1 }}
-          />
+            <Image
+            height="500rem"
+            alt="Faqs Image"
+            src={Aboutus1} />
+            
         </Stack>
         
         <Stack

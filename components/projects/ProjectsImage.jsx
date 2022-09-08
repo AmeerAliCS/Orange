@@ -1,9 +1,10 @@
 import Hero from "../home/Hero";
+import projectsImage from "../../public/projects_icon/projects_hero.svg";
 export default function ProjectsImage() {
   return (
     <>
       <Hero
-        imgUrl="/projects_icon/projects_hero.svg"
+        imgUrl={projectsImage}
         text="تمتاز المشاريع المبرمجة من قبل منصة اورنج بأنها برمجيات عالية الجودة والسرعة وتمت برمجتها بأحدث التقنيات والمعايير العالمية
            وكذلك تمتاز التصاميم المقدمة من منصتنا بأنها تصاميم عصرية تواكب التطور "
       />

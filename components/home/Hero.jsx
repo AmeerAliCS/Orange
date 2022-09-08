@@ -1,6 +1,7 @@
-import { Box, Button, Grid, Slide, Typography } from "@mui/material";
+import { Button, Grid, Typography } from "@mui/material";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 const buttonVariants = {
   initial: { opacity: 0 },
@@ -29,14 +30,19 @@ export default function Hero(props) {
       }}
     >
       <Grid item xs={12} md={6}>
-        <Box
+        {/* <Box
           component="img"
           sx={{
             height: 1,
             width: 1,
           }}
           src={props.imgUrl}
-        />
+        /> */}
+
+          <Image
+          alt="Faqs Image"
+          src={props.imgUrl} />
+
       </Grid>
 
       <Grid item xs={12} md={6}>

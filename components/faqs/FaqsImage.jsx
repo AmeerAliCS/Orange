@@ -1,6 +1,7 @@
 import { Container, Stack } from "@mui/material";
 import Image from "next/image";
 import faqImage from "../../public/faqs_icon/faqs.svg";
+
 export default function Faqs () {
     return (
         <>

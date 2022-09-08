@@ -1,5 +1,5 @@
 
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 
 const styles = {
     paperContainer: {
@@ -11,7 +11,7 @@ export default function Error() {
         <Box height={{md:"600px", xs:"300px"}} width={1}>
             <Box
                 component="img"
-                src="/images/4041.svg"
+                src="/images/errorImg.svg"
                 sx={{
                     display: "-webkit-flex",
                     margin: "auto",

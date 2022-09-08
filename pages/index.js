@@ -5,6 +5,7 @@ import ProgrammingService from "../components/home/ProgrammingService";
 import Testimonial from "../components/home/Testimonial";
 import CustomersReview from "../components/home/CustomersReview";
 import Head from "next/head";
+import heroGif from "../public/images/heroImage.gif"
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
         <link rel="shortcut icon" href="icon.svg" />
       </Head>
       <Hero
-        imgUrl="/images/heroImage.gif"
+        imgUrl={heroGif}
         text="اصنع موقعك الالكتروني او تطبيقك او مشروع تخرجك او تصميمك بأعلى
               جودة واحدث التقنيات وبأنسب الاسعار"
       />
