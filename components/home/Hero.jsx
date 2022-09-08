@@ -39,10 +39,7 @@ export default function Hero(props) {
           src={props.imgUrl}
         /> */}
 
-          <Image
-          alt="Faqs Image"
-          src={props.imgUrl} />
-
+        <Image alt="Faqs Image" src={props.imgUrl} />
       </Grid>
 
       <Grid item xs={12} md={6}>
@@ -68,7 +65,7 @@ export default function Hero(props) {
                 color: "#3c3a54",
                 // pl: "2vw",
                 // pr: "5vw",
-                pt: { xs: 1, md: 8 },
+                pt: { xs: 1, md: 18 },
                 pr: { xs: 2, md: 8 },
                 pl: { xs: 2, md: 4 },
                 fontSize: { xs: 24, sm: 30 },

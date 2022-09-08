@@ -157,19 +157,19 @@ export const customersReviewData = [
   {
     text: "خدمة ممتازة جداً انصح بها وبشدة شغل سريع وجميل والسعر مناسب كلش اتمنالكم التوفيق والتميز الدائم",
     vector: "/images/blue-vector.svg",
-    userImage: "/images/img3.jpeg",
+    userImage: "/images/qw.gif",
     color: "blue",
   },
   {
     text: "افضل خدمة رأيتها من ناحية السرعة والسعر اتمنى لكم التوفيق والتطور الدائم وانصح الجميع بهذه المنصة",
     vector: "/images/orange-vector.svg",
-    userImage: "/images/img1.jpeg",
+    userImage: "/images/man.jpeg",
     color: "orange",
   },
   {
     text: "حولت فكرتي لمشروع حقيقي بسهولة جداً وية اورنج جنت متوقعه لازم انتظر اشهر حتى اصنع مشروعي شكراً",
     vector: "/images/dark-vector.svg",
-    userImage: "/images/img2.jpeg",
+    userImage: "/images/img3.jpeg",
     color: "#424A60",
   },
 ];

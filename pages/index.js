@@ -5,7 +5,7 @@ import ProgrammingService from "../components/home/ProgrammingService";
 import Testimonial from "../components/home/Testimonial";
 import CustomersReview from "../components/home/CustomersReview";
 import Head from "next/head";
-import heroGif from "../public/images/heroImage.gif"
+import heroGif from "../public/images/heroImage.svg";
 
 export default function Home() {
   return (
