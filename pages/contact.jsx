@@ -2,6 +2,7 @@ import Head from "next/head";
 import Hero from "../components/home/Hero";
 import {Box, Button, TextField, Typography} from "@mui/material";
 import {ORANGE_EMAIL} from "../public/orangeData/orangeData";
+import ContactImg from "../public/images/contact-us.svg";
 
 export default function Contact() {
     return (
@@ -14,7 +15,7 @@ export default function Contact() {
 
 
               <Hero
-                  imgUrl="/images/contact-us.svg"
+                  imgUrl={ContactImg}
                   text="تمتاز المشاريع المبرمجة من قبل منصة اورنج بأنها برمجيات عالية الجودة والسرعة وتمت برمجتها بأحدث التقنيات والمعايير العالمية
            وكذلك تمتاز التصاميم المقدمة من منصتنا بأنها تصاميم عصرية تواكب التطور "
                   disabledButton={true}
