@@ -20,6 +20,9 @@ import logo_design_icon from "../design_service_icon/logo_design_icon.svg";
 import svgex from "../images/svgex.svg";
 import person from "../images/person.svg";
 import svgcode from "../images/svgcode.svg";
+import img1 from "../images/man.jpeg";
+import img2 from "../images/qw.gif";
+import img3 from "../images/img3.jpeg";
 
 export const ORANGE_EMAIL = "info@orange.com";
 
@@ -180,19 +183,19 @@ export const customersReviewData = [
   {
     text: "خدمة ممتازة جداً انصح بها وبشدة شغل سريع وجميل والسعر مناسب كلش اتمنالكم التوفيق والتميز الدائم",
     vector: "../images/blue-vector.svg",
-    userImage: "../images/img3.jpeg",
+    userImage: img3,
     color: "blue",
   },
   {
     text: "افضل خدمة رأيتها من ناحية السرعة والسعر اتمنى لكم التوفيق والتطور الدائم وانصح الجميع بهذه المنصة",
     vector: "../images/orange-vector.svg",
-    userImage: "../images/img1.jpeg",
+    userImage: img1,
     color: "orange",
   },
   {
     text: "حولت فكرتي لمشروع حقيقي بسهولة جداً وية اورنج جنت متوقعه لازم انتظر اشهر حتى اصنع مشروعي شكراً",
     vector: "../images/dark-vector.svg",
-    userImage: "../images/img2.jpeg",
+    userImage: img2,
     color: "#424A60",
   },
 ];
