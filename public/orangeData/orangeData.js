@@ -1,35 +1,58 @@
+import Desktop_icon from "../programming_service_icon/desktop_icon.svg";
+import mobile_icon from "../programming_service_icon/mobile_icon.svg";
+import website_icon from "../programming_service_icon/website_icon.svg";
+import ui_ux_icon from "../programming_service_icon/ui_ux_icon.svg";
+import graduation_icon from "../programming_service_icon/graduation_icon.svg";
+import company_icon from "../programming_service_icon/company_icon.svg";
+import social_media_icon from "../design_service_icon/social_media_icon.svg";
+import card_design_icon from "../design_service_icon/card_design_icon.svg";
+import magazine_design_icon from "../design_service_icon/magazine_design_icon.svg";
+import brochure_design_icon from "../design_service_icon/brochure_design_icon.svg";
+import poster_design_icon from "../design_service_icon/poster_design_icon.svg";
+import safety_app from "../projects_icon/safety_app.svg";
+import covid_app from "../projects_icon/covid_app.svg";
+import qr_code from "../projects_icon/qr_code.svg";
+import satellite from "../projects_icon/satellite.svg";
+import installments from "../projects_icon/installments.svg";
+import money_app from "../projects_icon/money_app.svg";
+import logo_design_icon from "../design_service_icon/logo_design_icon.svg";
+
+import svgex from "../images/svgex.svg";
+import person from "../images/person.svg";
+import svgcode from "../images/svgcode.svg";
+
 export const ORANGE_EMAIL = "info@orange.com";
 
 export const programmingServiceData = [
   {
     id: 0,
     title: "برمجة تطبيقات الدسكتوب",
-    imageUrl: "/programming_service_icon/desktop_icon.svg",
+    imageUrl: Desktop_icon,
   },
   {
     id: 1,
     title: "برمجة تطبيقات الموبايل",
-    imageUrl: "/programming_service_icon/mobile_icon.svg",
+    imageUrl: mobile_icon,
   },
   {
     id: 2,
     title: "تصميم مواقع الكترونية",
-    imageUrl: "/programming_service_icon/website_icon.svg",
+    imageUrl: website_icon,
   },
   {
     id: 3,
     title: "UI/UX تصميم واجهات",
-    imageUrl: "/programming_service_icon/ui_ux_icon.svg",
+    imageUrl: ui_ux_icon,
   },
   {
     id: 4,
     title: "برمجة مشاريع التخرج",
-    imageUrl: "/programming_service_icon/graduation_icon.svg",
+    imageUrl: graduation_icon,
   },
   {
     id: 5,
     title: "برمجة مشاريع للشركات",
-    imageUrl: "/programming_service_icon/company_icon.svg",
+    imageUrl: company_icon,
   },
 ];
 
@@ -37,32 +60,32 @@ export const designServiceData = [
   {
     id: 0,
     title: "تصاميم سوشيال ميديا ",
-    imageUrl: "/design_service_icon/social_media_icon.svg",
+    imageUrl: social_media_icon,
   },
   {
     id: 1,
     title: "تصميم شعارات",
-    imageUrl: "/design_service_icon/logo_design_icon.svg",
+    imageUrl: logo_design_icon,
   },
   {
     id: 2,
     title: "تصميم كروت",
-    imageUrl: "/design_service_icon/card_design_icon.svg",
+    imageUrl: card_design_icon,
   },
   {
     id: 3,
     title: "تصميم مجلة",
-    imageUrl: "/design_service_icon/magazine_design_icon.svg",
+    imageUrl: magazine_design_icon,
   },
   {
     id: 4,
     title: "تصميم بروشور",
-    imageUrl: "/design_service_icon/brochure_design_icon.svg",
+    imageUrl: brochure_design_icon,
   },
   {
     id: 5,
     title: "تصميم بوسترات",
-    imageUrl: "/design_service_icon/poster_design_icon.svg",
+    imageUrl: poster_design_icon,
   },
 ];
 
@@ -70,32 +93,32 @@ export const ourProgrammingData = [
   {
     id: 0,
     title: "تطبيق السلامة والمساعدة",
-    imageUrl: "/projects_icon/safety_app.svg",
+    imageUrl: safety_app,
   },
   {
     id: 1,
     title: "تطبيق مراقبة مرضى كورونا",
-    imageUrl: "/projects_icon/covid_app.svg",
+    imageUrl: covid_app,
   },
   {
     id: 2,
     title: "تطبيق تسجيل الحضور",
-    imageUrl: "/projects_icon/qr_code.svg",
+    imageUrl: qr_code,
   },
   {
     id: 3,
     title: "موقع مزود خدمة انترنت",
-    imageUrl: "/projects_icon/satellite.svg",
+    imageUrl: satellite,
   },
   {
     id: 4,
     title: "تطبيق الاقساط",
-    imageUrl: "/projects_icon/installments.svg",
+    imageUrl: installments,
   },
   {
     id: 5,
     title: "تطبيق تحويل الاموال",
-    imageUrl: "/projects_icon/money_app.svg",
+    imageUrl: money_app,
   },
 ];
 
@@ -103,32 +126,32 @@ export const ourDesignData = [
   {
     id: 0,
     title: "No Name",
-    imageUrl: "/programming_service_icon/desktop_icon.svg",
+    imageUrl: Desktop_icon,
   },
   {
     id: 1,
     title: "No Name",
-    imageUrl: "/programming_service_icon/mobile_icon.svg",
+    imageUrl: mobile_icon,
   },
   {
     id: 2,
     title: "No Name",
-    imageUrl: "/programming_service_icon/website_icon.svg",
+    imageUrl: website_icon,
   },
   {
     id: 3,
     title: "No Name",
-    imageUrl: "/programming_service_icon/ui_ux_icon.svg",
+    imageUrl: ui_ux_icon,
   },
   {
     id: 4,
     title: "No Name",
-    imageUrl: "/programming_service_icon/graduation_icon.svg",
+    imageUrl: graduation_icon,
   },
   {
     id: 5,
     title: "No Name",
-    imageUrl: "/programming_service_icon/company_icon.svg",
+    imageUrl: company_icon,
   },
 ];
 
@@ -137,39 +160,39 @@ export const testimonialData = [
     id: 0,
     num: "+8",
     title: "سنوات خبرة",
-    imageUrl: "/images/svgex.svg",
+    imageUrl: svgex,
   },
   {
     id: 1,
     num: "+50",
     title: "زبون من دول مختلفه",
-    imageUrl: "/images/person.svg",
+    imageUrl: person,
   },
   {
     id: 2,
     num: "+120",
     title: "مشروع",
-    imageUrl: "/images/svgcode.svg",
+    imageUrl: svgcode,
   },
 ];
 
 export const customersReviewData = [
   {
     text: "خدمة ممتازة جداً انصح بها وبشدة شغل سريع وجميل والسعر مناسب كلش اتمنالكم التوفيق والتميز الدائم",
-    vector: "/images/blue-vector.svg",
-    userImage: "/images/qw.gif",
+    vector: "../images/blue-vector.svg",
+    userImage: "../images/img3.jpeg",
     color: "blue",
   },
   {
     text: "افضل خدمة رأيتها من ناحية السرعة والسعر اتمنى لكم التوفيق والتطور الدائم وانصح الجميع بهذه المنصة",
-    vector: "/images/orange-vector.svg",
-    userImage: "/images/man.jpeg",
+    vector: "../images/orange-vector.svg",
+    userImage: "../images/img1.jpeg",
     color: "orange",
   },
   {
     text: "حولت فكرتي لمشروع حقيقي بسهولة جداً وية اورنج جنت متوقعه لازم انتظر اشهر حتى اصنع مشروعي شكراً",
-    vector: "/images/dark-vector.svg",
-    userImage: "/images/img3.jpeg",
+    vector: "../images/dark-vector.svg",
+    userImage: "../images/img2.jpeg",
     color: "#424A60",
   },
 ];
