@@ -42,7 +42,7 @@ export default function Hero(props) {
         <motion.div
           animate={{
             scale: 1.05,
-            transition: { yoyo: Infinity, duration: 1 },
+            transition: { yoyo: 5, duration: 1 },
             // duration: 60,
           }}
         >
