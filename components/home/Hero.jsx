@@ -39,7 +39,15 @@ export default function Hero(props) {
           src={props.imgUrl}
         /> */}
 
-        <Image alt="Faqs Image" src={props.imgUrl} />
+        <motion.div
+          animate={{
+            scale: 1.05,
+            transition: { yoyo: Infinity, duration: 1 },
+            // duration: 60,
+          }}
+        >
+          <Image alt="Faqs Image" src={props.imgUrl} />
+        </motion.div>
       </Grid>
 
       <Grid item xs={12} md={6}>
