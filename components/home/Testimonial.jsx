@@ -1,6 +1,7 @@
 import { Box, Paper, Stack, Typography } from "@mui/material";
 import { testimonialData } from "../../public/orangeData/orangeData";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const styles = {
   paperContainer: {
@@ -17,7 +18,7 @@ export default function Testimonial() {
         display: "block",
         mt: "5vh",
         width: 1,
-        height: { md: "20vh", xs: "20%" },
+        height: { md: "20vh", xs: "15vh" },
       }}
     >
       <Stack
@@ -71,14 +72,15 @@ export default function Testimonial() {
                 </Typography>
               </Box>
               <Box
-                component="img"
-                src={data.imageUrl}
                 sx={{
                   display: "flex",
                   height: { md: 60, xs: 45 },
                   width: { md: 60, xs: 45 },
                 }}
-              />
+              >
+                {" "}
+                <Image src={data.imageUrl} width={"100%"} height={"100%"} />
+              </Box>
             </Stack>
           </motion.div>
         ))}

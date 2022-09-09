@@ -78,11 +78,20 @@ function DrawerAppBar(props) {
         sx={{
           justifyContent: "space-between",
           bgcolor: "background.paper",
-          color: "black",
-          boxShadow: 3,
+          color: "gray",
+          boxShadow: 1,
         }}
       >
         <Toolbar>
+          <IconButton
+            color="inherit"
+            aria-label="open drawer"
+            edge="start"
+            onClick={handleDrawerToggle}
+            sx={{ display: { sm: "none" } }}
+          >
+            <MenuIcon />
+          </IconButton>{" "}
           <Stack
             direction="row"
             justifyContent="space-between"
@@ -112,8 +121,6 @@ function DrawerAppBar(props) {
             </Link>
             <Box
               sx={{
-                // mr: "25%",
-
                 display: { xs: "none", sm: "block" },
                 color: "black",
               }}
@@ -151,7 +158,8 @@ function DrawerAppBar(props) {
                     width: { md: 145, xs: 110 },
                     maxHeight: { xs: 60, md: 60 },
                     maxWidth: { xs: 200, md: 145 },
-                    display: { xs: "flex" },
+                    mr: { xs: "100%" },
+                    display: { xs: "block" },
                     alignItems: { xs: "center" },
                   }}
                   alt="Logo"
@@ -159,23 +167,14 @@ function DrawerAppBar(props) {
                 />
               </Button>
             </Link>
-          </Stack>{" "}
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            sx={{ display: { sm: "none" } }}
-          >
-            <MenuIcon />
-          </IconButton>
+          </Stack>
         </Toolbar>
       </AppBar>
       <Toolbar />
       <Box component="nav">
         <Drawer
           container={container}
-          anchor="right"
+          anchor="left"
           variant="temporary"
           open={mobileOpen}
           onClose={handleDrawerToggle}
