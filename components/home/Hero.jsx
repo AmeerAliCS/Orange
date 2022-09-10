@@ -103,7 +103,7 @@ export default function Hero(props) {
                       backgroundColor: "#FF7700",
                       padding: "10px 20px",
                       fontSize: "25px",
-                      width: "150px",
+                      width: "10rem",
                       marginTop: "5vh",
                     }}
                     variant="contained"

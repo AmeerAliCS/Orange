@@ -57,7 +57,7 @@ export default function CustomersReviewCard({
               height: 90,
               zIndex: 1,
               position: "absolute",
-              border: "2px solid white",
+              // border: "2px solid white",
               mb: 7,
               borderRadius: "50%",
             }}
