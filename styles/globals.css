@@ -16,6 +16,9 @@ a {
 * {
   box-sizing: border-box;
 }
+iframe{
+  display: none;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
