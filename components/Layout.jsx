@@ -11,7 +11,7 @@ function Layout(props) {
       {props.children}
       <MessengerChat
         pageId="110388588223967"
-        language="sv_SE"
+        language="ar"
         themeColor={"#000000"}
         bottomSpacing={100}
         loggedInGreeting="loggedInGreeting"
