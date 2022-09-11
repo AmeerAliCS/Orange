@@ -16,8 +16,9 @@ a {
 * {
   box-sizing: border-box;
 }
-.no_svg{
+[name=unread_fe0ae62691c62],[name=availabilityStatus_fe0ae62691c62]{
   display: none;
+
 }
 @media (prefers-color-scheme: dark) {
   html {
