@@ -6,7 +6,6 @@ import Testimonial from "../components/home/Testimonial";
 import CustomersReview from "../components/home/CustomersReview";
 import Head from "next/head";
 import heroGif from "../public/images/heroImage.svg";
-import MessengerCustomerChat from "react-messenger-customer-chat";
 
 export default function Home() {
   return (
@@ -26,11 +25,6 @@ export default function Home() {
       <DesignService />
       <Features />
       <CustomersReview />
-      <MessengerCustomerChat
-        pageId="110388588223967"
-        appId="644175826978240"
-        // htmlRef="<REF_STRING>"
-      />
     </>
   );
 }

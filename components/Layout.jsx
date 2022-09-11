@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 function Layout(props) {
   return (
@@ -9,7 +10,12 @@ function Layout(props) {
       {/* <h1>Hello World !!!!!</h1> */}
       {props.children}
 
-         <Footer />
+      <MessengerCustomerChat
+        pageId="110388588223967"
+        appId="644175826978240"
+        // htmlRef="<REF_STRING>"
+      />
+      <Footer />
     </>
   );
 }
