@@ -16,6 +16,9 @@ a {
 * {
   box-sizing: border-box;
 }
+[data-testid=availabilityStatus_iframe],[data-testid=unread_iframe]{
+  display: none;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
