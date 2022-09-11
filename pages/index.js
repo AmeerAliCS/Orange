@@ -27,11 +27,10 @@ export default function Home() {
       <Features />
       <CustomersReview />
       <MessengerCustomerChat
-        pageId="100078092257436"
+        pageId="110388588223967"
         appId="644175826978240"
         // htmlRef="<REF_STRING>"
       />
-      {/* <Facebook /> */}
     </>
   );
 }
