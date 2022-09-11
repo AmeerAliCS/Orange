@@ -7,7 +7,6 @@ import CustomersReview from "../components/home/CustomersReview";
 import Head from "next/head";
 import heroGif from "../public/images/heroImage.svg";
 import MessengerCustomerChat from "react-messenger-customer-chat";
-import Facebook from "../components/faceboo";
 
 export default function Home() {
   return (
@@ -28,7 +27,7 @@ export default function Home() {
       <Features />
       <CustomersReview />
       <MessengerCustomerChat
-        pageId="110388588223967"
+        pageId="631809691369326"
         appId="644175826978240"
         // htmlRef="<REF_STRING>"
       />
