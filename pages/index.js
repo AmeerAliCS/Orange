@@ -27,7 +27,7 @@ export default function Home() {
       <Features />
       <CustomersReview />
       <MessengerCustomerChat
-        pageId="631809691369326"
+        pageId="100078092257436"
         appId="644175826978240"
         // htmlRef="<REF_STRING>"
       />
