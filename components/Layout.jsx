@@ -1,6 +1,5 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-// import MessengerCustomerChat from "react-messenger-customer-chat";
 import { MessengerChat } from "react-messenger-chat-plugin";
 
 function Layout(props) {
@@ -14,7 +13,7 @@ function Layout(props) {
         pageId="110388588223967"
         language="sv_SE"
         themeColor={"#000000"}
-        bottomSpacing={300}
+        bottomSpacing={100}
         loggedInGreeting="loggedInGreeting"
         loggedOutGreeting="loggedOutGreeting"
         greetingDialogDisplay={"show"}
@@ -38,12 +37,7 @@ function Layout(props) {
           console.log("onMessengerLoad");
         }}
       />
-      ,
-      {/* <MessengerCustomerChat
-        pageId="110388588223967"
-        appId="464199215610503"
-        // htmlRef="<REF_STRING>"
-      /> */}
+
       <Footer />
     </>
   );
