@@ -29,4 +29,8 @@ a {
     color: white;
     background: rgb(255, 255, 255);
   }
+  .rounded-full{
+    border-radius: 50%;
+    
+      }
 }

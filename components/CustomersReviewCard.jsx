@@ -53,31 +53,23 @@ export default function CustomersReviewCard({
         >
           <Box
             sx={{
-              width: 90,
-              height: 90,
+              width: 80,
+              height: 80,
               zIndex: 1,
               position: "absolute",
-              // border: "2px solid white",
-              mb: 7,
-              borderRadius: "50%",
+              border: "3px solid white",
+              mb: 5,
+              borderRadius: "100%",
             }}
           >
-            <div style={{ borderRadius: "50%", overflow: "hidden" }}>
-              <Image
-                src={userImage}
-                width={"100%"}
-                height={"100%"}
-                objectFit="fill"
-              />
-            </div>
+            <Image
+              src={userImage}
+              width={80}
+              height={80}
+              className="rounded-full"
+            />
           </Box>
-
-          <Box
-            component="img"
-            alt="vector"
-            src={vector}
-            sx={{ width: "100%", height: "auto" }}
-          />
+          <Image className="customer-vector" src={vector} />
         </CardActions>
       </Card>
     </StyledBox>

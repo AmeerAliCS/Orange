@@ -23,6 +23,9 @@ import svgcode from "../images/svgcode.svg";
 import img1 from "../images/man.jpeg";
 import img2 from "../images/qw.gif";
 import img3 from "../images/img3.jpeg";
+import vec1 from "../images/blue-vector.svg";
+import vec2 from "../images/orange-vector.svg";
+import vec3 from "../images/dark-vector.svg";
 
 export const ORANGE_EMAIL = "info@orange.com";
 
@@ -182,19 +185,19 @@ export const testimonialData = [
 export const customersReviewData = [
   {
     text: "خدمة ممتازة جداً انصح بها وبشدة شغل سريع وجميل والسعر مناسب كلش اتمنالكم التوفيق والتميز الدائم",
-    vector: "../images/blue-vector.svg",
+    vector: vec1,
     userImage: img3,
     color: "blue",
   },
   {
     text: "افضل خدمة رأيتها من ناحية السرعة والسعر اتمنى لكم التوفيق والتطور الدائم وانصح الجميع بهذه المنصة",
-    vector: "../images/orange-vector.svg",
+    vector: vec2,
     userImage: img1,
     color: "orange",
   },
   {
     text: "حولت فكرتي لمشروع حقيقي بسهولة جداً وية اورنج جنت متوقعه لازم انتظر اشهر حتى اصنع مشروعي شكراً",
-    vector: "../images/dark-vector.svg",
+    vector: vec3,
     userImage: img2,
     color: "#424A60",
   },

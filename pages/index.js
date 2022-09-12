@@ -25,7 +25,7 @@ export default function Home() {
       <ProgrammingService />
       <DesignService />
       <Features />
-      {/* <CustomersReview /> */}
+      <CustomersReview />
     </>
   );
 }
