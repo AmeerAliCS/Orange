@@ -29,8 +29,8 @@ a {
     color: white;
     background: rgb(255, 255, 255);
   }
-  .rounded-full{
+  /* .rounded-full{
     border-radius: 50%;
-    
-      }
+    overflow: "hidden"
+      } */
 }

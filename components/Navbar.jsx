@@ -14,10 +14,12 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Link from "next/link";
-import { Stack } from "@mui/system";
+import { display, Stack } from "@mui/system";
+import Image from "next/image";
+import logoPath from "../public/Logo.svg";
 
 const drawerWidth = 240;
-const logoPath = "Logo.svg";
+// const logoPath = "/Logo.svg";
 
 const navItems = [
   { id: 0, title: "من نحن", url: "/about" },
@@ -36,16 +38,16 @@ function DrawerAppBar(props) {
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Link href="/">
         <Box
-          component="img"
           sx={{
             height: 60,
             width: 145,
             maxHeight: { xs: 70, md: 60 },
             maxWidth: { xs: 150, md: 145 },
+            ml: { xs: 5 },
           }}
-          alt="Logo"
-          src={logoPath}
-        />
+        >
+          <Image src={logoPath} layout="responsive" alt="Orange" />
+        </Box>
       </Link>
       <Divider />
       <List>
@@ -104,7 +106,9 @@ function DrawerAppBar(props) {
             width={1}
           >
             <Link href="/contact">
-              <Button sx={{ color: "black" }}>
+              <Button
+                sx={{ color: "black", display: { xs: "none", sm: "block" } }}
+              >
                 <Typography
                   variant="h6"
                   component="div"
@@ -152,19 +156,17 @@ function DrawerAppBar(props) {
                 }}
               >
                 <Box
-                  component="img"
                   sx={{
                     height: { md: 90, xs: 1 },
                     width: { md: 145, xs: 110 },
                     maxHeight: { xs: 60, md: 60 },
                     maxWidth: { xs: 200, md: 145 },
-                    mr: { xs: "100%", md: 0 },
                     display: { xs: "block" },
                     alignItems: { xs: "center" },
                   }}
-                  alt="Logo"
-                  src={logoPath}
-                />
+                >
+                  <Image src={logoPath} layout="responsive" alt="Orange" />
+                </Box>
               </Button>
             </Link>
           </Stack>

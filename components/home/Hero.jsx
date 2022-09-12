@@ -30,15 +30,6 @@ export default function Hero(props) {
       }}
     >
       <Grid item xs={12} md={6}>
-        {/* <Box
-          component="img"
-          sx={{
-            height: 1,
-            width: 1,
-          }}
-          src={props.imgUrl}
-        /> */}
-
         <motion.div
           animate={{
             scale: 1.05,
@@ -74,9 +65,9 @@ export default function Hero(props) {
                 // pl: "2vw",
                 // pr: "5vw",
                 pt: { xs: 1, md: 18 },
-                pr: { xs: 2, md: 8 },
-                pl: { xs: 2, md: 4 },
-                fontSize: { xs: 24, sm: 30 },
+                pr: { xs: 5, md: 8 },
+                pl: { xs: 5, md: 4 },
+                fontSize: { xs: 20, sm: 30 },
                 textAlign: "justify",
                 direction: "rtl",
               }}

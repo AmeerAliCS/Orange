@@ -79,7 +79,12 @@ export default function Testimonial() {
                 }}
               >
                 {" "}
-                <Image src={data.imageUrl} width={"100%"} height={"100%"} />
+                <Image
+                  src={data.imageUrl}
+                  width={"100%"}
+                  height={"100%"}
+                  alt="orange"
+                />
               </Box>
             </Stack>
           </motion.div>

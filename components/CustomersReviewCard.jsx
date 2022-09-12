@@ -62,14 +62,18 @@ export default function CustomersReviewCard({
               borderRadius: "100%",
             }}
           >
+            {/* <div style={{ borderRadius: "50%", overflow: "hidden" }}> */}
             <Image
+              alt="Orange"
               src={userImage}
               width={80}
               height={80}
               className="rounded-full"
+              style={{ borderRadius: "50%" }}
             />
+            {/* </div> */}
           </Box>
-          <Image className="customer-vector" src={vector} />
+          <Image className="customer-vector" src={vector} alt="Orange" />
         </CardActions>
       </Card>
     </StyledBox>

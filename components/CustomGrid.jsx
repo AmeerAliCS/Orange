@@ -26,7 +26,7 @@ export default function CustomGrid(props) {
           viewport={{ once: true }}
         >
           <Item>
-            <Image src={props.imageUrl} width={700} height={455} />
+            <Image alt="Orange" src={props.imageUrl} width={700} height={455} />
             <Typography
               variant="h5"
               sx={{

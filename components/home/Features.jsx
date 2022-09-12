@@ -29,6 +29,7 @@ export default function Features() {
                 priority
                 width="140"
                 height="100"
+                alt="orange"
               />
               <Typography sx={{ color: "#3F3D56" }} variant="h4">
                 اسعار تنافسية
@@ -52,6 +53,7 @@ export default function Features() {
                 priority
                 width="150"
                 height="100"
+                alt="orange"
               />
               <Typography sx={{ color: "#3F3D56" }} variant="h4">
                 الموثوقية
@@ -76,6 +78,7 @@ export default function Features() {
                 priority
                 width="100"
                 height="100"
+                alt="orange"
               />
               <Typography sx={{ color: "#3F3D56" }} variant="h4">
                 السرعة
