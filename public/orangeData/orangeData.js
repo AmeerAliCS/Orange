@@ -29,7 +29,7 @@ export const ORANGE_EMAIL = "info@orange.com";
 export const programmingServiceData = [
   {
     id: 0,
-    title: "برمجة تطبيقات سطح المكتب",
+    title: "برمجة تطبيقات الدسكتوب",
     imageUrl: Desktop_icon,
   },
   {
@@ -44,7 +44,7 @@ export const programmingServiceData = [
   },
   {
     id: 3,
-    title: "UI/UX تصميم وتنفيذ واجهات",
+    title: "UI/UX تصميم واجهات",
     imageUrl: ui_ux_icon,
   },
   {
