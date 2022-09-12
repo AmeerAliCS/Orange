@@ -33,7 +33,7 @@ export default function CustomGrid(props) {
                 marginTop: "3%",
                 fontWeight: "bold",
                 color: "#3F3D56",
-                fontSize: { xs: 13, sm: 22 },
+                fontSize: { xs: 12, sm: 21 },
               }}
             >
               {props.title}
