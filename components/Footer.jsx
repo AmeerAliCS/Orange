@@ -22,6 +22,7 @@ const MyTitle = styled("span")(({ theme }) => {
       fontSize: "12px",
       lineHeight: ".7em",
       fontWeight: 900,
+      fontFamily: "Tajawal ,sans-serif",
     },
   };
 });
@@ -115,9 +116,9 @@ const LogoAboute = ({ socialStyle }) => {
         src="/Logo.svg"
       />
       <br />
-      منصة اورنج لخدمات البرمجة والتصميم
+      <Typography> منصة اورنج لخدمات البرمجة والتصميم</Typography>
       <br />
-      <br />
+
       <SocialMedia sx={socialStyle} />
     </StyledBox>
   );
@@ -142,26 +143,44 @@ export default function Footer() {
         paddingTop={{ xs: 2, sm: 7 }}
       >
         <StyledBox>
-          <MyTitle>للعمل معنا</MyTitle>
+          <Typography>
+            <MyTitle>للعمل معنا </MyTitle>
+          </Typography>{" "}
           <br />
-          <Link href={"mailto:".concat(ORANGE_EMAIL)}>hr@orange.com</Link>
+          <Link href={"mailto:".concat(ORANGE_EMAIL)}>
+            <Typography>hr@orange.com</Typography>
+          </Link>
         </StyledBox>
 
         <StyledBox>
-          <MyTitle>المساعدة</MyTitle>
+          <Typography>
+            <MyTitle>المساعدة</MyTitle>
+          </Typography>
+
           <br />
-          <Link href={"mailto:".concat(ORANGE_EMAIL)}>الدعم الفني</Link>
+          <Link href={"mailto:".concat(ORANGE_EMAIL)}>
+            <Typography>الدعم الفني</Typography>
+          </Link>
           <br />
-          <Link href={"mailto:".concat(ORANGE_EMAIL)}>الإبلاغ عن مشكلة</Link>
+          <Link href={"mailto:".concat(ORANGE_EMAIL)}>
+            <Typography>الإبلاغ عن مشكلة</Typography>
+          </Link>
           <br />
         </StyledBox>
 
         <StyledBox>
-          <MyTitle>حول اورنج</MyTitle>
+          <Typography>
+            <MyTitle>حول اورنج </MyTitle>
+          </Typography>
+
           <br />
-          <Link href="/faqs">الاسئلة الشائعة</Link>
+          <Link href="/faqs">
+            <Typography> الاسئلة الشائعة</Typography>
+          </Link>
           <br />
-          <Link href="/projects">مشاريعنا</Link>
+          <Link href="/projects">
+            <Typography> مشاريعنا</Typography>
+          </Link>
           <br />
         </StyledBox>
 

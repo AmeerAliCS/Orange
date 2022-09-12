@@ -19,7 +19,7 @@ function Layout(props) {
           pageId="110388588223967"
           language="ar"
           themeColor={"#ff7700"}
-          bottomSpacing={100}
+          bottomSpacing={"10%"}
           loggedInGreeting="loggedInGreeting"
           loggedOutGreeting="loggedOutGreeting"
           greetingDialogDisplay={"show"}
