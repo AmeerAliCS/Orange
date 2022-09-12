@@ -15,6 +15,7 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="shortcut icon" href="icon.svg" />
       </Head>
+
       <Hero
         imgUrl={heroGif}
         text="اصنع موقعك الالكتروني او تطبيقك او مشروع تخرجك او تصميمك بأعلى

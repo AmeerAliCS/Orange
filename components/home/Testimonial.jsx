@@ -51,7 +51,6 @@ export default function Testimonial() {
             >
               <Box component="div">
                 <Typography
-                  fontFamily="Tajawal"
                   sx={{
                     color: "white",
                     pr: 1,
