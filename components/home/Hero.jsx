@@ -102,7 +102,7 @@ export default function Hero(props) {
                       borderRadius: 20,
                       backgroundColor: "#FF7700",
                       padding: "10px 20px",
-                      fontSize: "25px",
+                      fontSize: "22px",
                       width: "10rem",
                       marginTop: "5vh",
                     }}

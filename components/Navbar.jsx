@@ -91,7 +91,7 @@ function DrawerAppBar(props) {
             sx={{ display: { sm: "none" } }}
           >
             <MenuIcon />
-          </IconButton>{" "}
+          </IconButton>
           <Stack
             direction="row"
             justifyContent="space-between"
@@ -158,7 +158,7 @@ function DrawerAppBar(props) {
                     width: { md: 145, xs: 110 },
                     maxHeight: { xs: 60, md: 60 },
                     maxWidth: { xs: 200, md: 145 },
-                    mr: { xs: "100%" },
+                    mr: { xs: "100%", md: 0 },
                     display: { xs: "block" },
                     alignItems: { xs: "center" },
                   }}
