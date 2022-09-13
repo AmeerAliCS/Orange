@@ -50,7 +50,7 @@ module.exports = {
 module.exports = {
   images: {
     loader: "imgix",
-    path: "https://orange3.vercel.app/",
+    path: "/",
   },
 };
 

@@ -11,7 +11,7 @@ const CustomersReviewCarousel = () => {
     flex: 1,
     justifyContent: "center",
     alignItems: "middle",
-    marginBottom: "15%",
+    marginBottom: "20%",
   };
   return (
     <div style={CONTAINER_STYLE}>
