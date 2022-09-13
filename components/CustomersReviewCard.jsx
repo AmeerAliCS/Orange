@@ -10,6 +10,7 @@ const StyledBox = styled(Box)(({ theme }) => {
     height: 330,
     borderRadius: 15,
     fontSize: 20,
+    marginBottom: 55,
     [theme.breakpoints.only("xs")]: {
       width: 235,
       height: 260,
