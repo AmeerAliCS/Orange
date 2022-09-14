@@ -72,6 +72,7 @@ export default function CustomersReviewCard({
             alt="Orange"
             width={"100%"}
             marginLeft={0}
+            className="vectorBox"
           />
         </CardActions>
       </Card>

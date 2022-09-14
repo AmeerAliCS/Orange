@@ -20,6 +20,9 @@ a {
 [data-testid=availabilityStatus_iframe],[data-testid=unread_iframe]{
   display: none;
 }
+.vectorBox{
+  margin-left: 0;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
