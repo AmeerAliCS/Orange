@@ -53,29 +53,34 @@ export default function CustomersReviewCard({
           }}
         >
           <Box
-            component="img"
-            alt="Orange"
-            src={userImage}
             sx={{
               width: 80,
               height: 80,
-              zIndex: 1,
+
               position: "absolute",
-              border: "3px solid white",
-              mb: "10%",
-              borderRadius: "50%",
+
+              mb: "3%",
             }}
-          />
-          <Box height={{ md: 130, xs: 115 }}>
+          >
             <Box
               component="img"
-              src={vector}
               alt="Orange"
-              width={"100%"}
-              marginLeft={0}
-              className="vectorBox"
+              src={userImage}
+              sx={{
+                width: 1,
+                height: 1,
+                border: "3px solid white",
+                borderRadius: "50%",
+              }}
             />
           </Box>
+          <Box
+            component="img"
+            src={vector}
+            alt="Orange"
+            width={"100%"}
+            className="vectorBox"
+          />
         </CardActions>
       </Card>
     </StyledBox>
