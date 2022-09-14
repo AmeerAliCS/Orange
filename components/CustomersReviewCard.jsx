@@ -66,14 +66,16 @@ export default function CustomersReviewCard({
               borderRadius: "50%",
             }}
           />
-          <Box
-            component="img"
-            src={vector}
-            alt="Orange"
-            width={"100%"}
-            marginLeft={0}
-            className="vectorBox"
-          />
+          <Box height={{ md: 130, xs: 115 }}>
+            <Box
+              component="img"
+              src={vector}
+              alt="Orange"
+              width={"100%"}
+              marginLeft={0}
+              className="vectorBox"
+            />
+          </Box>
         </CardActions>
       </Card>
     </StyledBox>
