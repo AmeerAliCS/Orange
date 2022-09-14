@@ -148,7 +148,7 @@ export default function Footer() {
           </Typography>{" "}
           <br />
           <Link href={"mailto:".concat(ORANGE_EMAIL)}>
-            <Typography>hr@orange.com</Typography>
+            <Typography sx={{ cursor: "pointer" }}>hr@orange.com</Typography>
           </Link>
         </StyledBox>
 
@@ -159,11 +159,11 @@ export default function Footer() {
 
           <br />
           <Link href={"mailto:".concat(ORANGE_EMAIL)}>
-            <Typography>الدعم الفني</Typography>
+            <Typography sx={{ cursor: "pointer" }}>الدعم الفني</Typography>
           </Link>
           <br />
           <Link href={"mailto:".concat(ORANGE_EMAIL)}>
-            <Typography>الإبلاغ عن مشكلة</Typography>
+            <Typography sx={{ cursor: "pointer" }}>الإبلاغ عن مشكلة</Typography>
           </Link>
           <br />
         </StyledBox>
@@ -175,11 +175,11 @@ export default function Footer() {
 
           <br />
           <Link href="/faqs">
-            <Typography> الاسئلة الشائعة</Typography>
+            <Typography sx={{ cursor: "pointer" }}> الاسئلة الشائعة</Typography>
           </Link>
           <br />
           <Link href="/projects">
-            <Typography> مشاريعنا</Typography>
+            <Typography sx={{ cursor: "pointer" }}> مشاريعنا</Typography>
           </Link>
           <br />
         </StyledBox>
@@ -224,6 +224,7 @@ export default function Footer() {
           color: "white",
           py: 1,
           fontSize: { xs: "1em", md: "1.3em" },
+          cursor: "pointer",
         }}
       >
         © Copyright {year} Orange Platform
