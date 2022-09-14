@@ -62,11 +62,17 @@ export default function CustomersReviewCard({
               zIndex: 1,
               position: "absolute",
               border: "3px solid white",
-              mb: "15%",
+              mb: "10%",
               borderRadius: "50%",
             }}
           />
-          <Box component="img" src={vector} alt="Orange" width={"100%"} />
+          <Box
+            component="img"
+            src={vector}
+            alt="Orange"
+            width={"100%"}
+            marginLeft={0}
+          />
         </CardActions>
       </Card>
     </StyledBox>
