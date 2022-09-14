@@ -53,5 +53,9 @@ module.exports = {
     path: "/",
   },
 };
+module.exports = {
+  // Target must be serverless
+  target: "serverless",
+};
 
 module.exports = nextConfig;
