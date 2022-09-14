@@ -15,8 +15,8 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Link from "next/link";
 import { display, Stack } from "@mui/system";
-import Image from "next/image";
-import logoPath from "../public/Logo.svg";
+//import Image from "next/image";
+const logoPath = "/Logo.svg";
 
 const drawerWidth = 240;
 // const logoPath = "/Logo.svg";
@@ -40,13 +40,13 @@ function DrawerAppBar(props) {
         <Box
           sx={{
             height: 60,
-            width: 145,
+            width: 150,
             maxHeight: { xs: 70, md: 60 },
             maxWidth: { xs: 150, md: 145 },
             ml: { xs: 5 },
           }}
         >
-          <Image src={logoPath} layout="responsive" alt="Orange" />
+          <img src={logoPath} layout="responsive" alt="Orange" />
         </Box>
       </Link>
       <Divider />
@@ -156,6 +156,9 @@ function DrawerAppBar(props) {
                 }}
               >
                 <Box
+                  component="img"
+                  src={logoPath}
+                  alt="Orange"
                   sx={{
                     height: { md: 90, xs: 1 },
                     width: { md: 145, xs: 110 },
@@ -164,9 +167,8 @@ function DrawerAppBar(props) {
                     display: { xs: "block" },
                     alignItems: { xs: "center" },
                   }}
-                >
-                  <Image src={logoPath} layout="responsive" alt="Orange" />
-                </Box>
+                />
+                {/* <img src={logoPath} layout="responsive" alt="Orange" /> */}
               </Button>
             </Link>
           </Stack>

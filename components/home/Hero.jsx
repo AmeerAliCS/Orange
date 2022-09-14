@@ -1,7 +1,7 @@
 import { Button, Grid, Typography } from "@mui/material";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Image from "next/image";
+//import Image from "next/image";
 
 const buttonVariants = {
   initial: { opacity: 0 },
@@ -37,7 +37,7 @@ export default function Hero(props) {
             // duration: 60,
           }}
         >
-          <Image alt="Faqs Image" src={props.imgUrl} />
+          <img alt="Faqs Image" src={props.imgUrl} width={"90%"} />
         </motion.div>
       </Grid>
 

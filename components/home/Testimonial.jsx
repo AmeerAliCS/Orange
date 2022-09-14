@@ -1,7 +1,7 @@
 import { Box, Paper, Stack, Typography } from "@mui/material";
 import { testimonialData } from "../../public/orangeData/orangeData";
 import { motion } from "framer-motion";
-import Image from "next/image";
+//import Image from "next/image";
 
 const styles = {
   paperContainer: {
@@ -79,7 +79,7 @@ export default function Testimonial() {
                 }}
               >
                 {" "}
-                <Image
+                <img
                   src={data.imageUrl}
                   width={"100%"}
                   height={"100%"}

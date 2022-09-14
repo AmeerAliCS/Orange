@@ -1,6 +1,6 @@
 import { Avatar, Box, Stack, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import Image from "next/image";
+//import Image from "next/image";
 import Link from "next/link";
 import { FacebookOutlined, Instagram, Mail } from "@mui/icons-material";
 import { ORANGE_EMAIL } from "../public/orangeData/orangeData";
@@ -106,7 +106,7 @@ const SocialMedia = ({ sx, fontSize }) => {
 const LogoAboute = ({ socialStyle }) => {
   return (
     <StyledBox>
-      <Image
+      <img
         height="46px"
         width={186}
         sx={{

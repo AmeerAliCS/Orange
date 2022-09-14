@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Box, Container, Stack, Typography } from "@mui/material";
-import Image from "next/image";
+//import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function Features() {
@@ -24,7 +24,7 @@ export default function Features() {
             viewport={{ once: true }}
           >
             <Box>
-              <Image
+              <img
                 src="/features_icon/percent_icon.svg"
                 priority
                 width="140"
@@ -48,7 +48,7 @@ export default function Features() {
             viewport={{ once: true }}
           >
             <Box>
-              <Image
+              <img
                 src="/features_icon/security_icon.svg"
                 priority
                 width="150"
@@ -73,7 +73,7 @@ export default function Features() {
           >
             {" "}
             <Box>
-              <Image
+              <img
                 src="/features_icon/speed_icon.svg"
                 priority
                 width="100"

@@ -1,8 +1,8 @@
 import { Box, Stack, Typography } from "@mui/material";
 import Head from "next/head";
-import Image from "next/image";
-import Aboutus1 from "../public/images/aboutUs1.svg";
-import Aboutus2 from "../public/images/aboutUs2.svg";
+//import Image from "next/image";
+const Aboutus1 = "/images/aboutUs1.svg";
+const Aboutus2 = "/images/aboutUs2.svg";
 
 export default function About() {
   return (
@@ -40,7 +40,7 @@ export default function About() {
               وسرعة في التسليم مع خدمة العملاء المتوفرة على مدار الساعة (24/7){" "}
             </Typography>
           </Box>
-          <Image priority height="500rem" alt="Faqs Image" src={Aboutus1} />
+          <img priority height="500rem" alt="Faqs Image" src={Aboutus1} />
         </Stack>
 
         <Stack
@@ -65,7 +65,7 @@ export default function About() {
               UI/UX{" "}
             </Typography>
           </Box>
-          <Image priority height="500rem" alt="Faqs Image" src={Aboutus2} />
+          <img priority height="500rem" alt="Faqs Image" src={Aboutus2} />
         </Stack>
       </Box>
     </>

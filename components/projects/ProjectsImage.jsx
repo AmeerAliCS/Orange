@@ -1,5 +1,5 @@
 import Hero from "../home/Hero";
-import projectsImage from "../../public/projects_icon/projects_hero.svg";
+const projectsImage = "/projects_icon/projects_hero.svg";
 export default function ProjectsImage() {
   return (
     <>

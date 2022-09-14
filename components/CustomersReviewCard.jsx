@@ -2,7 +2,7 @@ import { Avatar, Box, CardContent, Typography } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import { styled } from "@mui/material/styles";
-import Image from "next/image";
+//import Image from "next/image";
 
 const StyledBox = styled(Box)(({ theme }) => {
   return {
@@ -53,28 +53,20 @@ export default function CustomersReviewCard({
           }}
         >
           <Box
+            component="img"
+            alt="Orange"
+            src={userImage}
             sx={{
               width: 80,
               height: 80,
               zIndex: 1,
               position: "absolute",
               border: "3px solid white",
-              mb: 5,
-              borderRadius: "100%",
+              mb: "15%",
+              borderRadius: "50%",
             }}
-          >
-            {/* <div style={{ borderRadius: "50%", overflow: "hidden" }}> */}
-            <Image
-              alt="Orange"
-              src={userImage}
-              width={80}
-              height={80}
-              className="rounded-full"
-              style={{ borderRadius: "50%" }}
-            />
-            {/* </div> */}
-          </Box>
-          <Image className="customer-vector" src={vector} alt="Orange" />
+          />
+          <Box component="img" src={vector} alt="Orange" width={"100%"} />
         </CardActions>
       </Card>
     </StyledBox>

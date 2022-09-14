@@ -1,31 +1,31 @@
-import Desktop_icon from "../programming_service_icon/desktop_icon.svg";
-import mobile_icon from "../programming_service_icon/mobile_icon.svg";
-import website_icon from "../programming_service_icon/website_icon.svg";
-import ui_ux_icon from "../programming_service_icon/ui_ux_icon.svg";
-import graduation_icon from "../programming_service_icon/graduation_icon.svg";
-import company_icon from "../programming_service_icon/company_icon.svg";
-import social_media_icon from "../design_service_icon/social_media_icon.svg";
-import card_design_icon from "../design_service_icon/card_design_icon.svg";
-import magazine_design_icon from "../design_service_icon/magazine_design_icon.svg";
-import brochure_design_icon from "../design_service_icon/brochure_design_icon.svg";
-import poster_design_icon from "../design_service_icon/poster_design_icon.svg";
-import safety_app from "../projects_icon/safety_app.svg";
-import covid_app from "../projects_icon/covid_app.svg";
-import qr_code from "../projects_icon/qr_code.svg";
-import satellite from "../projects_icon/satellite.svg";
-import installments from "../projects_icon/installments.svg";
-import money_app from "../projects_icon/money_app.svg";
-import logo_design_icon from "../design_service_icon/logo_design_icon.svg";
+const Desktop_icon = "/programming_service_icon/desktop_icon.svg";
+const mobile_icon = "/programming_service_icon/mobile_icon.svg";
+const website_icon = "/programming_service_icon/website_icon.svg";
+const ui_ux_icon = "/programming_service_icon/ui_ux_icon.svg";
+const graduation_icon = "/programming_service_icon/graduation_icon.svg";
+const company_icon = "/programming_service_icon/company_icon.svg";
+const social_media_icon = "/design_service_icon/social_media_icon.svg";
+const card_design_icon = "/design_service_icon/card_design_icon.svg";
+const magazine_design_icon = "/design_service_icon/magazine_design_icon.svg";
+const brochure_design_icon = "/design_service_icon/brochure_design_icon.svg";
+const poster_design_icon = "/design_service_icon/poster_design_icon.svg";
+const safety_app = "/projects_icon/safety_app.svg";
+const covid_app = "/projects_icon/covid_app.svg";
+const qr_code = "/projects_icon/qr_code.svg";
+const satellite = "/projects_icon/satellite.svg";
+const installments = "/projects_icon/installments.svg";
+const money_app = "/projects_icon/money_app.svg";
+const logo_design_icon = "/design_service_icon/logo_design_icon.svg";
 
-import svgex from "../images/svgex.svg";
-import person from "../images/person.svg";
-import svgcode from "../images/svgcode.svg";
-import img1 from "../images/man.jpeg";
-import img2 from "../images/qw.gif";
-import img3 from "../images/img3.jpeg";
-import vec1 from "../images/blue-vector.svg";
-import vec2 from "../images/orange-vector.svg";
-import vec3 from "../images/dark-vector.svg";
+const svgex = "/images/svgex.svg";
+const person = "/images/person.svg";
+const svgcode = "/images/svgcode.svg";
+const img1 = "/images/man.jpeg";
+const img2 = "/images/qw.gif";
+const img3 = "/images/img3.jpeg";
+const vec1 = "/images/blue-vector.svg";
+const vec2 = "/images/orange-vector.svg";
+const vec3 = "/images/dark-vector.svg";
 
 export const ORANGE_EMAIL = "info@orange.com";
 
@@ -209,7 +209,7 @@ export const faqsData = [
     state: false,
     question: "ماهي منصة اورنج ؟",
     answer:
-      "منصة orange للحلول التقنية والبرمجية نقدم خدمات وانظمة اداريه في مختلف المجالات نتميز بكوننا نقدم خدمة عمل المشاريع الخاصه (نظام اداري خاص ، تطبيق موبايل اندرويد و IOS ,عمل موقع ويب خاص ...) باسرع وقت واقل تكلفه متواجدين 7/24 كل ما عليك هو اعطاء المعلومات اللازمة ونحن نتكفل في الباقي",
+      "منصة orange للحلول التقنية والبرمجية نقدم خدمات وانظمة اداريه في مختلف المجالات نتميز بكوننا نقدم خدمة عمل المشاريع الخاصه (نظام اداري خاص ، تطبيق موبايل اندرويد و IOS ,عمل موقع ويب خاص .) باسرع وقت واقل تكلفه متواجدين 7/24 كل ما عليك هو اعطاء المعلومات اللازمة ونحن نتكفل في الباقي",
   },
   {
     id: 1,

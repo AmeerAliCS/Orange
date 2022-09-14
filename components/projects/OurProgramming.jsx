@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Box, Grid, Stack, Typography } from "@mui/material";
-import Image from "next/image";
+//import Image from "next/image";
 import { ourProgrammingData } from "../../public/orangeData/orangeData";
 import CustomGrid from "../CustomGrid";
 
@@ -47,13 +47,7 @@ export default function OurProgramming() {
           </Grid>
         </Stack>
 
-        <Image
-          src="/dotted.svg"
-          width="100"
-          height="100"
-          priority
-          alt="orange"
-        />
+        <img src="/dotted.svg" width="100" height="100" priority alt="orange" />
       </Box>
     </>
   );
