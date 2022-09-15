@@ -12,7 +12,7 @@ import EmailIcon from "@mui/icons-material/Email";
 const facbookUrl = "www.facebook.com/fb.oranjs";
 const telegramUrl = "https://t.me/tel_orange";
 const emailUrl = "info.orange.com";
-const istgramUrl = "https://www.instagram.com/i.oranjs/";
+const instgramUrl = "www.instagram.com/i.oranjs";
 
 export default function Contact() {
   return (
@@ -108,7 +108,7 @@ export default function Contact() {
                 fontSize={{ xs: 14, sm: 22 }}
                 textAlign="center"
               >
-                <a href="https://www.instagram.com/i.oranjs/">{emailUrl}</a>
+                <a href="https://www.instagram.com/i.oranjs/">{instgramUrl}</a>
               </Typography>
               <InstagramIcon fontSize="large" htmlColor="#FC9338" />
             </Stack>
