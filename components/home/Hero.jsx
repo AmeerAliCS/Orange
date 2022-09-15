@@ -24,8 +24,7 @@ export default function Hero(props) {
         height: { md: 1 },
         width: { md: 1 },
         pt: { xs: 2, md: 7 },
-        // pl: { md: 8, xs: 2 },
-        // pr: { md: 8, xs: 2 },
+
         pl: { md: 8 },
       }}
     >
@@ -34,7 +33,6 @@ export default function Hero(props) {
           animate={{
             scale: 1.05,
             transition: { yoyo: 5, duration: 1 },
-            // duration: 60,
           }}
         >
           <img alt="Faqs Image" src={props.imgUrl} width={"90%"} />

@@ -1,8 +1,18 @@
 import Head from "next/head";
 import Hero from "../components/home/Hero";
-import { Box, Button, TextField, Typography } from "@mui/material";
+import { Box, Button, IconButton, TextField, Typography } from "@mui/material";
 import { ORANGE_EMAIL } from "../public/orangeData/orangeData";
+import { Stack } from "@mui/system";
 const ContactImg = "/images/contact-us.svg";
+import TelegramIcon from "@mui/icons-material/Telegram";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import EmailIcon from "@mui/icons-material/Email";
+
+const facbookUrl = "www.facebook.com/fb.oranjs";
+const telegramUrl = "https://t.me/tel_orange";
+const emailUrl = "info.orange.com";
+const istgramUrl = "https://www.instagram.com/i.oranjs/";
 
 export default function Contact() {
   return (
@@ -27,21 +37,104 @@ export default function Contact() {
           mt: 6,
         }}
       >
-        <Typography textAlign="center" fontSize="inherit">
+        <Typography
+          sx={{ color: "#3c3a54", ml: { xs: 5 }, mr: { xs: 5 } }}
+          textAlign="center"
+          fontSize="inherit"
+        >
           يمكنكم طلب خدمة من خلال مراسلتنا عبر الايميل
         </Typography>
         <Typography
+          sx={{ color: "#3c3a54", ml: { xs: 5 }, mr: { xs: 5 } }}
           fontSize={{ xs: 16, sm: 22 }}
           display="block"
           textAlign="center"
         >
-          <a href="mailto:info@orange.com">{ORANGE_EMAIL}</a>
+          <a href="mailto:info.oranjs@gmail.com">{emailUrl}</a>
         </Typography>
 
-        <Typography textAlign="center" mt={5} fontSize="inherit">
+        <Typography
+          sx={{ color: "#3c3a54", ml: { xs: 5 }, mr: { xs: 5 } }}
+          textAlign="center"
+          mt={5}
+          fontSize="inherit"
+        >
           او من خلال مراسلتنا عبر مواقع التواصل الاجتماعي فيس بوك انستغرام.
         </Typography>
-        <Typography textAlign="center" mt={3} fontSize="inherit">
+        <Stack direction="column" width={1} alignItems="center" sx={{ mt: 5 }}>
+          <Stack direction="column" alignItems="flex-end">
+            <Stack
+              direction="row"
+              justifyContent="flex-start"
+              alignItems="flex-end"
+              spacing={1}
+            >
+              <Typography
+                sx={{ color: "#3c3a54", ml: { xs: 2 }, mr: { xs: 5 } }}
+                fontSize={{ xs: 14, sm: 22 }}
+                textAlign="center"
+              >
+                <a href="mailto:info.oranjs@gmail.com">{emailUrl}</a>
+              </Typography>
+              <EmailIcon fontSize="large" htmlColor="#FC9338" />
+            </Stack>
+
+            <Stack
+              direction="row"
+              justifyContent="flex-start"
+              alignItems="flex-end"
+              spacing={1}
+            >
+              <Typography
+                sx={{ color: "#3c3a54", ml: { xs: 2 }, mr: { xs: 5 } }}
+                fontSize={{ xs: 14, sm: 22 }}
+                textAlign="center"
+              >
+                <a href="https://www.facebook.com/fb.oranjs?_rdc=1&_rdr">
+                  {facbookUrl}
+                </a>
+              </Typography>
+              <FacebookIcon fontSize="large" htmlColor="#FC9338" />
+            </Stack>
+
+            <Stack
+              direction="row"
+              justifyContent="flex-start"
+              alignItems="flex-end"
+              spacing={1}
+            >
+              <Typography
+                sx={{ color: "#3c3a54", ml: { xs: 2 }, mr: { xs: 5 } }}
+                fontSize={{ xs: 14, sm: 22 }}
+                textAlign="center"
+              >
+                <a href="https://www.instagram.com/i.oranjs/">{emailUrl}</a>
+              </Typography>
+              <InstagramIcon fontSize="large" htmlColor="#FC9338" />
+            </Stack>
+            <Stack
+              direction="row"
+              justifyContent="flex-start"
+              alignItems="flex-end"
+              spacing={1}
+            >
+              <Typography
+                sx={{ color: "#3c3a54", ml: { xs: 2 }, mr: { xs: 5 } }}
+                fontSize={{ xs: 14, sm: 22 }}
+                textAlign="center"
+              >
+                <a href="https://t.me/tel_orange">{telegramUrl}</a>
+              </Typography>
+              <TelegramIcon fontSize="large" htmlColor="#FC9338" />
+            </Stack>
+          </Stack>
+        </Stack>
+        {/* <Typography
+          sx={{ color: "#3c3a54", ml: { xs: 5 }, mr: { xs: 5 } }}
+          textAlign="center"
+          mt={3}
+          fontSize="inherit"
+        >
           كما يمكنكم طلب الخدمة من خلال الاستمارة التالية
         </Typography>
 
@@ -106,7 +199,7 @@ export default function Contact() {
               ارسال
             </Button>
           </div>
-        </Box>
+        </Box> */}
       </Box>
     </>
   );
