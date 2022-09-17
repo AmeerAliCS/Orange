@@ -18,7 +18,7 @@ export default function Testimonial() {
         display: "block",
         mt: "5vh",
         width: 1,
-        height: { md: "20vh", xs: "15vh" },
+        height: { md: "20vh", xs: "20vh" },
       }}
     >
       <Stack
