@@ -40,7 +40,16 @@ export default function About() {
               وسرعة في التسليم مع خدمة العملاء المتوفرة على مدار الساعة (24/7){" "}
             </Typography>
           </Box>
-          <img priority height="500rem" alt="Faqs Image" src={Aboutus1} />
+          <Box width={{ md: "50%", xs: 1 }}>
+            <img
+              loading="lazy"
+              priority
+              width={"100%"}
+              height={"100%"}
+              alt="Faqs Image"
+              src={Aboutus1}
+            />
+          </Box>
         </Stack>
 
         <Stack
@@ -65,7 +74,17 @@ export default function About() {
               UI/UX{" "}
             </Typography>
           </Box>
-          <img priority height="500rem" alt="Faqs Image" src={Aboutus2} />
+          <Box width={{ md: "50%", xs: 1 }}>
+            {" "}
+            <img
+              loading="lazy"
+              priority
+              height="100%"
+              width={"100%"}
+              alt="Faqs Image"
+              src={Aboutus2}
+            />{" "}
+          </Box>
         </Stack>
       </Box>
     </>

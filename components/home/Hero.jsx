@@ -35,7 +35,13 @@ export default function Hero(props) {
             transition: { yoyo: 5, duration: 1 },
           }}
         >
-          <img alt="Faqs Image" src={props.imgUrl} width={"90%"} />
+          <img
+            loading="lazy"
+            alt="Faqs Image"
+            src={props.imgUrl}
+            width={"90%"}
+            height={"100%"}
+          />
         </motion.div>
       </Grid>
 

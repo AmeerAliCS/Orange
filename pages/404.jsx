@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import Head from "next/head";
-//import Image from "next/image";
+import Image from "next/image";
 const ErrorImg = "/images/404.svg";
 
 export default function Error() {
@@ -16,7 +16,15 @@ export default function Error() {
         width={1}
         sx={{ textAlign: "center" }}
       >
-        <img priority alt="Faqs Image" src={ErrorImg} width="60%" />
+        <img
+          loading="lazy"
+          priority
+          alt="Faqs Image"
+          src={ErrorImg}
+          width="60%"
+          height="100%"
+        />
+        {/* <Image loading="lazy" /> */}
       </Box>
     </>
   );

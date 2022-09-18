@@ -8,10 +8,10 @@ export default function Faqs() {
       <Container sx={{ marginTop: "2rem" }}>
         <Stack direction="row" justifyContent="center">
           <img
+            loading="lazy"
             height="200rem"
-            // alignSelf="center"
             width="300rem"
-            alt="Faqs Image"
+            alt="منصة اورنج لخدمات البرمجة والتصميم الاسئله الشائعه"
             priority
             src={faqImage}
           />

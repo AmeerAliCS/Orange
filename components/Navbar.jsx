@@ -46,7 +46,14 @@ function DrawerAppBar(props) {
             ml: { xs: 5 },
           }}
         >
-          <img src={logoPath} layout="responsive" alt="Orange" />
+          <img
+            loading="lazy"
+            src={logoPath}
+            layout="responsive"
+            alt="منصة اورنج لخدمات البرمجة والتصميم"
+            width={150}
+            height={60}
+          />
         </Box>
       </Link>
       <Divider />
@@ -156,19 +163,25 @@ function DrawerAppBar(props) {
                 }}
               >
                 <Box
-                  component="img"
-                  src={logoPath}
-                  alt="Orange"
+                  // component="img"
+                  // src={logoPath}
+                  // alt="منصة اورنج لخدمات البرمجة والتصميم"
                   sx={{
-                    height: { md: 90, xs: 1 },
-                    width: { md: 145, xs: 110 },
+                    height: { md: 80, xs: 1 },
+                    width: { md: 100, xs: 110 },
                     maxHeight: { xs: 60, md: 60 },
                     maxWidth: { xs: 200, md: 145 },
                     display: { xs: "block" },
                     alignItems: { xs: "center" },
                   }}
                 />
-                {/* <img src={logoPath} layout="responsive" alt="Orange" /> */}
+                <img
+                  loading="lazy"
+                  src={logoPath}
+                  width={"100%"}
+                  height={"100%"}
+                  alt="Orange"
+                />
               </Button>
             </Link>
           </Stack>

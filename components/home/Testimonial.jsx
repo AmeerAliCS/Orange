@@ -80,6 +80,7 @@ export default function Testimonial() {
               >
                 {" "}
                 <img
+                  loading="lazy"
                   src={data.imageUrl}
                   width={"100%"}
                   height={"100%"}

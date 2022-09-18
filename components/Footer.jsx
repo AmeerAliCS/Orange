@@ -107,12 +107,13 @@ const LogoAboute = ({ socialStyle }) => {
   return (
     <StyledBox>
       <img
+        loading="lazy"
         height="46px"
         width={186}
         sx={{
           width: { sm: "150px", xs: "130px", md: "186px" },
         }}
-        alt="orange logo"
+        alt="منصة اورنج لخدمات البرمجة والتصميم"
         src="/Logo.svg"
       />
       <br />

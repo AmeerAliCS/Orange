@@ -45,7 +45,13 @@ export default function ProgrammingService() {
           </Grid>
         </Stack>
 
-        <img src={Dotted} width="100" height="100" alt="orange" />
+        <img
+          loading="lazy"
+          src={Dotted}
+          width="100"
+          height="100"
+          alt="orange"
+        />
       </Box>
     </>
   );

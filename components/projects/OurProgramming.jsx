@@ -47,7 +47,14 @@ export default function OurProgramming() {
           </Grid>
         </Stack>
 
-        <img src="/dotted.svg" width="100" height="100" priority alt="orange" />
+        <img
+          loading="lazy"
+          src="/dotted.svg"
+          width="100"
+          height="100"
+          priority
+          alt="orange"
+        />
       </Box>
     </>
   );
