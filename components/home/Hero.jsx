@@ -68,7 +68,7 @@ export default function Hero(props) {
                 color: "#3c3a54",
                 // pl: "2vw",
                 // pr: "5vw",
-                pt: { xs: 1, md: 18 },
+                pt: { xs: 1, md: 12 },
                 pr: { xs: 5, md: 8 },
                 pl: { xs: 5, md: 4 },
                 fontSize: { xs: 20, sm: 30 },
