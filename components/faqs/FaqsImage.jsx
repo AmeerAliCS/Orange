@@ -12,7 +12,6 @@ export default function Faqs() {
             height="200rem"
             width="300rem"
             alt="منصة اورنج لخدمات البرمجة والتصميم الاسئله الشائعه"
-            priority
             src={faqImage}
           />
         </Stack>

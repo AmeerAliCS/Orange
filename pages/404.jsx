@@ -18,7 +18,6 @@ export default function Error() {
       >
         <img
           loading="lazy"
-          priority
           alt="Faqs Image"
           src={ErrorImg}
           width="60%"

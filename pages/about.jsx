@@ -43,7 +43,6 @@ export default function About() {
           <Box width={{ md: "50%", xs: 1 }}>
             <img
               loading="lazy"
-              priority
               width={"100%"}
               height={"100%"}
               alt="Faqs Image"
@@ -78,7 +77,6 @@ export default function About() {
             {" "}
             <img
               loading="lazy"
-              priority
               height="100%"
               width={"100%"}
               alt="Faqs Image"
