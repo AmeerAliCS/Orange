@@ -18,7 +18,7 @@ export default function Error() {
       >
         <Image
           loading="lazy"
-          alt="Faqs Image"
+          alt="404 error orange platform"
           src={ErrorImg}
           width="60%"
           height="100%"

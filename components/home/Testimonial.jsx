@@ -84,7 +84,7 @@ export default function Testimonial() {
                   src={data.imageUrl}
                   width={"100%"}
                   height={"100%"}
-                  alt="orange"
+                  alt="منصة اورنج لخدمات البرمجة والتصميم لدينا الكثير من البرامج والتصاميم مع الكثير من الزبائن من مختلف دول العالم"
                 />
               </Box>
             </Stack>

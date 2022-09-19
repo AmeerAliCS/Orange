@@ -37,7 +37,7 @@ export default function Hero(props) {
         >
           <Image
             // loading="lazy"
-            alt="Faqs Image"
+            alt={props.alt}
             src={props.imgUrl}
             width={"750"}
             height={"550"}

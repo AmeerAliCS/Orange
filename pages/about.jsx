@@ -43,7 +43,7 @@ export default function About() {
           <Box width={{ md: "50%", xs: 1 }}>
             <Image
               height="600rem"
-              alt="Faqs Image"
+              alt="منصة اورنج لخدمات البرمجة والتصميم | من نحن"
               src={Aboutus1}
               width="600rem"
               layout="intrinsic"
@@ -76,7 +76,7 @@ export default function About() {
           <Box width={{ md: "50%", xs: 1 }}>
             <Image
               height="400rem"
-              alt="Faqs Image"
+              alt="منصة اورنج لخدمات البرمجة والتصميم | orange platform about us"
               src={Aboutus2}
               width="600rem"
               layout="intrinsic"

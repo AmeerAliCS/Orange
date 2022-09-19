@@ -11,7 +11,7 @@ export default function Faqs() {
             loading="lazy"
             height="200rem"
             width="300rem"
-            alt="منصة اورنج لخدمات البرمجة والتصميم الاسئله الشائعه"
+            alt="الاسئله الشائعة | منصة اورنج لخدمات البرمجة والتصميم"
             src={faqImage}
           />
         </Stack>
