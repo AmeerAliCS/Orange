@@ -36,11 +36,12 @@ export default function Hero(props) {
           }}
         >
           <Image
-            loading="lazy"
+            // loading="lazy"
             alt="Faqs Image"
             src={props.imgUrl}
             width={"750"}
             height={"550"}
+            priority
           />
         </motion.div>
       </Grid>
