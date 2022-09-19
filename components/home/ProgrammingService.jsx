@@ -20,7 +20,7 @@ export default function ProgrammingService() {
           <Typography
             sx={{ color: "#3F3D56" }}
             mt={6}
-            variant="h5"
+            variant="h4"
             component="h1"
           >
             الخدمات البرمجية
