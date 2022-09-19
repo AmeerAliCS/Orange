@@ -13,8 +13,13 @@ export default function Home() {
       <Head>
         <title>منصة اورنج لخدمات البرمجة والتصميم</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content="منصة اورنج لخدمات البرمجة والتصميم | نقدم لكم خدمات مميزة لبرمجة تطبيقات الموبايل والمواقع الالكترونية وبرامج سطح المكتب ومشاريع التخرج ونقدم خدمة التصاميم العصرية بجميع انواعها الطباعية وغير الطباعية" />
-        <meta name="robots" content="index" />
+        <meta name="title" content="منصة اورنج لخدمات البرمجة والتصميم" />
+        <meta name="description" content="نقدم لكم خدمات مميزة لبرمجة تطبيقات الموبايل والمواقع الالكترونية وبرامج سطح المكتب ومشاريع التخرج ونقدم خدمة التصاميم العصرية بجميع انواعها" />
+        <meta name="keywords" content="تطبيقات موبايل, تطبيقات سطح المكتب, مواقع الكترونية, انظمة ادارية, مشاريع تخرج, برامج مطاعم, برامج صيدلية. برامج سوبر ماركت, برامج مخازن, تصميم بوسترات, تصميم شعارات, تصميم هوية بصرية, تصميم فلكس, تصميم رولات, تصميم اعلانات, تصاميم سوشيال ميديا, منصة اورنج," />
+        <meta name="robots" content="index, follow" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="Arabic" />
+        <meta name="author" content="orange platform" />
         <link rel="shortcut icon" href="icon.svg" />
       </Head>
 
