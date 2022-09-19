@@ -20,10 +20,9 @@ export default function Error() {
           loading="lazy"
           alt="404 error orange platform"
           src={ErrorImg}
-          width="60%"
-          height="100%"
+          width="800"
+          height="550"
         />
-        {/* <Image loading="lazy" /> */}
       </Box>
     </>
   );
