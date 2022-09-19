@@ -1,7 +1,7 @@
 import { Button, Grid, Typography } from "@mui/material";
 import { motion } from "framer-motion";
 import Link from "next/link";
-//import Image from "next/image";
+import Image from "next/image";
 
 const buttonVariants = {
   initial: { opacity: 0 },
@@ -35,12 +35,12 @@ export default function Hero(props) {
             transition: { yoyo: 5, duration: 1 },
           }}
         >
-          <img
+          <Image
             loading="lazy"
             alt="Faqs Image"
             src={props.imgUrl}
-            width={"90%"}
-            height={"100%"}
+            width={"750"}
+            height={"550"}
           />
         </motion.div>
       </Grid>

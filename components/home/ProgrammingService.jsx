@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Grid, Typography, Stack, Box } from "@mui/material";
-//import Image from "next/image";
+import Image from "next/image";
 import { programmingServiceData } from "../../public/orangeData/orangeData";
 import CustomGrid from "../CustomGrid";
 const Dotted = "/dotted.svg";
@@ -45,7 +45,7 @@ export default function ProgrammingService() {
           </Grid>
         </Stack>
 
-        <img
+        <Image
           loading="lazy"
           src={Dotted}
           width="100"

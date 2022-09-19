@@ -16,7 +16,7 @@ export default function Error() {
         width={1}
         sx={{ textAlign: "center" }}
       >
-        <img
+        <Image
           loading="lazy"
           alt="Faqs Image"
           src={ErrorImg}

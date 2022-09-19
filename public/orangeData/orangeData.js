@@ -20,13 +20,15 @@ const logo_design_icon = "/design_service_icon/logo_design_icon.svg";
 const svgex = "/images/svgex.svg";
 const person = "/images/person.svg";
 const svgcode = "/images/svgcode.svg";
-const img1 = "/images/man.jpeg";
-const img2 = "/images/qw.gif";
-const img3 = "/images/img3.jpeg";
+import img1 from "../../public/images/man.jpeg";
+import img2 from "../../public/images/qw.jpeg";
+import img3 from "../../public/images/img3.jpeg";
 const vec1 = "/images/blue-vector.svg";
 const vec2 = "/images/orange-vector.svg";
 const vec3 = "/images/dark-vector.svg";
-
+// import vec1 from "../../public/images/blue-vector.svg";
+// import vec2 from "../../public/images/orange-vector.svg";
+// import vec3 from "../../public/images/dark-vector.svg";
 export const ORANGE_EMAIL = "info@orange.com";
 
 export const programmingServiceData = [

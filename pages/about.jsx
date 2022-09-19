@@ -1,6 +1,6 @@
 import { Box, Stack, Typography } from "@mui/material";
 import Head from "next/head";
-//import Image from "next/image";
+import Image from "next/image";
 const Aboutus1 = "/images/aboutUs1.svg";
 const Aboutus2 = "/images/aboutUs2.svg";
 
@@ -41,12 +41,12 @@ export default function About() {
             </Typography>
           </Box>
           <Box width={{ md: "50%", xs: 1 }}>
-            <img
-              loading="lazy"
-              width={"100%"}
-              height={"100%"}
+            <Image
+              height="600rem"
               alt="Faqs Image"
               src={Aboutus1}
+              width="600rem"
+              layout="intrinsic"
             />
           </Box>
         </Stack>
@@ -70,18 +70,18 @@ export default function About() {
               لدينا خدمة التصاميم بجميع انواعها الطباعية وغير الطباعية
               كالبوسترات وتصميم الشعارات وتصميم الكروت الشخصية وبطاقات الدعوة
               وتصاميم الفلكسات والفليرات وتصميم المجلات والبروشرات وتصاميم ال
-              UI/UX{" "}
+              UI/UX
             </Typography>
           </Box>
           <Box width={{ md: "50%", xs: 1 }}>
-            {" "}
-            <img
-              loading="lazy"
-              height="100%"
-              width={"100%"}
+            <Image
+              height="400rem"
               alt="Faqs Image"
               src={Aboutus2}
-            />{" "}
+              width="600rem"
+              layout="intrinsic"
+              style={{ marginBottom: "100px" }}
+            />
           </Box>
         </Stack>
       </Box>

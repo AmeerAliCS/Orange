@@ -15,7 +15,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Link from "next/link";
 import { display, Stack } from "@mui/system";
-//import Image from "next/image";
+import Image from "next/image";
 const logoPath = "/Logo.svg";
 
 const drawerWidth = 240;
@@ -46,7 +46,7 @@ function DrawerAppBar(props) {
             ml: { xs: 5 },
           }}
         >
-          <img
+          <Image
             loading="lazy"
             src={logoPath}
             layout="responsive"
@@ -167,19 +167,17 @@ function DrawerAppBar(props) {
                   // src={logoPath}
                   // alt="منصة اورنج لخدمات البرمجة والتصميم"
                   sx={{
-                    height: { md: 80, xs: 1 },
-                    width: { md: 100, xs: 110 },
-                    maxHeight: { xs: 60, md: 60 },
-                    maxWidth: { xs: 200, md: 145 },
+                    height: { md: 50, xs: 50 },
+                    width: { md: 125, xs: 100 },
+
                     display: { xs: "block" },
                     alignItems: { xs: "center" },
                   }}
                 />
-                <img
+                <Image
                   loading="lazy"
                   src={logoPath}
-                  width={"100%"}
-                  height={"100%"}
+                  layout="fill"
                   alt="Orange"
                 />
               </Button>

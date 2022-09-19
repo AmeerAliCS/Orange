@@ -72,6 +72,7 @@ export default function CustomersReviewCard({
                 border: "3px solid white",
                 borderRadius: "50%",
               }}
+              loading="lazy"
             />
           </Box>
           <Box
@@ -80,6 +81,7 @@ export default function CustomersReviewCard({
             alt="Orange"
             width={"100%"}
             className="vectorBox"
+            loading="lazy"
           />
         </CardActions>
       </Card>

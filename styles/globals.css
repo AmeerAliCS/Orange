@@ -20,6 +20,7 @@ a {
 [data-testid=availabilityStatus_iframe],[data-testid=unread_iframe]{
   display: none;
 }
+
 .vectorBox{
   margin-left: 0;
 }
@@ -28,6 +29,10 @@ a {
   html {
     color-scheme: dark;
   }
+  .css-siph1i-MuiCardActions-root>:not(:first-of-type){
+    margin-left: 0;
+  }
+
   body {
     color: white;
     background: rgb(255, 255, 255);

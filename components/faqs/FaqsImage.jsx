@@ -1,5 +1,5 @@
 import { Container, Stack } from "@mui/material";
-//import Image from "next/image";
+import Image from "next/image";
 const faqImage = "/faqs_icon/faqs.svg";
 
 export default function Faqs() {
@@ -7,7 +7,7 @@ export default function Faqs() {
     <>
       <Container sx={{ marginTop: "2rem" }}>
         <Stack direction="row" justifyContent="center">
-          <img
+          <Image
             loading="lazy"
             height="200rem"
             width="300rem"
