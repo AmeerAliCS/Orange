@@ -14,6 +14,7 @@ export default function Home() {
         <title>منصة اورنج لخدمات البرمجة والتصميم</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="منصة اورنج لخدمات البرمجة والتصميم | نقدم لكم خدمات مميزة لبرمجة تطبيقات الموبايل والمواقع الالكترونية وبرامج سطح المكتب ومشاريع التخرج ونقدم خدمة التصاميم العصرية بجميع انواعها الطباعية وغير الطباعية" />
+        <meta name="robots" content="index" />
         <link rel="shortcut icon" href="icon.svg" />
       </Head>
 
