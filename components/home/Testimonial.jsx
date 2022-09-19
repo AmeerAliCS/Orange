@@ -77,7 +77,6 @@ export default function Testimonial() {
                   width: { md: 60, xs: 45 },
                 }}
               >
-                {" "}
                 <Image
                   loading="lazy"
                   src={data.imageUrl}
