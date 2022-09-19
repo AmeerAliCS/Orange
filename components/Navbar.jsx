@@ -50,7 +50,7 @@ function DrawerAppBar(props) {
             loading="lazy"
             src={logoPath}
             layout="responsive"
-            alt="منصة اورنج لخدمات البرمجة والتصميم"
+            alt=" منصة اورنج لخدمات البرمجة والتصميم لتصميم مشريع التخرج"
             width={150}
             height={60}
           />
@@ -163,9 +163,6 @@ function DrawerAppBar(props) {
                 }}
               >
                 <Box
-                  // component="img"
-                  // src={logoPath}
-                  // alt="منصة اورنج لخدمات البرمجة والتصميم"
                   sx={{
                     height: { md: 50, xs: 50 },
                     width: { md: 125, xs: 100 },
@@ -178,7 +175,7 @@ function DrawerAppBar(props) {
                   loading="lazy"
                   src={logoPath}
                   layout="fill"
-                  alt="Orange"
+                  alt=" منصة اورنج لخدمات البرمجة والتصميم لبرمجة المشاريع الخاصه"
                 />
               </Button>
             </Link>

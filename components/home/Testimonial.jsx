@@ -2,7 +2,6 @@ import { Box, Paper, Stack, Typography } from "@mui/material";
 import { testimonialData } from "../../public/orangeData/orangeData";
 import { motion } from "framer-motion";
 import Image from "next/image";
-
 const styles = {
   paperContainer: {
     backgroundImage: `url(${"Testimonial.svg"})`,
@@ -84,7 +83,7 @@ export default function Testimonial() {
                   src={data.imageUrl}
                   width={"100%"}
                   height={"100%"}
-                  alt="orange"
+                  alt="منصة الورنج للتصميم تصميم شعارات تصميم بوسترات"
                 />
               </Box>
             </Stack>

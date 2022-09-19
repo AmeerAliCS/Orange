@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 import { Paper, Grid, Typography, Box } from "@mui/material";
 import { styled } from "@mui/system";
-//import Image from "next/image";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Item = styled(Paper)({
   paddingTop: 25,
@@ -28,12 +28,11 @@ export default function CustomGrid(props) {
           viewport={{ once: true }}
         >
           <Item>
-            <Box
-              component="img"
-              alt="Orange"
+            <Image
               src={props.imageUrl}
-              width={"90%"}
-              heigh={"90%"}
+              height="250"
+              width="350"
+              loading="lazy"
             />
             <Typography
               variant="h5"

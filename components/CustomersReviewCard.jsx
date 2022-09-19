@@ -2,7 +2,7 @@ import { Avatar, Box, CardContent, Typography } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import { styled } from "@mui/material/styles";
-//import Image from "next/image";
+import Image from "next/image";
 
 const StyledBox = styled(Box)(({ theme }) => {
   return {
@@ -63,26 +63,27 @@ export default function CustomersReviewCard({
             }}
           >
             <Box
-              component="img"
-              alt="Orange"
-              src={userImage}
               sx={{
                 width: 1,
                 height: 1,
                 border: "3px solid white",
                 borderRadius: "50%",
+                zIndex: 1,
+                position: "absolute",
               }}
-              loading="lazy"
-            />
+              // loading="lazy"
+            >
+              <Image
+                alt="اراء الزبائن بخدماتنا"
+                loading="lazy"
+                src={userImage}
+                layout="fill"
+                style={{ zInsex: 1, position: "absolute", borderRadius: "50%" }}
+              />
+            </Box>
           </Box>
-          <Box
-            component="img"
-            src={vector}
-            alt="Orange"
-            width={"100%"}
-            className="vectorBox"
-            loading="lazy"
-          />
+
+          <Image src={vector} width={270} height={135} alt="اراء الزبائن " />
         </CardActions>
       </Card>
     </StyledBox>

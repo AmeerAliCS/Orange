@@ -43,7 +43,8 @@ export default function About() {
           <Box width={{ md: "50%", xs: 1 }}>
             <Image
               height="600rem"
-              alt="Faqs Image"
+              alt="منصة orange لخدمات البرمجة والتصميم ومشاريع التخرج نقدم لكم برامج
+              بأحدث التقنيات البرمجية وتصاميم عصرية بأنسب الاسعار وافضل جودة"
               src={Aboutus1}
               width="600rem"
               layout="intrinsic"
@@ -76,7 +77,8 @@ export default function About() {
           <Box width={{ md: "50%", xs: 1 }}>
             <Image
               height="400rem"
-              alt="Faqs Image"
+              alt="   لدينا برامج ومشاريع تخرج جاهزة للبيع وتتوفر لدينا خدمة البرمجة
+              الخاصة حسب الطلب (نقوم بتحويل اي فكرة في عقلك الى مشروع حقيقي على"
               src={Aboutus2}
               width="600rem"
               layout="intrinsic"

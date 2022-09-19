@@ -53,9 +53,23 @@ module.exports = {
     path: "/",
   },
 };
+
 module.exports = {
-  // Target must be serverless
-  target: "serverless",
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: [
+        {
+          loader: "@svgr/webpack",
+          options: {
+            native: true,
+          },
+        },
+      ],
+    });
+
+    return config;
+  },
 };
 
 module.exports = nextConfig;

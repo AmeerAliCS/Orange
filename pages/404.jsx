@@ -18,7 +18,7 @@ export default function Error() {
       >
         <Image
           loading="lazy"
-          alt="Faqs Image"
+          alt="منصة اورنج"
           src={ErrorImg}
           width="60%"
           height="100%"

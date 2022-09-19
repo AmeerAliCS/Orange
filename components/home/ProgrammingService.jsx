@@ -50,7 +50,7 @@ export default function ProgrammingService() {
           src={Dotted}
           width="100"
           height="100"
-          alt="orange"
+          alt="الخدمات البرمجية"
         />
       </Box>
     </>
