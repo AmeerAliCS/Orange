@@ -43,8 +43,7 @@ export default function About() {
           <Box width={{ md: "50%", xs: 1 }}>
             <Image
               height="600rem"
-              alt="منصة orange لخدمات البرمجة والتصميم ومشاريع التخرج نقدم لكم برامج
-              بأحدث التقنيات البرمجية وتصاميم عصرية بأنسب الاسعار وافضل جودة"
+              alt="منصة اورنج لخدمات البرمجة والتصميم | من نحن"
               src={Aboutus1}
               width="600rem"
               layout="intrinsic"

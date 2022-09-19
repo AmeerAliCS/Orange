@@ -29,7 +29,7 @@ export default function Features() {
                 src="/features_icon/percent_icon.svg"
                 width="140"
                 height="100"
-                alt="اسعار تنافسية"
+                alt="منصة اورنج لخدمات البرمجة والتصميم اسعار تنافسية"
               />
               <Typography sx={{ color: "#3F3D56" }} variant="h4">
                 اسعار تنافسية
@@ -53,7 +53,11 @@ export default function Features() {
                 src="/features_icon/security_icon.svg"
                 width="150"
                 height="100"
+<<<<<<< HEAD
                 alt=" الموثوقية في التعامل"
+=======
+                alt="اصنع برنامجك بأمان مع منصة اورنج لخدمات البرمجة والتصميم"
+>>>>>>> 53f878a81f07ade072132e70f1fc1617437f9b47
               />
               <Typography sx={{ color: "#3F3D56" }} variant="h4">
                 الموثوقية
@@ -78,7 +82,11 @@ export default function Features() {
                 src="/features_icon/speed_icon.svg"
                 width="100"
                 height="100"
+<<<<<<< HEAD
                 alt="السرعة في التنفيذ"
+=======
+                alt="تتميز برامج وتطبيقات اورنج بالسرعة والامان"
+>>>>>>> 53f878a81f07ade072132e70f1fc1617437f9b47
               />
               <Typography sx={{ color: "#3F3D56" }} variant="h4">
                 السرعة

@@ -83,7 +83,7 @@ export default function Testimonial() {
                   src={data.imageUrl}
                   width={"100%"}
                   height={"100%"}
-                  alt="منصة الورنج للتصميم تصميم شعارات تصميم بوسترات"
+                  alt="orange"
                 />
               </Box>
             </Stack>
