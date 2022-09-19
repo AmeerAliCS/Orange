@@ -33,6 +33,7 @@ export default function CustomGrid(props) {
               height="250"
               width="350"
               loading="lazy"
+              alt="منصة اورنج الاقسام البرمجية"
             />
             <Typography
               variant="h5"
