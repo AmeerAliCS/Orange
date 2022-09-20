@@ -23,8 +23,8 @@ export default function Home() {
           name="keywords"
           content="تطبيقات موبايل, تطبيقات سطح المكتب, مواقع الكترونية, انظمة ادارية, مشاريع تخرج, برامج مطاعم, برامج صيدلية. برامج سوبر ماركت, برامج مخازن, تصميم بوسترات, تصميم شعارات, تصميم هوية بصرية, تصميم فلكس, تصميم رولات, تصميم اعلانات, تصاميم سوشيال ميديا, منصة اورنج,"
         />
-        {/* <meta name="robots" content="index, follow" /> */}
-        <meta name="robots" content="all" />
+        <meta name="robots" content="index, follow" />
+        {/* <meta name="robots" content="all" /> */}
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="Arabic" />
         <meta name="author" content="orange platform" />
