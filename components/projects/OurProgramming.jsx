@@ -48,6 +48,7 @@ export default function OurProgramming() {
         </Stack>
 
         <Image
+          draggable="false"
           loading="lazy"
           src="/dotted.svg"
           width="100"

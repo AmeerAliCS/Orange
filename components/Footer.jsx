@@ -107,6 +107,7 @@ const LogoAboute = ({ socialStyle }) => {
   return (
     <StyledBox>
       <Image
+        draggable="false"
         loading="lazy"
         height="46px"
         width={186}

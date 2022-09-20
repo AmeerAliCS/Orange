@@ -36,7 +36,7 @@ export default function Hero(props) {
           }}
         >
           <Image
-            // loading="lazy"
+            draggable="false" // loading="lazy"
             alt="منصة اورنج لتصميم التطبيقات والمواقع الالكترونية"
             src={props.imgUrl}
             width={"750"}

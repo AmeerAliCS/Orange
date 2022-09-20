@@ -46,6 +46,7 @@ export default function ProgrammingService() {
         </Stack>
 
         <Image
+          draggable="false"
           loading="lazy"
           src={Dotted}
           width="100"

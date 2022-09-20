@@ -25,6 +25,7 @@ export default function Error() {
         sx={{ textAlign: "center" }}
       >
         <Image
+          draggable="false"
           loading="lazy"
           alt="404 error orange platform"
           src={ErrorImg}

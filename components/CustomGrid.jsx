@@ -29,6 +29,7 @@ export default function CustomGrid(props) {
         >
           <Item>
             <Image
+              draggable="false"
               src={props.imageUrl}
               height="250"
               width="350"

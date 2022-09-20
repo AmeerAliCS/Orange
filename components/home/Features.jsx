@@ -25,6 +25,7 @@ export default function Features() {
           >
             <Box>
               <Image
+                draggable="false"
                 loading="lazy"
                 src="/features_icon/percent_icon.svg"
                 width="140"
@@ -49,6 +50,7 @@ export default function Features() {
           >
             <Box>
               <Image
+                draggable="false"
                 loading="lazy"
                 src="/features_icon/security_icon.svg"
                 width="150"
@@ -74,6 +76,7 @@ export default function Features() {
             {" "}
             <Box>
               <Image
+                draggable="false"
                 loading="lazy"
                 src="/features_icon/speed_icon.svg"
                 width="100"

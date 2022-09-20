@@ -55,6 +55,7 @@ export default function About() {
           </Box>
           <Box width={{ md: "50%", xs: 1 }}>
             <Image
+              draggable="false"
               height="600rem"
               alt="منصة اورنج لخدمات البرمجة والتصميم | من نحن"
               src={Aboutus1}
@@ -88,6 +89,7 @@ export default function About() {
           </Box>
           <Box width={{ md: "50%", xs: 1 }}>
             <Image
+              draggable="false"
               height="400rem"
               alt="   لدينا برامج ومشاريع تخرج جاهزة للبيع وتتوفر لدينا خدمة البرمجة
               الخاصة حسب الطلب (نقوم بتحويل اي فكرة في عقلك الى مشروع حقيقي على"

@@ -8,6 +8,7 @@ export default function Faqs() {
       <Container sx={{ marginTop: "2rem" }}>
         <Stack direction="row" justifyContent="center">
           <Image
+            draggable="false"
             loading="lazy"
             height="200rem"
             width="300rem"

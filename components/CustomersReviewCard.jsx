@@ -74,6 +74,7 @@ export default function CustomersReviewCard({
               // loading="lazy"
             >
               <Image
+                draggable="false"
                 alt="اراء الزبائن بخدماتنا"
                 loading="lazy"
                 src={userImage}

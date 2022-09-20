@@ -47,6 +47,7 @@ function DrawerAppBar(props) {
           }}
         >
           <Image
+            draggable="false"
             loading="lazy"
             src={logoPath}
             layout="responsive"
@@ -172,6 +173,7 @@ function DrawerAppBar(props) {
                   }}
                 />
                 <Image
+                  draggable="false"
                   loading="lazy"
                   src={logoPath}
                   layout="fill"

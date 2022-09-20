@@ -78,6 +78,7 @@ export default function Testimonial() {
                 }}
               >
                 <Image
+                  draggable="false"
                   loading="lazy"
                   src={data.imageUrl}
                   width={"100%"}
