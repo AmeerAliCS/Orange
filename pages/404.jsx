@@ -8,8 +8,16 @@ export default function Error() {
     <>
       <Head>
         <title> 404</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="shortcut icon" href="icon.svg" />
+        <meta name="og:title" content="منصة اورنج لخدمات البرمجة والتصميم" />
+        <meta
+          name="og:description"
+          content="نقدم لكم خدمات مميزة لبرمجة تطبيقات الموبايل والمواقع الالكترونية وبرامج سطح المكتب ومشاريع التخرج ونقدم خدمة التصاميم العصرية بجميع انواعها"
+        />
+        <meta
+          name="keywords"
+          content="تطبيقات موبايل, تطبيقات سطح المكتب, مواقع الكترونية, انظمة ادارية, مشاريع تخرج, برامج مطاعم, برامج صيدلية. برامج سوبر ماركت, برامج مخازن, تصميم بوسترات, تصميم شعارات, تصميم هوية بصرية, تصميم فلكس, تصميم رولات, تصميم اعلانات, تصاميم سوشيال ميديا, منصة اورنج,"
+        />
+        <link rel="canonical" href={hrefUrl} />
       </Head>
       <Box
         height={{ md: "600px", xs: "300px" }}

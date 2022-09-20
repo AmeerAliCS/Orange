@@ -4,13 +4,26 @@ import Image from "next/image";
 const Aboutus1 = "/images/aboutUs1.svg";
 const Aboutus2 = "/images/aboutUs2.svg";
 
+const hrefUrl = "https://orange2.vercel.app/about";
+
 export default function About() {
   return (
     <>
       <Head>
         <title>من نحن</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="shortcut icon" href="icon.svg" />
+        <meta
+          name="og:title"
+          content="منصة اورنج لخدمات البرمجة والتصميم | من نحن"
+        />
+        <meta
+          name="og:description"
+          content="نقدم لكم خدمات مميزة لبرمجة تطبيقات الموبايل والمواقع الالكترونية وبرامج سطح المكتب ومشاريع التخرج ونقدم خدمة التصاميم العصرية بجميع انواعها"
+        />
+        <meta
+          name="keywords"
+          content="تطبيقات موبايل, تطبيقات سطح المكتب, مواقع الكترونية, انظمة ادارية, مشاريع تخرج, برامج مطاعم, برامج صيدلية. برامج سوبر ماركت, برامج مخازن, تصميم بوسترات, تصميم شعارات, تصميم هوية بصرية, تصميم فلكس, تصميم رولات, تصميم اعلانات, تصاميم سوشيال ميديا, منصة اورنج,"
+        />
+        <link rel="canonical" href={hrefUrl} />
       </Head>
 
       <Box>
