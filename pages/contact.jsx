@@ -18,11 +18,11 @@ export default function Contact() {
         <title>تواصل معنا</title>
 
         <meta
-          name="og:title"
+          name="title"
           content="منصة اورنج لخدمات البرمجة والتصميم | تواصل معنا"
         />
         <meta
-          name="og:description"
+          name="description"
           content="نقدم لكم خدمات مميزة لبرمجة تطبيقات الموبايل والمواقع الالكترونية وبرامج سطح المكتب ومشاريع التخرج ونقدم خدمة التصاميم العصرية بجميع انواعها"
         />
         <meta
