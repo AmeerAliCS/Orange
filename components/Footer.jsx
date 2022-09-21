@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { FacebookOutlined, Instagram, Mail } from "@mui/icons-material";
 import { ORANGE_EMAIL } from "../public/orangeData/orangeData";
+import TelegramIcon from "@mui/icons-material/Telegram";
+
 
 const year = new Date().getFullYear();
 
@@ -78,21 +80,21 @@ const SocialMedia = ({ sx, fontSize }) => {
         ...sx,
       }}
     >
-      <Link href="https://google.com">
+      <Link href="https://t.me/tel_orange">
         <a target="_blank">
           <StyledAvatar sx={{ backgroundColor: "white" }}>
-            <Mail fontSize={fontSize} htmlColor="#FC9338" />
+            <TelegramIcon fontSize={fontSize} htmlColor="#FC9338" />
           </StyledAvatar>
         </a>
       </Link>
-      <Link href="https://google.com">
+      <Link href="https://www.instagram.com/i.oranjs">
         <a target="_blank">
           <StyledAvatar sx={{ backgroundColor: "white" }}>
             <Instagram fontSize={fontSize} htmlColor="#FC9338" />
           </StyledAvatar>
         </a>
       </Link>
-      <Link href="https://google.com">
+      <Link href="https://www.facebook.com/fb.oranjs">
         <a target="_blank">
           <StyledAvatar sx={{ backgroundColor: "white" }}>
             <FacebookOutlined fontSize={fontSize} htmlColor="#FC9338" />
