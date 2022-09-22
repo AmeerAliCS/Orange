@@ -8,9 +8,9 @@ export default function Error() {
     <>
       <Head>
         <title> 404</title>
-        <meta name="title" content="منصة اورنج لخدمات البرمجة والتصميم" />
+        <meta name="og:title" content="منصة اورنج لخدمات البرمجة والتصميم" />
         <meta
-          name="description"
+          name="og:description"
           content="نقدم لكم خدمات مميزة لبرمجة تطبيقات الموبايل والمواقع الالكترونية وبرامج سطح المكتب ومشاريع التخرج ونقدم خدمة التصاميم العصرية بجميع انواعها"
         />
         <meta

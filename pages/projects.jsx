@@ -10,11 +10,11 @@ export default function Projects() {
       <Head>
         <title>مشاريعنا</title>
         <meta
-          name="title"
+          name="og:title"
           content=" منصة اورنج لخدمات البرمجة والتصميم | مشاريعنا"
         />
         <meta
-          name="description"
+          name="og:description"
           content="نقدم خدمات مميزه في البرمجة والتصميم وتنفيذ كافة المشاريع الخاصه ومشاريع التخرج وهنا جزئ من مشاريعنا البرمجية ومجموعه من تصاميمنا "
         />
         <meta

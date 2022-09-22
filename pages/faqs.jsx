@@ -10,11 +10,11 @@ export default function Faqs() {
       <Head>
         <title>الاسئلة الشائعة</title>
         <meta
-          name="title"
+          name="og:title"
           content="منصة اورنج لخدمات البرمجة والتصميم | الاسئلة الشائعه"
         />
         <meta
-          name="description"
+          name="og:description"
           content="نقدم لكم خدمات مميزة لبرمجة تطبيقات الموبايل والمواقع الالكترونية وبرامج سطح المكتب ومشاريع التخرج ونقدم خدمة التصاميم العصرية بجميع انواعها"
         />
         <meta

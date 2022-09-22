@@ -12,11 +12,11 @@ export default function About() {
       <Head>
         <title>من نحن</title>
         <meta
-          name="title"
+          name="og:title"
           content="منصة اورنج لخدمات البرمجة والتصميم | من نحن"
         />
         <meta
-          name="description"
+          name="og:description"
           content="نقدم لكم خدمات مميزة لبرمجة تطبيقات الموبايل والمواقع الالكترونية وبرامج سطح المكتب ومشاريع التخرج ونقدم خدمة التصاميم العصرية بجميع انواعها"
         />
         <meta
