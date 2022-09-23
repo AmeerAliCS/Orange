@@ -153,7 +153,7 @@ export default function Footer() {
           </Typography>{" "}
           <br />
           <Link href={"mailto:".concat(ORANGE_EMAIL)}>
-            <Typography sx={{ cursor: "pointer" }}>hr@orange.com</Typography>
+            <Typography sx={{ cursor: "pointer" }}>info.oranjs@gmail.com</Typography>
           </Link>
         </StyledBox>
 

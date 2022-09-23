@@ -37,7 +37,7 @@ import vec1 from "../../public/images/blue-vector.svg";
 import vec2 from "../../public/images/orange-vector.svg";
 import vec3 from "../../public/images/dark-vector.svg";
 
-export const ORANGE_EMAIL = "info@orange.com";
+export const ORANGE_EMAIL = "info.oranjs@gmail.com";
 
 export const programmingServiceData = [
   {
