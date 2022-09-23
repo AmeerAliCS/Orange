@@ -16,20 +16,20 @@ export default function Contact() {
     <>
       <Head>
         <title>تواصل معنا</title>
-        <meta name="description" content="يحتوي هذا القسم على وسائل للتواصل مع منصة اورنج" />
+        <meta
+          name="description"
+          content="يحتوي هذا القسم على وسائل للتواصل مع منصة اورنج"
+        />
 
         <meta
           name="og:title"
           content="منصة اورنج لخدمات البرمجة والتصميم | تواصل معنا"
         />
         <meta
-          name="og:description"
+          property="og:description"
           content="يحتوي هذا القسم على وسائل للتواصل مع منصة اورنج"
         />
-        <meta
-          name="keywords"
-          content="منصة اورنج,تواصل معنا"
-        />
+        <meta name="keywords" content="منصة اورنج,تواصل معنا" />
         <link rel="canonical" href={hrefUrl} />
       </Head>
 
