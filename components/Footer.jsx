@@ -6,7 +6,6 @@ import { FacebookOutlined, Instagram, Mail } from "@mui/icons-material";
 import { ORANGE_EMAIL } from "../public/orangeData/orangeData";
 import TelegramIcon from "@mui/icons-material/Telegram";
 
-
 const year = new Date().getFullYear();
 
 const MyTitle = styled("span")(({ theme }) => {
@@ -80,7 +79,6 @@ const SocialMedia = ({ sx, fontSize }) => {
         ...sx,
       }}
     >
-    
       <Link href="https://t.me/tel_orange">
         <a target="_blank">
           <StyledAvatar sx={{ backgroundColor: "white" }}>
@@ -153,7 +151,9 @@ export default function Footer() {
           </Typography>{" "}
           <br />
           <Link href={"mailto:".concat(ORANGE_EMAIL)}>
-            <Typography sx={{ cursor: "pointer" }}>info.oranjs@gmail.com</Typography>
+            <Typography sx={{ cursor: "pointer" }}>
+              info.oranjs@gmail.com
+            </Typography>
           </Link>
         </StyledBox>
 
@@ -229,7 +229,7 @@ export default function Footer() {
           color: "white",
           py: 1,
           fontSize: { xs: "1em", md: "1.3em" },
-          cursor: "pointer",
+          cursor: "default",
         }}
       >
         © Copyright {year} Orange Platform

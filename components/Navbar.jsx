@@ -88,8 +88,8 @@ function DrawerAppBar(props) {
         sx={{
           justifyContent: "space-between",
           bgcolor: "background.paper",
-          color: "gray",
-          boxShadow: 1,
+
+          boxShadow: { md: 3.5, xs: 0.2 },
         }}
       >
         <Toolbar>
