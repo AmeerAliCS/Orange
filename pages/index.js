@@ -13,6 +13,7 @@ export default function Home() {
     <>
       <Head>
         <title>منصة اورنج لخدمات البرمجة والتصميم</title>
+        <meta name="description" content="نقدم لكم خدمات مميزة لبرمجة تطبيقات الموبايل والمواقع الالكترونية وبرامج سطح المكتب ومشاريع التخرج ونقدم خدمة التصاميم العصرية بجميع انواعها" />
         <meta name="og:title" content="منصة اورنج لخدمات البرمجة والتصميم" />
         <meta
           name="og:description"
