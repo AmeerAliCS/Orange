@@ -80,6 +80,7 @@ const SocialMedia = ({ sx, fontSize }) => {
         ...sx,
       }}
     >
+    
       <Link href="https://t.me/tel_orange">
         <a target="_blank">
           <StyledAvatar sx={{ backgroundColor: "white" }}>

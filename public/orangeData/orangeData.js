@@ -9,13 +9,23 @@ import card_design_icon from "../../public/design_service_icon/card_design_icon.
 import magazine_design_icon from "../../public/design_service_icon/magazine_design_icon.svg";
 import brochure_design_icon from "../../public/design_service_icon/brochure_design_icon.svg";
 import poster_design_icon from "../../public/design_service_icon/poster_design_icon.svg";
-import safety_app from "../../public/projects_icon/safety_app.svg";
-import covid_app from "../../public/projects_icon/covid_app.svg";
-import qr_code from "../../public/projects_icon/qr_code.svg";
-import satellite from "../../public/projects_icon/satellite.svg";
-import installments from "../../public/projects_icon/installments.svg";
-import money_app from "../../public/projects_icon/money_app.svg";
+
+import safety_app from "../../public/projects_icon/ourProgramming/safety_app.svg";
+import covid_app from "../../public/projects_icon/ourProgramming/covid_app.svg";
+import qr_code from "../../public/projects_icon/ourProgramming/qr_code.svg";
+import satellite from "../../public/projects_icon/ourProgramming/satellite.svg";
+import installments from "../../public/projects_icon/ourProgramming/installments.svg";
+import money_app from "../../public/projects_icon/ourProgramming/money_app.svg";
 import logo_design_icon from "../../public/design_service_icon/logo_design_icon.svg";
+
+import poster_design from "../../public/projects_icon/ourDesign/poster_design.svg";
+import logo_design from "../../public/projects_icon/ourDesign/logo_design.svg";
+import card_design from "../../public/projects_icon/ourDesign/card_design.svg";
+import cv_design from "../../public/projects_icon/ourDesign/cv_design.svg";
+import menu_design from "../../public/projects_icon/ourDesign/menu_design.svg";
+import roll_up_design from "../../public/projects_icon/ourDesign/roll_up_design.svg";
+
+
 
 import svgex from "../../public/images/svgex.svg";
 import person from "../../public/images/person.svg";
@@ -131,33 +141,33 @@ export const ourProgrammingData = [
 export const ourDesignData = [
   {
     id: 0,
-    title: "No Name",
-    imageUrl: Desktop_icon,
+    title: "تصميم بوسترات",
+    imageUrl: poster_design,
   },
   {
     id: 1,
-    title: "No Name",
-    imageUrl: mobile_icon,
+    title: "شعار منصة اورنج",
+    imageUrl: logo_design,
   },
   {
     id: 2,
-    title: "No Name",
-    imageUrl: website_icon,
+    title: "تصميم كروت",
+    imageUrl: card_design,
   },
   {
     id: 3,
-    title: "No Name",
-    imageUrl: ui_ux_icon,
+    title: "CV تصاميم",
+    imageUrl: cv_design,
   },
   {
     id: 4,
-    title: "No Name",
-    imageUrl: graduation_icon,
+    title: "منيو طعام",
+    imageUrl: menu_design,
   },
   {
     id: 5,
-    title: "No Name",
-    imageUrl: company_icon,
+    title: "تصميم رولات اعلانية",
+    imageUrl: roll_up_design,
   },
 ];
 
