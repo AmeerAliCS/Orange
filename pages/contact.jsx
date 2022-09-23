@@ -22,7 +22,7 @@ export default function Contact() {
         />
 
         <meta
-          name="og:title"
+          property="og:title"
           content="منصة اورنج لخدمات البرمجة والتصميم | تواصل معنا"
         />
         <meta

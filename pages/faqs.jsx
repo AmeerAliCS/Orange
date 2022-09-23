@@ -14,7 +14,7 @@ export default function Faqs() {
           content="يحتوي هذا القسم على بعض الاسئلة الشائعة ويمكنكم سؤالنا عبر وسائل التواصل المتوفرة داخل الموقع"
         />
         <meta
-          name="og:title"
+          property="og:title"
           content="منصة اورنج لخدمات البرمجة والتصميم | الاسئلة الشائعه"
         />
         <meta

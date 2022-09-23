@@ -14,7 +14,7 @@ export default function Projects() {
           content="يحتوي هذا القسم على بعض الاعمال البرمجية التي برمجتها منصة اورنج كما يحتوي على بعض التصاميم التي صممتها منصة اورنج"
         />
         <meta
-          name="og:title"
+          property="og:title"
           content=" منصة اورنج لخدمات البرمجة والتصميم | مشاريعنا"
         />
         <meta
