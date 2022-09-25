@@ -141,7 +141,6 @@ export default function Footer() {
       <Stack
         direction="row"
         justifyContent="space-around"
-        // alignItems="center"
         spacing={0}
         paddingTop={{ xs: 2, sm: 7 }}
       >

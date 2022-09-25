@@ -23,7 +23,6 @@ function Layout(props) {
       <ThemeProvider theme={theme}>
         {/* <Navba /> */}
         <Navbar />
-        {/* <h1>Hello World !!!!!</h1> */}
         {props.children}
         <MessengerChat
           pageId="110388588223967"

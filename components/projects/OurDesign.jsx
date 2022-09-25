@@ -12,7 +12,6 @@ export default function OurDesign() {
               </Typography>
     
               <Grid mt={2} container direction="row" columnSpacing={3} rowSpacing={3} >
-                 {/* width="70rem" */}
              
                 {ourDesignData.map((data) => (
                   <CustomGrid key={data.id} imageUrl={data.imageUrl} title={data.title} />

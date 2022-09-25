@@ -44,7 +44,6 @@ export default function Contact() {
       <Box
         sx={{
           fontSize: { xs: 22, sm: 30 },
-          // direction: "rtl",
           mt: 6,
         }}
       >

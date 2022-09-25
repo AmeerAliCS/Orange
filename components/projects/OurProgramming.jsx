@@ -35,7 +35,6 @@ export default function OurProgramming() {
             columnSpacing={3}
             rowSpacing={3}
           >
-            {/* width="70rem" */}
 
             {ourProgrammingData.map((data) => (
               <CustomGrid

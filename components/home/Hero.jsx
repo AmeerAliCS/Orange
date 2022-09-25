@@ -36,7 +36,7 @@ export default function Hero(props) {
           }}
         >
           <Image
-            draggable="false" // loading="lazy"
+            draggable="false"
             alt="منصة اورنج لتصميم التطبيقات والمواقع الالكترونية"
             src={props.imgUrl}
             width={"750"}
@@ -67,8 +67,6 @@ export default function Hero(props) {
             <Typography
               sx={{
                 color: "#3c3a54",
-                // pl: "2vw",
-                // pr: "5vw",
                 pt: { xs: 1, md: 12 },
                 pr: { xs: 5, md: 8 },
                 pl: { xs: 5, md: 4 },

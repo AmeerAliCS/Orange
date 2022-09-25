@@ -19,7 +19,6 @@ import Image from "next/image";
 const logoPath = "/Logo.svg";
 
 const drawerWidth = 240;
-// const logoPath = "/Logo.svg";
 
 const navItems = [
   { id: 0, title: "من نحن", url: "/about" },
