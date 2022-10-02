@@ -3,7 +3,7 @@ import OurProgramming from "../components/projects/OurProgramming";
 import OurDesign from "../components/projects/OurDesign";
 import Head from "next/head";
 
-const hrefUrl = "https://orange2.vercel.app/projects";
+const hrefUrl = "https://oranjs.com/projects";
 export default function Projects() {
   return (
     <>

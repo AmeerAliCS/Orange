@@ -4,7 +4,7 @@ import Image from "next/image";
 const Aboutus1 = "/images/aboutUs1.svg";
 const Aboutus2 = "/images/aboutUs2.svg";
 
-const hrefUrl = "https://orange2.vercel.app/about";
+const hrefUrl = "https://oranjs.com/about";
 
 export default function About() {
   return (

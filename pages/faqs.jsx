@@ -2,7 +2,7 @@ import Head from "next/head";
 import FaqsImage from "../components/faqs/FaqsImage";
 import FaqsQuestions from "../components/faqs/FaqsQuestions";
 
-const hrefUrl = "https://orange2.vercel.app/faqs";
+const hrefUrl = "https://oranjs.com/faqs";
 
 export default function Faqs() {
   return (

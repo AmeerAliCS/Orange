@@ -20,6 +20,7 @@ function Layout(props) {
         <meta name="author" content="orange platform" />
         <link rel="shortcut icon" href="favicon.ico" />
       </Head>
+
       <ThemeProvider theme={theme}>
         {/* <Navba /> */}
         <Navbar />

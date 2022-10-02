@@ -9,7 +9,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import EmailIcon from "@mui/icons-material/Email";
 import Link from "next/link";
 
-const hrefUrl = "https://orange2.vercel.app/contact";
+const hrefUrl = "https://oranjs.com/contact";
 
 export default function Contact() {
   return (

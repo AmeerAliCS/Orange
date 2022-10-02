@@ -7,7 +7,7 @@ import CustomersReview from "../components/home/CustomersReview";
 import Head from "next/head";
 const heroGif = "/images/heroImage.svg";
 
-const hrefUrl = "https://orange2.vercel.app/";
+const hrefUrl = "https://oranjs.com/";
 export default function Home() {
   return (
     <>
