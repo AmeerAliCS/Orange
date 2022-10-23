@@ -73,13 +73,13 @@ const SocialMedia = ({ sx, fontSize }) => {
   return (
     <Stack
       direction="row"
-      spacing={0}
-      justifyContent="space-around"
+      spacing={1}
+      justifyContent="center"
       sx={{
         ...sx,
       }}
     >
-      <Link href="https://t.me/tel_orange">
+      <Link href="https://t.me/Oranjsbot">
         <a target="_blank">
           <StyledAvatar sx={{ backgroundColor: "white" }}>
             <TelegramIcon fontSize={fontSize} htmlColor="#FC9338" />

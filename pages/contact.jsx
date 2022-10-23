@@ -75,7 +75,7 @@ export default function Contact() {
             </a>
           </Link>
 
-          <Link href="https://t.me/tel_orange">
+          <Link href="https://t.me/Oranjsbot">
             <a target="_blank">
               <TelegramIcon fontSize="large" htmlColor="#FC9338" />
             </a>
