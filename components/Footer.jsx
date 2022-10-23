@@ -217,7 +217,7 @@ export default function Footer() {
         sx={{
           display: { xs: "flex", sm: "none" },
           justifyContent: "center",
-          gap: 5,
+          gap: 1,
         }}
         fontSize="1erm"
       />
